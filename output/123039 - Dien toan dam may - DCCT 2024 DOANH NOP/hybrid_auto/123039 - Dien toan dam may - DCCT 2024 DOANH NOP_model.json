@@ -1,0 +1,1378 @@
+[
+    [
+        {
+            "type": "doc_title",
+            "bbox": [
+                0.211,
+                0.069,
+                0.836,
+                0.147
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.182,
+                0.179,
+                0.689,
+                0.202
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.137,
+                0.206,
+                0.908,
+                0.556
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Tên học phần</td><td colspan=\"3\">Tiếng Việt: ĐIỆN TOÁN ĐÁM MÂYTiếng Anh: CLOUD COMPUTING</td><td>Mã HP:123039</td></tr><tr><td>Số tín chỉ1</td><td colspan=\"4\">3 (2,1,3)</td></tr><tr><td rowspan=\"2\">Phân bổ thời gian</td><td>Lý thuyết/Bài tập/Dự án</td><td>Thực hành/Thí nghiệm/Thảo luận</td><td>Tổng</td><td>Tự học</td></tr><tr><td>30</td><td>30</td><td>60</td><td>90</td></tr><tr><td>Thang điểm</td><td colspan=\"4\">10</td></tr><tr><td>HP tiên quyết</td><td colspan=\"4\"></td></tr><tr><td>HP học trước</td><td colspan=\"4\">123002 – Mạng máy tính</td></tr><tr><td>HP song hành</td><td colspan=\"4\"></td></tr><tr><td>Loại học phần</td><td colspan=\"4\">☐Bắt buộc √Tự chọn bắt buộc ☐Tự chọn tự do</td></tr><tr><td>Thuộc thành phần</td><td colspan=\"4\">Chuyên ngành</td></tr></table>"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.181,
+                0.585,
+                0.614,
+                0.606
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.133,
+                0.613,
+                0.912,
+                0.746
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.18,
+                0.755,
+                0.564,
+                0.776
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.181,
+                0.783,
+                0.481,
+                0.803
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.18,
+                0.81,
+                0.734,
+                0.83
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.18,
+                0.837,
+                0.874,
+                0.859
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.209,
+                0.068,
+                0.838,
+                0.094
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.337,
+                0.096,
+                0.708,
+                0.121
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.4,
+                0.126,
+                0.646,
+                0.151
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.177,
+                0.692,
+                0.203
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.179,
+                0.58,
+                0.615,
+                0.609
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.612,
+                0.91,
+                0.635
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.134,
+                0.64,
+                0.911,
+                0.664
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.137,
+                0.671,
+                0.91,
+                0.691
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.134,
+                0.695,
+                0.912,
+                0.722
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.132,
+                0.725,
+                0.17,
+                0.749
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.18,
+                0.751,
+                0.565,
+                0.778
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.182,
+                0.782,
+                0.481,
+                0.804
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.182,
+                0.808,
+                0.732,
+                0.834
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.834,
+                0.875,
+                0.862
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.134,
+                0.071,
+                0.909,
+                0.12
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.179,
+                0.128,
+                0.758,
+                0.149
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.179,
+                0.156,
+                0.616,
+                0.175
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.133,
+                0.182,
+                0.909,
+                0.23
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.179,
+                0.239,
+                0.755,
+                0.26
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.133,
+                0.267,
+                0.91,
+                0.317
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.193,
+                0.324,
+                0.748,
+                0.345
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.136,
+                0.35,
+                0.903,
+                0.503
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"2\">PLO/CLO</td><td>PLO1</td><td colspan=\"4\">PLO2</td><td colspan=\"3\">PLO3</td><td>PLO4</td><td>PLO5</td><td colspan=\"3\">PLO6</td><td colspan=\"2\">PLO7</td></tr><tr><td></td><td>PI2.1</td><td>PI2.2</td><td>PI2.3</td><td>PI2.4</td><td>PI3.1</td><td>PI3.2</td><td>PI3.3</td><td></td><td></td><td>PI6.1</td><td>PI6.2</td><td>PI6.3</td><td>PI7.1</td><td>PI7.2</td></tr><tr><td>CLO1</td><td></td><td></td><td></td><td>R</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>CLO2</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>R</td><td>M</td><td></td><td></td><td></td><td></td></tr><tr><td>CLO3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>M</td><td></td><td>M</td></tr></table>"
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.18,
+                0.511,
+                0.581,
+                0.531
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.18,
+                0.538,
+                0.686,
+                0.56
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.134,
+                0.568,
+                0.909,
+                0.616
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.181,
+                0.624,
+                0.677,
+                0.645
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.18,
+                0.652,
+                0.678,
+                0.673
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.181,
+                0.681,
+                0.709,
+                0.701
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.181,
+                0.709,
+                0.906,
+                0.73
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.138,
+                0.735,
+                0.904,
+                0.926
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Thành phần đánh giá[1]</td><td>Phương pháp/ Hình thức đánh giá[2]</td><td>CDR HP(CLOs)[3]</td><td>Tiêu chí đánh giá[4]</td><td>Trọng số(%) [5]</td></tr><tr><td rowspan=\"3\">Đánh giá quá trình</td><td>Chuyên cần</td><td>CLO1-PI2.3</td><td>A1.2</td><td>10</td></tr><tr><td>Bài tập tại lớp cá nhân</td><td>CLO2-PI6.1</td><td>A2.1</td><td>20</td></tr><tr><td>Bài tập lớn theo nhóm</td><td>CLO3-PI6.3CLO3-PI7,2</td><td>A5.2</td><td>30</td></tr></table>"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.679,
+                0.71,
+                0.702
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.153,
+                0.616,
+                0.178
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.125,
+                0.759,
+                0.151
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.182,
+                0.237,
+                0.755,
+                0.263
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.192,
+                0.321,
+                0.748,
+                0.35
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.068,
+                0.909,
+                0.094
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.136,
+                0.1,
+                0.398,
+                0.121
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.182,
+                0.18,
+                0.911,
+                0.205
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.132,
+                0.205,
+                0.166,
+                0.234
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.182,
+                0.265,
+                0.909,
+                0.29
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.135,
+                0.296,
+                0.568,
+                0.318
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.179,
+                0.562,
+                0.911,
+                0.593
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.131,
+                0.591,
+                0.191,
+                0.622
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.509,
+                0.581,
+                0.532
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.18,
+                0.534,
+                0.688,
+                0.562
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.179,
+                0.62,
+                0.679,
+                0.648
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.65,
+                0.677,
+                0.674
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.707,
+                0.905,
+                0.732
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.136,
+                0.07,
+                0.904,
+                0.251
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Thành phần đánh giá[1]</td><td>Phương pháp/ Hình thức đánh giá[2]</td><td>CĐR HP (CLOs)[3]</td><td>Tiêu chí đánh giá[4]</td><td>Trọng số(%) [5]</td></tr><tr><td>Đánh giá Kết thúc học phần</td><td>Thi trắc nghiệm</td><td>CLO2-PLO5</td><td>A4.1</td><td>40</td></tr><tr><td>Tổng cộng</td><td></td><td></td><td></td><td>100</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.181,
+                0.253,
+                0.826,
+                0.273
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.136,
+                0.279,
+                0.901,
+                0.917
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Tuần/Chương [1]</td><td>Nội dung[2]</td><td>CLOs[3]</td><td>Hoạt động dạy và học[4]</td><td>Bài đánh giá [5]</td></tr><tr><td>Tuần 1-2/Chương 1</td><td>Chương 1 - Tổng quan về điện toán đám mây1.1 Những khái niệm cơ bản về điện toán đám mây</td><td>CLO1</td><td>Thuyết giảng, thảo luận</td><td>A1.2</td></tr><tr><td></td><td>1.2 Nền tăng và phân loại</td><td>CLO1</td><td>Thuyết giảng, thảo luận</td><td>A1.2</td></tr><tr><td></td><td>Bài tập ôn tập, thảo luận</td><td>CLO1</td><td>Thuyết giảng, thảo luận</td><td>A1.2</td></tr><tr><td>Tuần 3-4/Chương 2</td><td>Chương 2 - Các loại dịch vụ của điện toán đám mây2.1 Dịch vụ hạ tầng (IaaS)</td><td>CLO1</td><td>Thuyết giảng, thảo luậnLớp học đảo ngược</td><td>A1.2</td></tr><tr><td></td><td>2.2 Dịch vụ nền tảng (PaaS)</td><td>CLO1</td><td>Thuyết giảng, thảo luận</td><td>A1.2</td></tr><tr><td></td><td>2.3 Dịch vụ phần mềm (SaaS)</td><td>CLO1</td><td>Thuyết giảng, thảo luậnLớp học đảo ngược</td><td>A1.2</td></tr><tr><td></td><td>Thực hành ôn tập chương</td><td>CLO1</td><td>Thuyết giảng, thảo luận</td><td>A1.2</td></tr><tr><td>Tuần 5Chương 3</td><td>Chương 3 - Lưu trữ và xử lý dữ liệu3.1. Hệ thống lưu trữ phân tán và đồng nhất bộ nhớ NFS, AFS3.2. Hệ thống lưu trữ HDFS, GFS</td><td>CLO2</td><td>Thuyết giảng, thảo luậnLớp học đảo ngược</td><td>A2.1</td></tr><tr><td></td><td>3.3. CSDL NoSQL3.4. Điện toán đám mây và dữ liệu lớn</td><td>CLO2</td><td>Thuyết giảng, thảo luận</td><td>A2.1</td></tr></table>"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.18,
+                0.249,
+                0.827,
+                0.274
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.137,
+                0.07,
+                0.899,
+                0.546
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Tuần 6/Chương 4</td><td>Chương 4 - Bảo mật trên điện toán đám mây4.1. Các vấn đề an toàn và bảo mật trong điện toán đám mây4.2. Một số giải pháp bảo đảm an toàn, trong bảo mật trong hệ thống đám mây</td><td>CLO2</td><td>Thuyết giảng, thảo luậnLớp học đảo ngược</td><td>A2.1</td></tr><tr><td></td><td>4.3. Thiết kế kiến trúc an toàn, trong bảo mật hệ thống đám mây</td><td>CLO2</td><td>Thuyết giảng, thảo luận</td><td>A2.1</td></tr><tr><td>Tuần 7Chương 5</td><td>Chương 5 - Phát triển ứng dụng trên điện toán đám mây5.1. Các loại mô hình điện toán đám mây</td><td>CLO2</td><td>Thuyết giảng, thảo luậnLớp học đảo ngược</td><td>A2.1</td></tr><tr><td>Tuần 8-9</td><td>Báo cáo bài tập lớn</td><td>CLO3</td><td>Đánh giá thuyết trình nhóm</td><td>A5.2</td></tr><tr><td>Tuần 10</td><td>Thi cuối kỳ</td><td>CLO2</td><td>Tổ chức thi</td><td>A4.1</td></tr></table>",
+            "cell_merge": [
+                0,
+                0,
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "type": "image_footnote",
+            "bbox": [
+                0.181,
+                0.549,
+                0.539,
+                0.568
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.181,
+                0.576,
+                0.509,
+                0.596
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.181,
+                0.604,
+                0.836,
+                0.626
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.181,
+                0.633,
+                0.606,
+                0.654
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.181,
+                0.66,
+                0.909,
+                0.709
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.181,
+                0.717,
+                0.909,
+                0.767
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.181,
+                0.774,
+                0.787,
+                0.824
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.181,
+                0.83,
+                0.867,
+                0.881
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.182,
+                0.889,
+                0.814,
+                0.911
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.184,
+                0.55,
+                0.204,
+                0.565
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.215,
+                0.546,
+                0.538,
+                0.569
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.632,
+                0.606,
+                0.655
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.18,
+                0.603,
+                0.839,
+                0.627
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.888,
+                0.815,
+                0.911
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.575,
+                0.508,
+                0.598
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.18,
+                0.66,
+                0.911,
+                0.685
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.18,
+                0.689,
+                0.261,
+                0.71
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.718,
+                0.911,
+                0.739
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.746,
+                0.551,
+                0.768
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.182,
+                0.774,
+                0.787,
+                0.795
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.183,
+                0.804,
+                0.505,
+                0.822
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.179,
+                0.828,
+                0.868,
+                0.852
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.181,
+                0.856,
+                0.255,
+                0.884
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "text",
+            "bbox": [
+                0.178,
+                0.07,
+                0.484,
+                0.094
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.176,
+                0.099,
+                0.408,
+                0.123
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.174,
+                0.125,
+                0.365,
+                0.149
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.441,
+                0.125,
+                0.611,
+                0.149
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.679,
+                0.125,
+                0.883,
+                0.15
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.44,
+                0.151,
+                0.617,
+                0.205
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image",
+            "bbox": [
+                0.694,
+                0.17,
+                0.851,
+                0.226
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.421,
+                0.24,
+                0.632,
+                0.263
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "text",
+            "bbox": [
+                0.678,
+                0.239,
+                0.886,
+                0.264
+            ],
+            "angle": 0,
+            "content": null,
+            "merge_prev": false
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.182,
+                0.07,
+                0.482,
+                0.092
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.182,
+                0.098,
+                0.405,
+                0.123
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.424,
+                0.239,
+                0.629,
+                0.262
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.682,
+                0.24,
+                0.882,
+                0.262
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.176,
+                0.123,
+                0.359,
+                0.149
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.446,
+                0.125,
+                0.609,
+                0.148
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.682,
+                0.125,
+                0.881,
+                0.149
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.491,
+                0.071,
+                0.601,
+                0.093
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "paragraph_title",
+            "bbox": [
+                0.346,
+                0.1,
+                0.745,
+                0.125
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.182,
+                0.133,
+                0.504,
+                0.155
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.196,
+                0.17,
+                0.43,
+                0.19
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.137,
+                0.196,
+                0.908,
+                0.424
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"2\">Tiêu chí đánh giá</td><td colspan=\"5\">Mức độ đạt chuẩn quy định</td><td rowspan=\"2\">Trọng số</td></tr><tr><td>MỨC F(0-3.9)</td><td>MỨC D(4.0-5.4)</td><td>MỨC C(5.5-6.9)</td><td>MỨC B(7.0-8.4)</td><td>MỨC A(8.5-10)</td></tr><tr><td>Thảo luận</td><td>Không tham gia đóng góp trong các hoạt động</td><td>Tham gia đóng góp ý kiến 01 lần</td><td>Tham gia đóng góp ý kiến 02 lần</td><td>Tham gia đóng góp ý kiến 03 lần</td><td>Tham gia đóng góp ý kiến trên 03 lần</td><td>50</td></tr><tr><td>Thời gian tham gia</td><td>Tham gia dưới 80% tổng buổi học được điểm danh (cấm thi)</td><td>Tham gia dưới 85% tổng buổi học được điểm danh</td><td>Tham gia dưới 70% tổng buổi học được điểm danh</td><td>Tham gia dưới 80% tổng buổi học được điểm danh</td><td>Tham gia không dưới 80% tổng buổi học được điểm danh</td><td>50</td></tr></table>"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.2,
+                0.434,
+                0.465,
+                0.451
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.137,
+                0.457,
+                0.908,
+                0.694
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"2\">Tiêu chí đánh giá</td><td colspan=\"5\">Mức độ đạt chuẩn quy định</td><td rowspan=\"2\">Trọng số</td></tr><tr><td>MỨC F(0-3.9)</td><td>MỨC D(4.0-5.4)</td><td>MỨC C(5.5-6.9)</td><td>MỨC B(7.0-8.4)</td><td>MỨC A(8.5-10)</td></tr><tr><td>Chất lượng bài nộp</td><td>Thời gian dưới 40%</td><td>Thời gian từ 40-54%</td><td>Thời gian từ 55-69%</td><td>Thời gian từ 70-84%</td><td>Thời gian từ 85% trở lên</td><td>20</td></tr><tr><td>Thái độ tham gia</td><td>Không tham gia các hoạt động</td><td>Ít tham gia các hoạt động</td><td>Có tham gia các hoạt động</td><td>Khá tích cực tham gia các hoạt động</td><td>Tích cực tham gia các hoạt động</td><td>20</td></tr><tr><td>Kỹ năng thảo luận</td><td>Không thảo luận</td><td>Kém</td><td>Trung bình</td><td>Khá</td><td>Tốt</td><td>20</td></tr><tr><td>Chất lượng đóng góp ý kiến</td><td>Thời gian dưới 40%</td><td>Thời gian từ 40-54%</td><td>Thời gian từ 55-69%</td><td>Thời gian từ 70-84%</td><td>Thời gian từ 85% trở lên</td><td>40</td></tr></table>"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.199,
+                0.704,
+                0.545,
+                0.721
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.137,
+                0.727,
+                0.908,
+                0.824
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"2\">Tiêu chí đánh giá</td><td colspan=\"5\">Mức độ đạt chuẩn quy định</td><td rowspan=\"2\">Trọng số</td></tr><tr><td>MỨC F(0-3.9)</td><td>MỨC D(4.0-5.4)</td><td>MỨC C(5.5-6.9)</td><td>MỨC B(7.0-8.4)</td><td>MỨC A(8.5-10)</td></tr><tr><td>Chất lượng bài thi</td><td>Đúng dưới40%</td><td>Đúng từ 40-54%</td><td>Đúng từ 55-69%</td><td>Đúng từ 70-84%</td><td>Đúng từ 85% trở lên</td><td>100</td></tr></table>"
+        },
+        {
+            "type": "image_caption",
+            "bbox": [
+                0.198,
+                0.832,
+                0.67,
+                0.851
+            ],
+            "angle": 0,
+            "content": null
+        },
+        {
+            "type": "table",
+            "bbox": [
+                0.138,
+                0.856,
+                0.908,
+                0.917
+            ],
+            "angle": 0,
+            "content": "<table><tr><td rowspan=\"2\">Tiêu chí đánh giá</td><td colspan=\"5\">Mức độ đạt chuẩn quy định</td><td rowspan=\"2\">Trọng số</td></tr><tr><td>MỨC 1(0-3.9)</td><td>MỨC 2(4.0-5.4)</td><td>MỨC 3(5.5-6.9)</td><td>MỨC 4(7.0-8.4)</td><td>MỨC 5(8.5-10)</td></tr></table>"
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.345,
+                0.096,
+                0.747,
+                0.127
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.194,
+                0.828,
+                0.673,
+                0.853
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.182,
+                0.131,
+                0.504,
+                0.156
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.197,
+                0.703,
+                0.546,
+                0.721
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.194,
+                0.166,
+                0.435,
+                0.192
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.491,
+                0.073,
+                0.602,
+                0.098
+            ],
+            "text": "",
+            "score": 1.0
+        },
+        {
+            "type": "ocr_text",
+            "bbox": [
+                0.198,
+                0.432,
+                0.467,
+                0.452
+            ],
+            "text": "",
+            "score": 1.0
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "bbox": [
+                0.137,
+                0.069,
+                0.908,
+                0.364
+            ],
+            "angle": 0,
+            "content": "<table><tr><td>Nội dung quy trình hoạt động nhóm do sinh viên đề xuất</td><td>Không đảm bảo tiêu chí nào trong quy định: chủ động và công bằng</td><td colspan=\"2\">Đảm bảo một trong hai tiêu chí công bằng hoặc chủ động</td><td>Đảm bảo cả hai tiêu chí xây dựng nhóm.</td><td>Đảm bảo cả hai tiêu chí xây dựng nhóm và hoàn thành tối thiểu 85% công việc nhóm được giao.</td><td>20%</td></tr><tr><td>Sự phối hợp trong nhóm theo nội dung quy định nhóm đề xuất</td><td>Không thể hiện sự phối hợp.</td><td colspan=\"2\">Nhóm phối hợp chưa tốt</td><td>Nhóm phối hợp khá tốt.</td><td>Nhóm phối hợp tốt.</td><td>20%</td></tr><tr><td>Chất lượng sản phẩm giao nộp và báo cáo.</td><td>Hoàn thành từ 39% bài tập trở xuống</td><td>Hoàn thành từ 40-54% bài tập</td><td>Hoàn thành từ 55-69% bài tập</td><td>Hoàn thành từ 70-84% bài tập</td><td>Hoàn thành từ 85% bài tập trở lên</td><td>60%</td></tr></table>"
+        }
+    ]
+]

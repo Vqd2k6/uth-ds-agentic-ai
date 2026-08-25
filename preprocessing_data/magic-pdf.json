@@ -1,0 +1,25 @@
+{
+  "models-dir": "/Users/vqd2k6/magic-pdf-models/models",
+  "device-mode": "mps",
+  "table-config": {
+    "model": "rapid_table",
+    "enable": true,
+    "max_time": 400
+  },
+  "layout-config": {
+    "model": "doclayout_yolo"
+  },
+  "formula-config": {
+    "enable": false
+  },
+  "latex-delimiter-config": {
+    "display": {
+      "left": "$$",
+      "right": "$$"
+    },
+    "inline": {
+      "left": "$",
+      "right": "$"
+    }
+  }
+}

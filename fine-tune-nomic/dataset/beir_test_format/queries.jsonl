@@ -1,0 +1,328 @@
+{"_id": "q_133", "text": "Học phần này thuộc nhóm môn học nào trong chương trình đào tạo ngành Công nghệ thông tin?"}
+{"_id": "q_134", "text": "Tôi sẽ học được những kỹ năng lập trình web nào?"}
+{"_id": "q_135", "text": "Học phần thuộc ngành gì?"}
+{"_id": "q_136", "text": "Kiến thức chuyên ngành?"}
+{"_id": "q_137", "text": "Học phần này thuộc loại học phần nào?"}
+{"_id": "q_138", "text": "Học phần này cung cấp kiến thức gì?"}
+{"_id": "q_139", "text": "Học phần này thuộc khối kiến thức chuyên ngành nào?"}
+{"_id": "q_140", "text": "Sinh viên sẽ học được những kỹ năng lập trình web nào trong học phần này?"}
+{"_id": "q_141", "text": "Tôi muốn biết kỹ năng lập trình web mà mình sẽ học ở học phần này là gì?"}
+{"_id": "q_142", "text": "Tôi sẽ được học kỹ năng gì từ môn này?"}
+{"_id": "q_143", "text": "Sau khi học xong, tôi có thể làm gì với kỹ thuật lập trình web?"}
+{"_id": "q_144", "text": "kỹ thuật lập trình web"}
+{"_id": "q_145", "text": "thành thạo kỹ thuật lập trình web"}
+{"_id": "q_146", "text": "Tôi sẽ học được kỹ năng gì trong học phần này?"}
+{"_id": "q_147", "text": "Kỹ thuật lập trình web nào tôi sẽ được rèn luyện?"}
+{"_id": "q_148", "text": "Học phần này cung cấp kỹ năng vận dụng thế nào trong lập trình web?"}
+{"_id": "q_149", "text": "Người học được trang bị kỹ năng nào để hoàn thiện chức năng của website?"}
+{"_id": "q_150", "text": "Học phần này giúp tôi thành thạo kỹ thuật lập trình web như thế nào?"}
+{"_id": "q_151", "text": "Tôi sẽ học được những kỹ năng gì để hỗ trợ người khác trong việc xây dựng website?"}
+{"_id": "q_152", "text": "Sau khi học xong môn này, tôi sẽ có kỹ năng gì?"}
+{"_id": "q_153", "text": "Tôi sẽ làm được những gì khi đã thành thạo kỹ thuật lập trình web?"}
+{"_id": "q_154", "text": "công việc xây dựng website"}
+{"_id": "q_155", "text": "thái độ chủ động học tập"}
+{"_id": "q_156", "text": "Tôi cần thành thạo những kỹ thuật lập trình web nào?"}
+{"_id": "q_157", "text": "Thái độ chủ động trong học tập có quan trọng như mô tả không?"}
+{"_id": "q_158", "text": "Học viên sẽ đạt được những kỹ năng nào sau khi hoàn thành học phần này?"}
+{"_id": "q_159", "text": "Sinh viên sẽ có thái độ học tập như thế nào qua học phần này?"}
+{"_id": "q_160", "text": "Học phần này thuộc nhóm học phần nào trong chương trình học của tôi?"}
+{"_id": "q_161", "text": "Tôi sẽ học những kỹ thuật gì trong học phần này?"}
+{"_id": "q_162", "text": "Sau khi học xong môn này, mình sẽ có kỹ năng gì?"}
+{"_id": "q_163", "text": "Mình sẽ làm được những chức năng gì trên website?"}
+{"_id": "q_164", "text": "HTML CSS JS Jquery"}
+{"_id": "q_165", "text": "PHP MYSQL"}
+{"_id": "q_166", "text": "lập trình web"}
+{"_id": "q_167", "text": "Học phần này dạy về những kỹ thuật lập trình nào?"}
+{"_id": "q_168", "text": "Tôi cần nắm vững những ngôn ngữ lập trình nào để hoàn thành học phần này?"}
+{"_id": "q_169", "text": "Lập trình PHP kết nối với cơ sở dữ liệu MySQL có quan trọng như thế nào trong học phần này?"}
+{"_id": "q_170", "text": "Học phần này cung cấp kiến thức về thiết kế layout như HTML, CSS, JS và Jquery, phần lập trình PHP kết nối với cơ sở dữ liệu MYSQL, có mục đích chính là gì?"}
+{"_id": "q_171", "text": "Sinh viên sẽ học được kỹ năng nào qua học phần này?"}
+{"_id": "q_440", "text": "Học phần này thuộc nhóm nào trong chương trình đào tạo của tôi?"}
+{"_id": "q_441", "text": "Khoa học dữ liệu"}
+{"_id": "q_442", "text": "Hệ thống thông tin"}
+{"_id": "q_443", "text": "Mạng máy tính và truyền thông"}
+{"_id": "q_444", "text": "Smart Logistic"}
+{"_id": "q_445", "text": "Học phần này thuộc khối kiến thức nào?"}
+{"_id": "q_446", "text": "Học phần này cung cấp kiến thức gì?"}
+{"_id": "q_447", "text": "Học phần này thuộc khối kiến thức nào trong chương trình đào tạo?"}
+{"_id": "q_448", "text": "Học phần này thuộc nhóm môn học nào trong chương trình đào tạo của tôi?"}
+{"_id": "q_449", "text": "Học phần này sẽ giúp tôi học được những kiến thức gì về Python?"}
+{"_id": "q_450", "text": "Sau khi học xong học phần này, tôi sẽ có kỹ năng gì?"}
+{"_id": "q_451", "text": "Tôi sẽ sử dụng Python để làm gì trong công việc?"}
+{"_id": "q_452", "text": "Học phần này cung cấp kiến thức gì về phân tích dữ liệu?"}
+{"_id": "q_453", "text": "lập trình python"}
+{"_id": "q_454", "text": "phân tích dữ liệu python"}
+{"_id": "q_455", "text": "tiền xử lý dữ liệu python"}
+{"_id": "q_456", "text": "xử lý ngôn ngữ python"}
+{"_id": "q_457", "text": "xử lý ảnh python"}
+{"_id": "q_458", "text": "Học phần này dạy những kiến thức gì về Python?"}
+{"_id": "q_459", "text": "Tôi sẽ học được những kỹ năng gì từ học phần này?"}
+{"_id": "q_460", "text": "Học phần này cung cấp những kiến thức nào về lập trình Python?"}
+{"_id": "q_461", "text": "Sinh viên sẽ học được kỹ năng phân tích dữ liệu bằng Python ở mức độ nào trong học phần này?"}
+{"_id": "q_462", "text": "Học phần này thuộc nhóm học phần nào trong chương trình đào tạo ngành Khoa học dữ liệu của tôi?"}
+{"_id": "q_463", "text": "Học phần này sẽ giúp tôi chuẩn bị những kỹ năng gì cho các học phần tiếp theo và nghề nghiệp sau này?"}
+{"_id": "q_464", "text": "Sau khi học xong môn này, tôi sẽ có kỹ năng gì?"}
+{"_id": "q_465", "text": "Môn này giúp tôi chuẩn bị cho các kỹ năng gì trong công việc?"}
+{"_id": "q_466", "text": "kiến thức nền tảng ngành"}
+{"_id": "q_467", "text": "các kỹ năng cần thiết"}
+{"_id": "q_468", "text": "Học phần này cung cấp những kỹ năng gì mà tôi cần cho lộ trình học sau này?"}
+{"_id": "q_469", "text": "Việc học Python ở đây có liên quan đến việc tôi sẽ làm gì sau khi tốt nghiệp không?"}
+{"_id": "q_470", "text": "Học phần này cung cấp những kỹ năng nào cho sinh viên?"}
+{"_id": "q_471", "text": "Những kiến thức nền tảng nào được trang bị cho sinh viên qua học phần này?"}
+{"_id": "q_867", "text": "Môn học này có liên quan đến dữ liệu định tính và định lượng như thế nào?"}
+{"_id": "q_868", "text": "Sau khi học xong, mình sẽ biết cách giải quyết vấn đề kỹ thuật như thế nào?"}
+{"_id": "q_869", "text": "Sau khi học xong môn này, tôi sẽ có kiến thức gì về dữ liệu?"}
+{"_id": "q_870", "text": "Tôi sẽ phát triển kỹ năng gì để giải quyết các vấn đề kỹ thuật?"}
+{"_id": "q_871", "text": "kiến thức dữ liệu định tính định lượng"}
+{"_id": "q_872", "text": "tư duy phản biện phân tích sáng tạo"}
+{"_id": "q_873", "text": "Sau khi học xong môn học này, sinh viên sẽ có kiến thức về dữ liệu định tính và định lượng?"}
+{"_id": "q_874", "text": "Môn học này giúp sinh viên phát triển kỹ năng tư duy phản biện, tư duy phân tích và tư duy sáng tạo như thế nào?"}
+{"_id": "q_875", "text": "Sinh viên sẽ nắm được kiến thức gì sau khi hoàn thành môn học Phân tích dữ liệu định tính và định lượng?"}
+{"_id": "q_876", "text": "Sinh viên được phát triển những kỹ năng nào để giải quyết các vấn đề kỹ thuật?"}
+{"_id": "q_877", "text": "Môn học này giúp tôi phát triển tư duy như thế nào?"}
+{"_id": "q_878", "text": "Môn học Phân tích dữ liệu định tính và định lượng có liên quan đến Khoa học dữ liệu và AI không?"}
+{"_id": "q_879", "text": "Môn học này giúp tôi làm gì trong công việc?"}
+{"_id": "q_880", "text": "tư duy phản biện"}
+{"_id": "q_881", "text": "tư duy phân tích"}
+{"_id": "q_882", "text": "tư duy sáng tạo"}
+{"_id": "q_883", "text": "khoa học dữ liệu"}
+{"_id": "q_884", "text": "Môn học này giúp tôi phát triển kỹ năng tư duy phản biện, phân tích và sáng tạo như thế nào?"}
+{"_id": "q_885", "text": "Môn học này có liên quan đến nghiên cứu về Khoa học dữ liệu, AI, ML, DL không?"}
+{"_id": "q_886", "text": "Sinh viên sẽ phát triển những kỹ năng tư duy nào thông qua môn học này?"}
+{"_id": "q_887", "text": "Môn học này cung cấp nền tảng kiến thức nào cho nghiên cứu về lĩnh vực nào?"}
+{"_id": "q_888", "text": "Môn học này dạy về những phương pháp gì để phân tích dữ liệu?"}
+{"_id": "q_889", "text": "Môn học này có liên quan đến mô hình hồi quy như thế nào?"}
+{"_id": "q_890", "text": "Sau khi học xong môn này, tôi sẽ biết cách sử dụng những phương pháp phân tích nào?"}
+{"_id": "q_891", "text": "phương pháp phân tích định tính"}
+{"_id": "q_892", "text": "phương pháp phân tích định lượng"}
+{"_id": "q_893", "text": "mô hình hồi quy"}
+{"_id": "q_894", "text": "Môn học này dạy về những phương pháp nào?"}
+{"_id": "q_895", "text": "Phương pháp phân tích và dự báo định lượng được sử dụng như thế nào?"}
+{"_id": "q_896", "text": "Môn học Phân tích dữ liệu định tính và định lượng cung cấp cho người học những phương pháp nào?"}
+{"_id": "q_897", "text": "Người học sẽ được tiếp cận với các mô hình hồi quy như thế nào trong môn học này?"}
+{"_id": "q_898", "text": "Môn học này là môn bắt buộc hay tự chọn?"}
+{"_id": "q_899", "text": "Môn học này có liên quan đến việc phân tích dữ liệu như thế nào?"}
+{"_id": "q_900", "text": "Môn học này giúp tôi hiểu rõ hơn về phân tích dữ liệu như thế nào?"}
+{"_id": "q_901", "text": "phân tích dữ liệu định tính định lượng"}
+{"_id": "q_902", "text": "sự biến động của biến quan sát"}
+{"_id": "q_903", "text": "Môn học Phân tích dữ liệu định tính và định lượng tập trung vào việc phân tích và dự báo như thế nào?"}
+{"_id": "q_904", "text": "Môn học này giúp sinh viên hiểu rõ hơn về sự biến động của một biến quan sát phụ thuộc vào các biến quan sát khác như thế nào?"}
+{"_id": "q_1041", "text": "Môn học Máy học này thuộc nhóm chuyên ngành gì vậy ạ?"}
+{"_id": "q_1042", "text": "Sau khi học xong môn học Máy học, tôi sẽ có kỹ năng gì?"}
+{"_id": "q_1043", "text": "Máy học nhóm chuyên ngành gì?"}
+{"_id": "q_1044", "text": "Môn học Máy học là môn bắt buộc hay tự chọn?"}
+{"_id": "q_1045", "text": "Môn học Máy học thuộc nhóm chuyên ngành nào trong chương trình Khoa học dữ liệu?"}
+{"_id": "q_1046", "text": "Môn học Máy học này thuộc nhóm học phần nào vậy ạ?"}
+{"_id": "q_1047", "text": "Môn học này giúp máy tính làm gì bằng thuật toán và mô hình thống kê ạ?"}
+{"_id": "q_1048", "text": "Môn học này giúp tôi hiểu thế nào về cách máy tính tự học?"}
+{"_id": "q_1049", "text": "Thuật toán và mô hình thống kê"}
+{"_id": "q_1050", "text": "Hệ thống máy tính tự học"}
+{"_id": "q_1051", "text": "Môn học Máy học giúp hệ thống máy tính làm gì?"}
+{"_id": "q_1052", "text": "Máy học phát triển những thuật toán và mô hình thống kê như thế nào?"}
+{"_id": "q_1053", "text": "Máy học là môn khoa học gì?"}
+{"_id": "q_1054", "text": "Mục đích chính của máy học là gì?"}
+{"_id": "q_1055", "text": "Môn học Máy học này thuộc nhóm học phần bắt buộc hay tự chọn?"}
+{"_id": "q_1056", "text": "Sau khi học xong môn học này, sinh viên sẽ có kiến thức gì?"}
+{"_id": "q_1057", "text": "Môn học Máy học giúp sinh viên làm gì?"}
+{"_id": "q_1058", "text": "Sau khi học xong môn này, tôi sẽ có kỹ năng gì?"}
+{"_id": "q_1059", "text": "Tôi sẽ dễ dàng làm gì với kiến thức từ môn học này?"}
+{"_id": "q_1060", "text": "kiến thức cơ bản máy học"}
+{"_id": "q_1061", "text": "đầu vào tiếp cận máy học"}
+{"_id": "q_1062", "text": "tăng khả năng phân tích"}
+{"_id": "q_1063", "text": "Tôi có cần biết gì về máy học trước khi học môn này?"}
+{"_id": "q_1064", "text": "Môn học này giúp tôi hiểu được những gì về máy học?"}
+{"_id": "q_1065", "text": "Sau khi học xong, tôi có thể làm gì với kiến thức về máy học?"}
+{"_id": "q_1066", "text": "Sinh viên sẽ nắm được kiến thức cơ bản nào sau khi hoàn thành môn học Máy học?"}
+{"_id": "q_1067", "text": "Môn học Máy học giúp sinh viên tiếp cận và xử lý bài toán máy học như thế nào?"}
+{"_id": "q_1068", "text": "Kỹ năng phân tích và tối ưu hóa được phát triển như thế nào thông qua môn học Máy học?"}
+{"_id": "q_1069", "text": "Em nghe nói môn học này giúp em phát triển kỹ năng tư duy phản biện và tư duy sáng tạo. Vậy em có thể dùng kỹ năng này trong công việc được không ạ?"}
+{"_id": "q_1070", "text": "phân tích tối ưu"}
+{"_id": "q_1071", "text": "tham gia học tập độc lập"}
+{"_id": "q_1072", "text": "phát triển giải pháp sáng tạo"}
+{"_id": "q_1073", "text": "Môn học Máy học giúp tôi phát triển kỹ năng phân tích và tối ưu hóa không?"}
+{"_id": "q_1074", "text": "Tôi có thể sử dụng kiến thức từ môn học Máy học để giải quyết các vấn đề kỹ thuật như thế nào?"}
+{"_id": "q_1075", "text": "Môn học Máy học có giúp tôi tham gia học tập độc lập suốt đời được không?"}
+{"_id": "q_1076", "text": "Sinh viên sau khi học xong môn Máy học sẽ có khả năng phân tích và tối ưu hóa dữ liệu như thế nào?"}
+{"_id": "q_1077", "text": "Sinh viên được trang bị những kỹ năng tư duy nào để phát triển các giải pháp sáng tạo trong lĩnh vực kỹ thuật?"}
+{"_id": "q_1078", "text": "Môn học Máy học này thuộc nhóm học phần nào trong chương trình của tôi?"}
+{"_id": "q_1079", "text": "Môn học này dạy chúng ta làm gì với dữ liệu?"}
+{"_id": "q_1080", "text": "Mình sẽ làm được gì sau khi nắm vững thuật toán máy học?"}
+{"_id": "q_1081", "text": "Việc xác định các khuôn mẫu dữ liệu có ứng dụng như thế nào trong thực tế?"}
+{"_id": "q_1082", "text": "thuật toán máy học"}
+{"_id": "q_1083", "text": "xác định khuôn mẫu dữ liệu"}
+{"_id": "q_1084", "text": "dự đoán từ dữ liệu"}
+{"_id": "q_1085", "text": "Máy học sử dụng thuật toán như thế nào để xử lý dữ liệu?"}
+{"_id": "q_1086", "text": "Việc xác định các khuôn mẫu dữ liệu giúp máy tính dự đoán kết quả như thế nào?"}
+{"_id": "q_1087", "text": "Việc xác định các khuôn mẫu dữ liệu trong máy học mang lại lợi ích gì?"}
+{"_id": "q_1175", "text": "Môn học Big data và ứng dụng thuộc nhóm chuyên ngành gì vậy?"}
+{"_id": "q_1176", "text": "Sau khi học xong môn này, tôi sẽ có kỹ năng gì?"}
+{"_id": "q_1177", "text": "Môn học này giúp tôi hiểu thế nào về Big data?"}
+{"_id": "q_1178", "text": "Big data và ứng dụng"}
+{"_id": "q_1179", "text": "Chuyên ngành tự chọn"}
+{"_id": "q_1180", "text": "Môn học Big data và ứng dụng thuộc nhóm chuyên ngành tự chọn hay bắt buộc?"}
+{"_id": "q_1181", "text": "Môn học Big data và ứng dụng thuộc nhóm chuyên ngành tự chọn của ngành Khoa học dữ liệu từ khóa 2023 bao gồm những nội dung chính nào?"}
+{"_id": "q_1182", "text": "Môn học này giới thiệu về khái niệm và đặc điểm của Big data, vậy tôi có cần biết về nó như thế nào để bắt đầu học?"}
+{"_id": "q_1183", "text": "Môn học này có đề cập đến những công cụ quản lý Big data như Hadoop, MapReduce và Spark, tôi nên tập trung vào những công cụ nào?"}
+{"_id": "q_1184", "text": "Sau khi học xong môn này, tôi sẽ biết sử dụng công cụ gì để khai thác Big data?"}
+{"_id": "q_1185", "text": "Tôi sẽ có kỹ năng gì để xử lý dữ liệu lớn?"}
+{"_id": "q_1186", "text": "Khái niệm Big data"}
+{"_id": "q_1187", "text": "Phương pháp quản lý Big data"}
+{"_id": "q_1188", "text": "Công cụ khai thác Big data"}
+{"_id": "q_1189", "text": "Môn học này dạy về những thách thức nào mà Big data mang lại?"}
+{"_id": "q_1190", "text": "Công cụ nào được giảng dạy trong môn học này để quản lý Big data?"}
+{"_id": "q_1191", "text": "Môn học Big data và ứng dụng bao gồm những khái niệm và đặc trưng cơ bản nào của Big data?"}
+{"_id": "q_1192", "text": "Môn học này giới thiệu những phương pháp và công cụ nào để khai thác và quản lý Big data?"}
+{"_id": "q_1193", "text": "Môn học Big data và ứng dụng này thuộc nhóm học phần nào vậy?"}
+{"_id": "q_1194", "text": "Sau khi học xong môn này, sinh viên sẽ có thể làm gì với Big data?"}
+{"_id": "q_1195", "text": "Sau khi học xong môn học này, sinh viên sẽ có kỹ năng gì?"}
+{"_id": "q_1196", "text": "Môn học này giúp sinh viên làm được những gì trong thực tế?"}
+{"_id": "q_1197", "text": "dễ dàng tiếp cận big data"}
+{"_id": "q_1198", "text": "phát triển giải pháp sáng tạo"}
+{"_id": "q_1199", "text": "tư duy phản biện"}
+{"_id": "q_1200", "text": "tham gia học tập độc lập"}
+{"_id": "q_1201", "text": "Sau khi học xong môn Big data và ứng dụng, tôi có thể tiếp cận và xử lý các bài toán Big data như thế nào?"}
+{"_id": "q_1202", "text": "Tôi có thể phát triển các giải pháp sáng tạo để giải quyết các vấn đề kỹ thuật thông qua môn học này không?"}
+{"_id": "q_1203", "text": "Môn học này giúp tôi tham gia học tập độc lập suốt đời để phát triển nghề nghiệp như thế nào?"}
+{"_id": "q_1204", "text": "Sinh viên sẽ đạt được những kỹ năng nào sau khi hoàn thành môn học Big data và ứng dụng?"}
+{"_id": "q_1205", "text": "Môn học Big data và ứng dụng giúp sinh viên tiếp cận như thế nào với các bài toán liên quan đến Big data?"}
+{"_id": "q_1253", "text": "Học phần này thuộc nhóm môn học nào?"}
+{"_id": "q_1254", "text": "Tôi muốn biết rõ hơn về những kỹ thuật lập trình mà chúng ta sẽ học trong môn này."}
+{"_id": "q_1255", "text": "Tôi sẽ học được những kỹ thuật lập trình nào?"}
+{"_id": "q_1256", "text": "Cách tổ chức biểu diễn dữ liệu có thể áp dụng trong công việc như thế nào?"}
+{"_id": "q_1257", "text": "Kỹ thuật lính canh và đặt cờ hiệu có ích lợi gì trong lập trình?"}
+{"_id": "q_1258", "text": "cách tổ chức biểu diễn dữ liệu"}
+{"_id": "q_1259", "text": "kỹ thuật lính canh"}
+{"_id": "q_1260", "text": "kỹ thuật đặt cờ hiệu"}
+{"_id": "q_1261", "text": "kỹ thuật đệ quy"}
+{"_id": "q_1262", "text": "Học phần này cung cấp những kỹ thuật lập trình nào?"}
+{"_id": "q_1263", "text": "Tôi cần sử dụng ngôn ngữ lập trình C/C++ ở đâu trong học phần này?"}
+{"_id": "q_1264", "text": "Học phần này cung cấp kiến thức về tổ chức biểu diễn dữ liệu như thế nào?"}
+{"_id": "q_1265", "text": "Kỹ thuật lính canh được áp dụng trong lập trình như thế nào theo học phần này?"}
+{"_id": "q_1266", "text": "Học phần này hướng dẫn sinh viên thực hiện kỹ thuật đặt cờ hiệu bằng ngôn ngữ lập trình C/C++ như thế nào?"}
+{"_id": "q_1267", "text": "Tôi cần học ngôn ngữ lập trình gì trong học phần này?"}
+{"_id": "q_1268", "text": "Tôi sẽ rèn luyện kỹ năng gì qua học phần này?"}
+{"_id": "q_1269", "text": "Sau khi học xong môn này, tôi sẽ có kỹ năng gì?"}
+{"_id": "q_1270", "text": "Tôi sẽ làm được gì khi biết lập trình bằng C/C++?"}
+{"_id": "q_1271", "text": "Môn này giúp tôi rèn luyện kỹ năng lập trình như thế nào?"}
+{"_id": "q_1272", "text": "kiến thức lập trình C/C++"}
+{"_id": "q_1273", "text": "kỹ năng lập trình"}
+{"_id": "q_1274", "text": "tư duy logic"}
+{"_id": "q_1275", "text": "Tôi cần biết kỹ năng lập trình và kỹ thuật lập trình được rèn luyện như thế nào trong học phần này?"}
+{"_id": "q_1276", "text": "Học phần này có giúp tôi phát triển tư duy logic không?"}
+{"_id": "q_1277", "text": "Tôi sẽ được học ngôn ngữ lập trình nào trong học phần này?"}
+{"_id": "q_1278", "text": "Học phần này cung cấp kiến thức gì về lập trình?"}
+{"_id": "q_1279", "text": "Người học sẽ rèn luyện kỹ năng gì qua học phần này?"}
+{"_id": "q_1280", "text": "Học phần này thuộc nhóm học phần nào trong chương trình học của chúng tôi?"}
+{"_id": "q_1281", "text": "Học phần này giúp tôi làm được những gì trong công việc?"}
+{"_id": "q_1282", "text": "Học phần bắt buộc"}
+{"_id": "q_1283", "text": "Kiến thức cơ sở ngành"}
+{"_id": "q_1284", "text": "Học phần này có thuộc loại bắt buộc hay tự chọn?"}
+{"_id": "q_1285", "text": "Kiến thức nào tôi sẽ học được từ học phần này?"}
+{"_id": "q_1286", "text": "Học phần này thuộc nhóm kiến thức nào trong chương trình đào tạo ngành Công nghệ thông tin?"}
+{"_id": "q_1287", "text": "Người học sẽ được cung cấp những kỹ năng lập trình nào thông qua học phần này?"}
+{"_id": "q_1388", "text": "Học phần này thuộc loại nào trong chương trình?"}
+{"_id": "q_1389", "text": "Sinh viên sẽ được học những kỹ thuật gì trong học phần này?"}
+{"_id": "q_1390", "text": "Học phần này liên quan đến những kỹ thuật lập trình nào?"}
+{"_id": "q_1391", "text": "Sau khi học xong, sinh viên có thể làm được những chức năng gì trên website?"}
+{"_id": "q_1392", "text": "Người học sẽ được cung cấp kỹ năng gì liên quan đến lập trình web?"}
+{"_id": "q_1393", "text": "Sinh viên cần nắm vững kỹ thuật lập trình web nào sau khi học xong?"}
+{"_id": "q_1394", "text": "Người học sẽ được rèn luyện kỹ năng nào để hỗ trợ công việc xây dựng website?"}
+{"_id": "q_1395", "text": "Sau khi học xong môn này, sinh viên sẽ nắm được những kỹ thuật lập trình nào?"}
+{"_id": "q_1396", "text": "Công việc xây dựng website yêu cầu những kỹ năng gì mà sinh viên sẽ được rèn luyện?"}
+{"_id": "q_1397", "text": "Thái độ chủ động trong học tập được thể hiện như thế nào?"}
+{"_id": "q_1398", "text": "Sinh viên có được hỗ trợ người khác trong quá trình xây dựng website không?"}
+{"_id": "q_1399", "text": "Kỹ thuật lập trình web cụ thể bao gồm những gì?"}
+{"_id": "q_1400", "text": "Học phần này cung cấp kiến thức về những gì?"}
+{"_id": "q_1401", "text": "Sinh viên sẽ học cách sử dụng ngôn ngữ lập trình nào để kết nối với cơ sở dữ liệu MySQL?"}
+{"_id": "q_1402", "text": "Học phần này giúp sinh viên làm được những chức năng nào trên trang web?"}
+{"_id": "q_1403", "text": "Sinh viên cần nắm vững kỹ thuật lập trình nào sau khi học xong học phần này?"}
+{"_id": "q_1528", "text": "Học phần này thuộc loại học phần nào?"}
+{"_id": "q_1529", "text": "Học phần này cung cấp những kiến thức gì?"}
+{"_id": "q_1530", "text": "Sinh viên sẽ học được kỹ năng gì sau khi học xong học phần này?"}
+{"_id": "q_1531", "text": "Học phần này thuộc khối kiến thức cơ sở ngành nào?"}
+{"_id": "q_1532", "text": "Học phần này trang bị cho sinh viên những kiến thức gì về ngôn ngữ Python?"}
+{"_id": "q_1533", "text": "Học phần này cung cấp những kiến thức gì về Python?"}
+{"_id": "q_1534", "text": "Sinh viên sẽ học được những kỹ năng gì qua học phần này?"}
+{"_id": "q_1535", "text": "Học phần này trang bị cho sinh viên những kiến thức nào về phân tích dữ liệu?"}
+{"_id": "q_1536", "text": "Học phần này có dạy xử lý ngôn ngữ và xử lý ảnh không?"}
+{"_id": "q_1537", "text": "Học phần này cung cấp những kỹ năng gì?"}
+{"_id": "q_1538", "text": "Sinh viên sẽ chuẩn bị kỹ năng gì sau khi học xong?"}
+{"_id": "q_1539", "text": "Những kiến thức nào được trang bị trong học phần này?"}
+{"_id": "q_1540", "text": "Học phần này giúp sinh viên chuẩn bị cho học phần nào tiếp theo?"}
+{"_id": "q_1541", "text": "Ứng dụng của kiến thức học được trong học phần này là gì?"}
+{"_id": "q_1715", "text": "Sau khi học xong môn Phân tích dữ liệu định tính và định lượng, sinh viên sẽ có kiến thức gì?"}
+{"_id": "q_1716", "text": "Môn học này giúp sinh viên phát triển kỹ năng gì?"}
+{"_id": "q_1717", "text": "Sinh viên có thể sử dụng kiến thức về dữ liệu định tính và định lượng trong thực tế như thế nào?"}
+{"_id": "q_1718", "text": "Việc học môn Phân tích dữ liệu định tính và định lượng có giúp sinh viên giải quyết các vấn đề kỹ thuật như thế nào?"}
+{"_id": "q_1719", "text": "Sau khi học xong môn này, sinh viên có thể áp dụng những kỹ năng tư duy nào vào công việc?"}
+{"_id": "q_1720", "text": "Sinh viên học xong môn Phân tích dữ liệu định tính và định lượng có thể sử dụng tư duy phản biện như thế nào?"}
+{"_id": "q_1721", "text": "Tư duy phân tích giúp sinh viên hiểu rõ hơn về những gì?"}
+{"_id": "q_1722", "text": "Tư duy sáng tạo trong môn học này giúp sinh viên làm gì?"}
+{"_id": "q_1723", "text": "Môn học Phân tích dữ liệu định tính và định lượng có liên quan đến nghiên cứu nào?"}
+{"_id": "q_1724", "text": "Sau khi học xong môn học này, sinh viên có thể làm gì trong lĩnh vực Khoa học dữ liệu?"}
+{"_id": "q_1725", "text": "Môn học Phân tích dữ liệu định tính và định lượng cung cấp những phương pháp nào?"}
+{"_id": "q_1726", "text": "Sinh viên sẽ học được cách sử dụng mô hình hồi quy như thế nào?"}
+{"_id": "q_1727", "text": "Môn học này giúp sinh viên hiểu rõ hơn về phân tích định tính và định lượng?"}
+{"_id": "q_1728", "text": "Sau khi học xong môn học này, sinh viên có thể áp dụng những kỹ năng gì?"}
+{"_id": "q_1729", "text": "Môn học Phân tích dữ liệu định tính và định lượng có liên quan đến những lĩnh vực nào?"}
+{"_id": "q_1730", "text": "Môn Phân tích dữ liệu định tính và định lượng tập trung vào những vấn đề nào?"}
+{"_id": "q_1731", "text": "Môn học này giúp sinh viên hiểu rõ về dữ liệu định tính và định lượng như thế nào?"}
+{"_id": "q_1732", "text": "Phân tích dữ liệu định tính và định lượng có ý nghĩa như thế nào trong nghiên cứu khoa học?"}
+{"_id": "q_1733", "text": "Sinh viên có thể sử dụng kiến thức từ môn học này để giải quyết những vấn đề cụ thể nào?"}
+{"_id": "q_1793", "text": "Môn học Máy học có thuộc nhóm học phần bắt buộc hay tự chọn?"}
+{"_id": "q_1794", "text": "Sau khi học xong môn Máy học, sinh viên có kiến thức gì?"}
+{"_id": "q_1795", "text": "Môn học Máy học có giúp sinh viên xử lý bài toán máy học như thế nào?"}
+{"_id": "q_1796", "text": "Sinh viên có thể làm gì sau khi đã học xong môn Máy học?"}
+{"_id": "q_1797", "text": "Môn học Máy học có liên quan đến việc tối ưu hóa khả năng phân tích dữ liệu như thế nào?"}
+{"_id": "q_1798", "text": "Máy học là môn học gì?"}
+{"_id": "q_1799", "text": "Mục đích của môn học Máy học là gì?"}
+{"_id": "q_1800", "text": "Hệ thống máy tính sử dụng thuật toán máy học như thế nào?"}
+{"_id": "q_1801", "text": "Một số tác vụ mà hệ thống máy tính sử dụng thuật toán máy học có thể thực hiện là gì?"}
+{"_id": "q_1802", "text": "Sau khi học xong môn học này, sinh viên có thể làm gì?"}
+{"_id": "q_1803", "text": "Sau khi học xong môn Máy học, sinh viên sẽ có kiến thức gì?"}
+{"_id": "q_1804", "text": "Môn Máy học giúp sinh viên dễ dàng làm gì với bài toán máy học?"}
+{"_id": "q_1805", "text": "Khi nào sinh viên có thể tiếp cận và xử lý bài toán máy học?"}
+{"_id": "q_1806", "text": "Môn Máy học có giúp sinh viên tăng khả năng phân tích và tối ưu như thế nào?"}
+{"_id": "q_1807", "text": "Sau khi học xong môn Máy học, sinh viên có thể làm gì?"}
+{"_id": "q_1808", "text": "Sau khi học môn Máy học, sinh viên có thể phân tích và tối ưu hóa dữ liệu như thế nào?"}
+{"_id": "q_1809", "text": "Môn Máy học giúp sinh viên phát triển những kỹ năng gì trong việc giải quyết vấn đề kỹ thuật?"}
+{"_id": "q_1810", "text": "Việc tham gia học tập độc lập suốt đời sau khi học Máy học có ý nghĩa như thế nào?"}
+{"_id": "q_1811", "text": "Sinh viên có thể sử dụng tư duy phản biện, tư duy phân tích và tư duy sáng tạo như thế nào trong môn Máy học?"}
+{"_id": "q_1812", "text": "Khi học Máy học, sinh viên sẽ học được kỹ năng tư duy như thế nào?"}
+{"_id": "q_1813", "text": "Môn Máy học giúp sinh viên phát triển khả năng phân tích và tối ưu hóa dữ liệu như thế nào?"}
+{"_id": "q_1814", "text": "Máy học giúp hệ thống máy tính làm gì?"}
+{"_id": "q_1815", "text": "Việc sử dụng thuật toán máy học có thể mang lại lợi ích gì?"}
+{"_id": "q_1816", "text": "Hệ thống máy tính sử dụng thuật toán máy học để làm gì?"}
+{"_id": "q_1817", "text": "Sau khi học máy học, sinh viên có thể dự đoán kết quả như thế nào?"}
+{"_id": "q_1818", "text": "Máy học giúp hệ thống máy tính xử lý dữ liệu như thế nào?"}
+{"_id": "q_1863", "text": "Môn Big data và ứng dụng thuộc nhóm học phần nào?"}
+{"_id": "q_1864", "text": "Sau khi học Big data và ứng dụng, sinh viên sẽ nắm được những kiến thức gì?"}
+{"_id": "q_1865", "text": "Sinh viên sẽ phát triển được những kỹ năng nào sau khi học Big data và ứng dụng?"}
+{"_id": "q_1866", "text": "Big data và ứng dụng có thuộc nhóm chuyên ngành tự chọn không?"}
+{"_id": "q_1867", "text": "Môn học Big data và ứng dụng thuộc ngành Khoa học dữ liệu từ khoá năm nào?"}
+{"_id": "q_1868", "text": "Sinh viên học Big data và ứng dụng sẽ có thể làm gì sau khi kết thúc khóa học?"}
+{"_id": "q_1869", "text": "Môn Big data và ứng dụng có bao nhiêu tín chỉ?"}
+{"_id": "q_1870", "text": "Môn Big data và ứng dụng bao gồm những gì?"}
+{"_id": "q_1871", "text": "Sinh viên sẽ học được những phương pháp nào để khai thác Big data?"}
+{"_id": "q_1872", "text": "Công cụ Hadoop, MapReduce và Spark được sử dụng như thế nào trong môn học này?"}
+{"_id": "q_1873", "text": "Sau khi học xong môn học này, sinh viên có thể làm gì với Big data?"}
+{"_id": "q_1874", "text": "Môn học Big data và ứng dụng có tính chất bắt buộc hay tự chọn?"}
+{"_id": "q_1875", "text": "Sau khi học Big data và ứng dụng, sinh viên có thể xử lý được những bài toán gì?"}
+{"_id": "q_1876", "text": "Việc học Big data và ứng dụng giúp sinh viên phát triển kỹ năng nào?"}
+{"_id": "q_1877", "text": "Sinh viên học xong Big data và ứng dụng có thể tiếp cận Big data như thế nào?"}
+{"_id": "q_1878", "text": "Sau khi học xong Big data và ứng dụng, sinh viên có thể áp dụng tư duy phản biện vào việc giải quyết vấn đề như thế nào?"}
+{"_id": "q_1879", "text": "Big data và ứng dụng giúp sinh viên phát triển khả năng tư duy sáng tạo như thế nào?"}
+{"_id": "q_1880", "text": "Sinh viên học Big data và ứng dụng có thể tham gia học tập độc lập để làm gì?"}
+{"_id": "q_1881", "text": "Học Big data và ứng dụng có giúp sinh viên dễ dàng tiếp cận với các bài toán liên quan đến Big data không?"}
+{"_id": "q_1905", "text": "Học phần này cung cấp những kiến thức gì?"}
+{"_id": "q_1906", "text": "Người học sẽ được hướng dẫn thực hành như thế nào?"}
+{"_id": "q_1907", "text": "Công nghệ thông tin cần những kỹ thuật lập trình nào?"}
+{"_id": "q_1908", "text": "Học phần này giúp rèn luyện kỹ năng lập trình như thế nào?"}
+{"_id": "q_1909", "text": "Học phần này sử dụng ngôn ngữ lập trình nào?"}
+{"_id": "q_1910", "text": "Người học sẽ rèn luyện kỹ năng gì?"}
+{"_id": "q_1911", "text": "Học viên sẽ được rèn luyện tư duy như thế nào?"}
+{"_id": "q_1912", "text": "Học phần này giúp sinh viên áp dụng kiến thức như thế nào vào công việc?"}
+{"_id": "q_1913", "text": "Học phần này thuộc loại nào trong chương trình?"}
+{"_id": "q_1914", "text": "Kiến thức gì mà học phần này cung cấp?"}
+{"_id": "q_1915", "text": "Học phần này thuộc khối kiến thức nào?"}
+{"_id": "q_1916", "text": "Ngôn ngữ lập trình nào được sử dụng trong học phần này?"}

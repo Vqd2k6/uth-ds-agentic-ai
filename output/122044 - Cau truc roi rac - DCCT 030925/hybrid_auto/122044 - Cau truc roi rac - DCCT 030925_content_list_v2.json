@@ -1,0 +1,2240 @@
+[
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI TP. HỒ CHÍ MINH ĐỀ CƯƠNG CHI TIẾT HỌC PHẦN (COURSE SYLLABUS)"
+                    }
+                ],
+                "level": 1
+            },
+            "bbox": [
+                176,
+                70,
+                868,
+                146
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "1. Tổng quát về học phần (General course information)"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                186,
+                175,
+                707,
+                197
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/3873a8c3caaddcb4af9922966ad953d940f121c1d32cc9f1eb9bb13955819d35.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>Tên học phần</td><td colspan=\"3\">Tiếng Việt: CẤU TRÚC RỜI RẠCTiếng Anh: DISCRETE STRUCTURES</td><td>Mã HP:122044</td></tr><tr><td>Số tín chỉ1</td><td colspan=\"4\">4 (3,1,4)</td></tr><tr><td rowspan=\"2\">Phân bổ thời gian</td><td>Lý thuyết/Bài tập/Dự án</td><td>Thực hành/Thí nghiệm/Thảo luận</td><td>Tổng</td><td>Tự học</td></tr><tr><td>45</td><td>30</td><td>75</td><td>125</td></tr><tr><td>Thang điểm</td><td colspan=\"4\">10</td></tr><tr><td>HP học trước</td><td colspan=\"4\">124001 - Kỹ thuật lập trình</td></tr><tr><td>HP song hành</td><td colspan=\"4\"></td></tr><tr><td>Loại học phần</td><td colspan=\"4\">☑ Bắt buộc □ Tự chọn bắt buộc □ Tự chọn tự do</td></tr><tr><td>Thuộc thành phần</td><td colspan=\"4\"></td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                200,
+                942,
+                514
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "2. Mô tả tóm tắt học phần (Course description)"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                184,
+                543,
+                630,
+                563
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Học phần Cấu trúc rời rạc là học phần bắt buộc nằm trong khối kiến thức cơ sở của nhóm ngành Công nghệ thông tin. Học phần này trang bị cho người học những kiến thức liên quan đến các đối tượng rời rạc trong toán học như logic mệnh đề; các phương pháp suy diễn, các phương pháp đếm; quan hệ tương đương, quan hệ thứ tự; đại số Bool và các khái niệm cơ bản về đồ thị, các loại đồ thị cùng với các thuật toán liên quan đến các bài toán trên đồ thị. Các kiến thức này hỗ trợ nhiều cho sinh viên tiếp thu các học phần cơ sở khác và chuyên ngành của mình như: Cơ sở dữ liệu, Phân tích thiết kế giải thuật, Hệ quản trị cơ sở dữ liệu, Mạng máy tính, Trí tuệ nhân tạo, Khai thác dữ liệu, Xử lý ảnh và thị giác máy tính, ..."
+                    }
+                ]
+            },
+            "bbox": [
+                134,
+                568,
+                907,
+                772
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "3. Mục tiêu học phần (Course Objectives)"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                184,
+                800,
+                579,
+                820
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Học phần này trang bị cho sinh viên:"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                826,
+                494,
+                845
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "CO1. Áp dụng kiến thức cơ bản về cơ sở logic, phép đếm, quan hệ, đại số Bool và lý thuyết đồ thị để giải quyết các bài toán cơ bản thuộc nhóm ngành Công nghệ thông tin."
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                850,
+                907,
+                871
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1"
+                    }
+                ]
+            },
+            "bbox": [
+                517,
+                43,
+                527,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "1"
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                945,
+                904,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": []
+            },
+            "bbox": [
+                136,
+                66,
+                907,
+                111
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "CO2. Liên hệ các kiến thức trong cấu trúc rời rạc để giải quyết các bài toán thực tế và cài đặt các thuật toán cơ bản của lý thuyết đồ thị."
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                118,
+                905,
+                167
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "CO3. Tự học tập, tích lũy và cập nhật kiến thức theo xu thế phát triển của lĩnh vực"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                175,
+                905,
+                195
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "4. Chuẩn đầu ra học phần (Course Learning Outcomes - CLO)"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                203,
+                778,
+                223
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sau khi học xong học phần này sinh viên có khả năng:"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                231,
+                631,
+                248
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "CLO1. Giải thích những khái niệm, thuật ngữ, và các vấn đề trọng tâm trong cấu trúc rời rạc; Tính toán và đếm các đối tượng trên các tập hợp rời rạc; Trình bày và áp dụng các thuật toán, các phương pháp liên quan để giải quyết các bài toán ở mức độ cơ bản."
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                254,
+                907,
+                323
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "CLO2. Thực hiện cài đặt các thuật toán cơ bản trong lý thuyết đồ thị."
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                328,
+                752,
+                346
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "CLO3. Diễn giải bài toán dựa trên cơ sở của cấu trúc rời rạc; Áp dụng các thuật toán, các phương pháp và nguyên lý trong cấu trúc rời rạc để giải các bài toán thực tế;"
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                353,
+                907,
+                397
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Liên hệ giữa CĐR học phần (CLOs) và CĐR CTĐT (PLOs):"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                403,
+                754,
+                422
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/cd57d012be06abbacdded1eb48e6fff30fdcf0cc650d798b217f3412b4919423.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=\"2\">PLO/CLO</td><td>PLO1</td><td colspan=\"4\">PLO2</td><td colspan=\"3\">PLO3</td><td>PLO4</td><td>PLO5</td><td colspan=\"3\">PLO6</td><td colspan=\"2\">PLO7</td></tr><tr><td></td><td>PI2.1</td><td>PI2.2</td><td>PI2.3</td><td>PI2.4</td><td>PI3.1</td><td>PI3.2</td><td>PI3.3</td><td></td><td></td><td>PI6.1</td><td>PI6.2</td><td>PI6.3</td><td>PI7.1</td><td>PI7.2</td></tr><tr><td>CLO1</td><td>I</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>CLO2</td><td></td><td></td><td>I</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>CLO3</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td>I</td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                453,
+                961,
+                615
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Ghi chú: Điền vào bảng I/R/E vào các ô tương ứng. Học phần/Môn học này trong bảng ma trận họp phần đóng góp vào CĐR được người thiết kế CTĐT xác định ở mức I/R/E; tương ướng là phương pháp, nội dung dạy học và kiểm tra đánh giá phù hợp với mức độ đóng góp của học phần cho CĐR là mức I hoặc R hoặc E."
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                669,
+                907,
+                768
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Lưu ý:"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                777,
+                248,
+                794
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Khi thiết kết CLO sử dụng động từ ở thang đo Bloom cũng cần lựa chọn bậc phù hợp đối với vị trí của học phần trong ma trận đóng góp của học phần cho CĐR ở mức I, R hay E. Ví dụ, đối với học phần ở mức I thì có thể lựa chọn bậc 1, 2 hoặc 3."
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                802,
+                907,
+                873
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Học phần có thể ở mức I đối với CĐR về kiến thức; nhưng ở mức R đối với CĐR về kỹ năng và ngược lại."
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                881,
+                905,
+                928
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "2"
+                    }
+                ]
+            },
+            "bbox": [
+                890,
+                946,
+                905,
+                959
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "5. Nhiệm vụ của sinh viên (Students duties)"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                184,
+                67,
+                596,
+                85
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Sinh viên phải tham dự tối thiểu 80% số tiết của học phần;"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                92,
+                704,
+                112
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Làm và nộp các bài tập/ báo cáo/ làm việc nhóm/ thuyết trình.... đúng thời gian quy định;"
+                    }
+                ]
+            },
+            "bbox": [
+                136,
+                120,
+                905,
+                166
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Tự nghiên cứu các vấn đề được giao ở nhà hoặc thư viện;"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                173,
+                695,
+                193
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Hoàn thành các bài đánh giá quá trình; kết thúc học phần."
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                199,
+                695,
+                219
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "6. Phương pháp kiểm tra, đánh giá (Assessment methods):"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                225,
+                734,
+                246
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Phương pháp kiểm tra đánh giá của HP đảm bảo người học đạt được CĐR mong đợi"
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                253,
+                905,
+                299
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/36250360e4ffcc78b004de3b56bcd6dd1eae772eede3f132bdc42742ef16b0b1.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>Thành phần đánh giá[1]</td><td>Phương pháp/ Hình thức đánh giá[2]</td><td>CDR HP (CLOs)[3]</td><td>Tiêu chí đánh giá[4]</td><td>Trọng số(%) [5]</td></tr><tr><td rowspan=\"3\">Đánh giá quá trình</td><td>Chuyên cần</td><td>CLO3</td><td>A1.1</td><td>10</td></tr><tr><td>Bài tập thực hành</td><td>CLO2, CLO3</td><td>A3.1</td><td>20</td></tr><tr><td>Kiểm tra giữa kỳ</td><td>CLO1, CLO2</td><td>A4.1</td><td>20</td></tr><tr><td>Đánh giá Kết thúc học phần</td><td>Bài tập lớn</td><td>CLO1, CLO2, CLO3</td><td>A5.4</td><td>50</td></tr><tr><td>Tổng cộng</td><td></td><td></td><td></td><td>100</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                331,
+                927,
+                614
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "7. Kế hoạch giảng dạy và học tập (Teaching and learning plan/outline)"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                186,
+                615,
+                847,
+                634
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/434b5a0db4c1919570ec5b8374550bb9b1949384856728e479d56a0885cb9747.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td>Tuần /Chương[1]</td><td>Nội dung[2]</td><td>CDR(CLOs)[3]</td><td>Hoạt động dạyvà học[4]</td><td>Bài đánh giá[5]</td></tr><tr><td>1/1</td><td>Cơ sở logic1.5 Mệnh đề1.6 Các phép toán mệnh đề1.7 Biểu thức logic1.8 Các luật logicElearning: Bài tập của chương</td><td>CLO1</td><td>Giảng viên:- Giới thiệu thông tin về giảng viên, đề cương môn học, hình thức giảng dạy, phương pháp đánh giá.</td><td>A1.1A3.1A4.1</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                640,
+                919,
+                929
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3"
+                    }
+                ]
+            },
+            "bbox": [
+                515,
+                43,
+                529,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "3"
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                946,
+                905,
+                959
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/78a83641092d49656e5966f2f3169033e6670f0c84a8787d1b112769904da8b9.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "4"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Tuần /Chương[1]</td><td>Nội dung[2]</td><td>CDR(CLOs)[3]</td><td>Hoạt động dạyvà học[4]</td><td>Bài đánh giá[5]</td></tr><tr><td></td><td></td><td></td><td>- Giảng cáckhái niệm cơbản mệnh đề,các phép toánmệnh đề, biểuthức và suyluận logic. Ví dụ minh hoạvà bài tập.Sinh viên:- Thảo luận vềnội dung bài giảng.- Làm các bài tập trên lớp.</td><td></td></tr><tr><td>2/1</td><td>Cơ sở logic (tiếp theo)1.9 Vị từ và lượng từ1.10 Các phương pháp suy diễn1.11 Nguyên lý quy nạpElearning: Bài tập của chương</td><td>CLO1</td><td>Giảng viên:- Giảng cáckhái niệm vềvị từ, lượng từvà trình bàycác phương pháp suy diễn. Ví dụminh hoạ vàbài tập.- Trình bày phương phápchứng minhquy nạp thôngqua ví dụ.Giảng vềnguyên lý quynạp và cácbước chứngminh một vấnđề bằng phương phápquy nạp.</td><td>A1.1A3.1A4.1</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                65,
+                919,
+                910
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "4"
+                    }
+                ]
+            },
+            "bbox": [
+                890,
+                945,
+                905,
+                959
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/6a2432e23687203aa7bd7ad6f1b01faf9842072a45e9e4471d95ccae498664e0.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Tuần /Chương[1]</td><td>Nội dung[2]</td><td>CDR(CLOs)[3]</td><td>Hoạt động dạyvà học[4]</td><td>Bài đánh giá[5]</td></tr><tr><td></td><td></td><td></td><td>Sinh viên:- Thảo luận về nội dung bài giảng.- Làm các bài tập trên lớp.</td><td></td></tr><tr><td>3/2</td><td>Phương pháp đếm2.1 Tập hợp2.2 Ánh xạ2.3 Phương pháp đếmElearning: Bài tập của chương</td><td>CLO1</td><td>Giảng viên:- Trình bày khái niệm về tập hợp và các phép toán trên tập hợp. Ví dụ minh hoạ và bài tập.- Trình bày về các nguyên lý đếm. Ví dụ minh hoạ và bài tập.Sinh viên:- Thảo luận về nội dung bài giảng.- Làm các bài tập trên lớp.</td><td>A1.1A3.1A4.1</td></tr><tr><td>4/2</td><td>2.4 Phương pháp đếm (tiếp theo)2.4 Nguyên lý DirichletElearning: Bài tập của chương</td><td>CLO1</td><td>Giảng viên:- Trình bày khái niệm về chính hợp, chính hợp lặp, hoán vị, tổ hợp và tổ hợp lặp. Ví dụ minh hoạ và bài tập.- Trình bày về nguyên lý Dirichlet và</td><td>A1.1A3.1A4.1</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                65,
+                919,
+                919
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "5"
+                    }
+                ]
+            },
+            "bbox": [
+                890,
+                945,
+                905,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/823df95e4f011623f58e221e4ebd956ee982c71c4cbab1580ee7d99511e2c5f7.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "6"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Tuần /Chương[1]</td><td>Nội dung[2]</td><td>CDR(CLOs)[3]</td><td>Hoạt động dạyvà học[4]</td><td>Bài đánh giá[5]</td></tr><tr><td></td><td></td><td></td><td>dạng mở rộng. Ví dụ minh hoạ và bài tập.Sinh viên:- Thảo luận về nội dung bài giảng.- Làm các bài tập trên lớp.</td><td></td></tr><tr><td>5/3</td><td>Quan hệ3.1 Khái niệm và tính chất của quan hệ3.2 Quan hệ tương đươngElearning: Bài tập của chương</td><td>CLO1</td><td>Giảng viên:- Trình bày khái niệm về quan hệ và các tính chất cơ bản như phản xạ, đối xứng, phản xứng, bắt cầu.- Định nghĩa về quan hệ tương đương, sự phân hoạch một tập thành các lớp tương đương. Ví dụ minh hoạ và bài tập.Sinh viên:- Thảo luận về nội dung bài giảng.- Làm các bài tập trên lớp.</td><td>A1.1A3.1A4.1</td></tr><tr><td>6/3</td><td>Quan hệ (tiếp theo)3.3 Quan hệ thứ tựElearning: Bài tập củachương</td><td>CLO1</td><td>Giảng viên:- Trình bày khái niệm về quan hệ thứtự; cách biểu diễn một quan hệ thứ tự bằng biểu đồ Hasse. Định nghĩa về các phần tử tối tiểu, tối đại, cực tiểu, cực đại... Hướng dẫn sinh viên xác định các phần từ này từ biểu đồ Hasse. Ví dụ minh hoạ và bài tập.Sinh viên:- Thảo luận về nội dung bài giảng.- Làm các bài tập trên lớp.</td><td>A1.1A3.1A4.1</td></tr><tr><td>7/4</td><td>Đại số Bool4.1 Đại số Bool4.2 Hàm Bool4.3 Đa thức tối tiểu4.4 Phương pháp KarnaughElearning: Bài tập của chương</td><td>CLO1</td><td>Giảng viên:- Trình bày lý thuyết về đại số Bool và hàm Bool. Ví dụ minh hoạ và bài tập.- Trình bày khái niệm về đa thức tối tiểu và các phương pháp xác định công thức đa tối tiểu.- Trình bày phương pháp biểu đồKarnaugh để tìm công thức đa tối tiểu. Ví dụ minh hoạ và bài tập.Sinh viên:- Thảo luận về nội dung bài giảng.- Làm các bài tập trên lớp.</td><td>A1.1A3.1A4.1</td></tr><tr><td>8-9/5</td><td>Các khái niệm cơ bản về đồ thịBiểu diễn đồ thị trên máy tínhElearning: Bài tập của chương</td><td>CLO2CLO3</td><td>Giảng viên:- Giảng các khái niệm cơ bản về đồ thị và các dạng đồ thị đặc biệt.- Trình bày các phương pháp biểu diễn đồ thị trên máy tính sử dụng ma trận kê, ma trận trọng số, danh sách kê và danh sách cạnh.- Phân tích ưu khuyết điểm của từng phương pháp.Sinh viên:</td><td>A1.1A3.1A4.1</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                64,
+                919,
+                923
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "6"
+                    }
+                ]
+            },
+            "bbox": [
+                890,
+                946,
+                905,
+                959
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                64,
+                921,
+                906
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "7"
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                945,
+                905,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                65,
+                919,
+                898
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "8"
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                945,
+                905,
+                959
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/dcc63460ea31bf5e555630f3b5bb40a729e4e1c50115bf5b398fbfa9063b1d30.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "9"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Tuần /Chương[1]</td><td>Nội dung[2]</td><td>CDR(CLOs)[3]</td><td>Hoạt động dạyvà học[4]</td><td>Bài đánh giá[5]</td></tr><tr><td></td><td></td><td></td><td>- Thảo luận về nội dung bài giảng.- Phân tích, so sánh, cho ví dụ về các dạng đồ thị đặc biệt.- Thảo luận về nội dung bài giảng.- Cải đặt các phương pháp biểu diễn đồ thị.</td><td></td></tr><tr><td>10/6</td><td>Tìm kiểm trên đồ thịĐồ thị Euler và đồ thịHamiltonElearning: Bài tập của chương</td><td>CLO2CLO3</td><td>Giảng viên:Sinh viên:- Thảo luận về nội dung bài giảng.- Phân tích, so sánh hai dạng đồ thị Euler và Hamilton.</td><td>A1.1A3.1A4.1</td></tr><tr><td>11/7</td><td>Cây và cây khung cực tiểu của đồ thịElearning: Bài tập của chương</td><td>CLO2CLO3</td><td>Giảng viên:- Trình bày các khái niệm cây, cây khung, cây khung cực tiểu của đồ thị.- Trình bày các giải thuật Kruskal, Prim để tìm cây khung cực tiểu trên một đồ thị chotrước. Ví dụvà bài tập.Sinh viên:- Thảo luận vềnội dung bàigiảng.- Phân tích vàso sánh 2thuật toán tîmcây khungcực tiểu.- Cải đặt thuậttoán Prim.- Cải đặt thuậttoán Kruskal.</td><td>A1.1A3.1A4.1</td></tr><tr><td>12-13/8</td><td>Bài toán tìm đường đi ngắnnhất và Luồng cực đại trênmạngElearning: Bài tập củachươngKiểm tra sơ bộ bài tập lớn</td><td>CLO2CLO3</td><td>Giảng viên:-Sinh viên:- Cải đặt cácgiải thuậtDijkstra,Ford-Bellmantrên máy tính.- Thảo luậnnhóm, phântích độ phứctạp và uukhuyết điểmcủa từng cấutừng giảithuật.- Phân tích,làm bài tập vídụ về giảithuật Ford-Fulkerson.Tìm hiểu cácví dụ ứng</td><td>A1.1A3.1A4.1</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                65,
+                921,
+                931
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "9"
+                    }
+                ]
+            },
+            "bbox": [
+                890,
+                945,
+                905,
+                959
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                65,
+                921,
+                915
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "10"
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                43,
+                537,
+                59
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "10"
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                945,
+                912,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/f0767f5300d8dcd6d0400fb980dfa3d917cbafefc5936f03d538b729f22c6a34.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "11"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Tuần /Chương[1]</td><td>Nội dung[2]</td><td>CDR(CLOs)[3]</td><td>Hoạt động dạy và học[4]</td><td>Bài đánh giá[5]</td></tr><tr><td></td><td></td><td></td><td>dụng trong thực tiễn.</td><td></td></tr><tr><td>13/Bài tập lớn</td><td>Báo cáo bài tập lớn</td><td>CLO1CLO2CLO3</td><td></td><td>A5.2</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                64,
+                919,
+                259
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "8. Tài liệu học tập (Course materials)"
+                    }
+                ]
+            },
+            "bbox": [
+                183,
+                288,
+                552,
+                307
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "8.1. Tài liệu chính (Main materials)"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                184,
+                315,
+                522,
+                334
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "[1] Nguyễn Hữu Anh, 2005, Toán rời rạc, Nhà xuất bản Lao động xã hội"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                340,
+                828,
+                362
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "[2] Rosen, Kenneth H, 2019, Discrete Mathematics and its applications, McGraw-Hill"
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                368,
+                905,
+                412
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "8.2. Tài liệu tham khảo (References materials)"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                184,
+                420,
+                621,
+                441
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "[1] Ravichandran, V., & Razdan, A. K. (2025). Fundamental Discrete Structures. Springer."
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                447,
+                905,
+                495
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "[2] Levin, O. (2025). Discrete mathematics: An open introduction. CRC Press."
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                501,
+                878,
+                521
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "[3] Joseph Khoury, 2024, Tale of Discrete Mathematics: A Journey Through Logic, Reasoning, Structures and Graph Theory, World Scientific Publishing Company"
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                527,
+                905,
+                575
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "[4] Các khái niệm cơ bản và các ví dụ đơn giản đi kèm trong Toán rời rạc https://www.geeksforgeeks.org/"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                580,
+                838,
+                627
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "[5] Biểu diễn trực quan các thuật toán trong lý thuyết đồ thị https://graphonline.ru/en/"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                632,
+                715,
+                681
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "9. Yêu cầu khác về học phần (Other course requirements and expectations) Không"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                686,
+                890,
+                734
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "10. Biên soạn và cập nhật đề cương (write and revise course syllabus)"
+                    }
+                ]
+            },
+            "bbox": [
+                186,
+                739,
+                835,
+                760
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Ngày biên soạn lần đầu: 01.09.2023"
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                766,
+                521,
+                787
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Ngày chỉnh sửa: 30.06.2024 (chỉnh sửa lần thứ 2)."
+                    }
+                ]
+            },
+            "bbox": [
+                184,
+                793,
+                642,
+                814
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "PHÒNG ĐÀO TẠO"
+                    }
+                ]
+            },
+            "bbox": [
+                147,
+                819,
+                341,
+                840
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "QL CHƯƠNG TRÌNH"
+                    }
+                ]
+            },
+            "bbox": [
+                400,
+                819,
+                620,
+                840
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/1a03fb3444caec56a5884eae739adc24b57b179486f43ee782002e729ebbf392.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                458,
+                841,
+                586,
+                885
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "GV LẬP ĐỀ CƯƠNG"
+                    }
+                ]
+            },
+            "bbox": [
+                655,
+                819,
+                868,
+                840
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "TS. Lê Văn Quốc Anh"
+                    }
+                ]
+            },
+            "bbox": [
+                400,
+                885,
+                613,
+                906
+            ]
+        },
+        {
+            "type": "image",
+            "content": {
+                "image_source": {
+                    "path": "images/c62926efb9915c2cc58edf63b23c29c866368bbf8127daa43e5a4a37f893b4f7.jpg"
+                },
+                "content": "",
+                "image_caption": [],
+                "image_footnote": []
+            },
+            "bbox": [
+                660,
+                848,
+                840,
+                884
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "ThS. Bùi Trọng Hiếu"
+                    }
+                ]
+            },
+            "bbox": [
+                655,
+                890,
+                858,
+                910
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "11"
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                945,
+                914,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "12"
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                42,
+                537,
+                59
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "12"
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                945,
+                912,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "PHỤ LỤC"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                490,
+                82,
+                601,
+                102
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "(Phụ lục của Đề cương chi tiết học phần)"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                342,
+                109,
+                749,
+                131
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Phụ lục 1. Các Rubrics đánh giá"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                186,
+                140,
+                517,
+                160
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Đánh giá chuyên cần"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                200,
+                196,
+                415,
+                217
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/49ad7fffeff41f431f962b728c969acfd9ff7dc9e02e52c68c26fb23516d3020.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Rubric A1.1: Chuyên cần 1"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=\"2\">Tiêu chí đánh giá</td><td colspan=\"5\">Mức độ đạt chuẩn quy định</td><td rowspan=\"2\">Trọng số</td></tr><tr><td>MỨC F(0-3.9)</td><td>MỨC D(4.0-5.4)</td><td>MỨC C(5.5-6.9)</td><td>MỨC B(7.0-8.4)</td><td>MỨC A(8.5-10)</td></tr><tr><td>Thái độ tham gia tích cực</td><td>Không tham gia các hoạt động</td><td>Ít tham gia các hoạt động</td><td>Có tham gia các hoạt động</td><td>Khá tích cực tham gia các hoạt động</td><td>Tích cực tham gia các hoạt động</td><td>50</td></tr><tr><td>Thời gian tham gia đầy đủ</td><td>Thời gian dưới 40%</td><td>Thời gian từ 40-54%</td><td>Thời gian từ 55-69%</td><td>Thời gian từ 70-84%</td><td>Thời gian từ 85% trở lên</td><td>50</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                266,
+                902,
+                434
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/f7a9b29664b38c4f8e5f1ead2fc5ab94d230e7ab93f267b71924c5e4d26a30f6.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Rubric A1.2: Chuyên cần 2"
+                    }
+                ],
+                "table_footnote": [
+                    {
+                        "type": "text",
+                        "content": "Lưu ý:"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Phần thảo luận: tổ chức tối thiểu 4 lần cho hoạt động như thực hiện bài tập tại lớp, bài tập tại nhà, hoạt động nhóm,..."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Cách thức tính thời gian tham gia thông qua điểm danh: có thể chọn ít nhất 1 trong các cách"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Điểm danh kèm kiểm tra thẻ sv tránh sv ngồi nhờ học hộ – điểm danh trực tiếp (ưu tiên)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Điểm danh thông qua số lần nộp bài (bài kiểm tra cuối chương bài, bài ôn tập)"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Điểm danh thông qua số lần phát biểu, số lần tham gia một hoạt động cụ thể"
+                    },
+                    {
+                        "type": "text",
+                        "content": "Dùng cho PI 7.1 và PI 7.2"
+                    }
+                ],
+                "html": "<table><tr><td rowspan=\"2\">Tiêu chí đánh giá</td><td colspan=\"5\">Mức độ đạt chuẩn quy định</td><td rowspan=\"2\">Trọng số</td></tr><tr><td>MỨC F(0-3.9)</td><td>MỨC D(4.0-5.4)</td><td>MỨC C(5.5-6.9)</td><td>MỨC B(7.0-8.4)</td><td>MỨC A(8.5-10)</td></tr><tr><td>Thảo luận</td><td>Không tham gia đóng góp trong các hoạt động</td><td>Tham gia đóng góp ý kiến 01 lần</td><td>Tham gia đóng góp ý kiến 02 lần</td><td>Tham gia đóng góp ý kiến 03 lần</td><td>Tham gia đóng góp ý kiến trên 03 lần</td><td>50</td></tr><tr><td>Thời gian tham gia</td><td>Tham gia dưới 80% tổng buổi học được điểm danh (cấm thi)</td><td>Tham gia dưới 85% tổng buổi học được điểm danh</td><td>Tham gia dưới 70% tổng buổi học được điểm danh</td><td>Tham gia dưới 80% tổng buổi học được điểm danh</td><td>Tham gia không dưới 80% tổng buổi học được điểm danh</td><td>50</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                483,
+                902,
+                711
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Đánh giá bài tập trên lớp"
+                    }
+                ]
+            },
+            "bbox": [
+                198,
+                848,
+                458,
+                869
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "Rubric A2.1: Bài tập trên lớp (kết hợp có đánh giá hoạt động, dùng cho môn không đánh giá chuyên cần riêng)"
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                884,
+                892,
+                917
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "13"
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                43,
+                536,
+                59
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "13"
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                945,
+                912,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/83f8e6f76e3e9a70ffcdab70d4a66c77501315e6f33150d06a90c51a8b699d27.jpg"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=\"2\">Tiêu chí đánh giá</td><td colspan=\"5\">Mức độ đạt chuẩn quy định</td><td rowspan=\"2\">Trọng số</td></tr><tr><td>MỨC F(0-3.9)</td><td>MỨC D(4.0-5.4)</td><td>MỨC C(5.5-6.9)</td><td>MỨC B(7.0-8.4)</td><td>MỨC A(8.5-10)</td></tr><tr><td>Chất lượng bài nộp</td><td>Thời gian dưới 40%</td><td>Thời gian từ 40-54%</td><td>Thời gian từ 55-69%</td><td>Thời gian từ 70-84%</td><td>Thời gian từ 85% trở lên</td><td>20</td></tr><tr><td>Thái độ tham gia</td><td>Không tham gia các hoạt động</td><td>Ít tham gia các hoạt động</td><td>Có tham gia các hoạt động</td><td>Khá tích cực tham gia các hoạt động</td><td>Tích cực tham gia các hoạt động</td><td>20</td></tr><tr><td>Kỹ năng thảo luận</td><td>Không thảo luận</td><td>Kém</td><td>Trung bình</td><td>Khá</td><td>Tốt</td><td>20</td></tr><tr><td>Chất lượng đóng góp ý kiến</td><td>Thời gian dưới 40%</td><td>Thời gian từ 40-54%</td><td>Thời gian từ 55-69%</td><td>Thời gian từ 70-84%</td><td>Thời gian từ 85% trở lên</td><td>40</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                65,
+                904,
+                297
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/758f0ca4e3c3b1ce2dbc04b156240a5c96846077a7f968328d49a236acabb4f2.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Rubric A2.2: Bài tập trên lớp (không kết hợp có đánh giá hoạt động, dùng cho môn có phần đánh giá chuyên cần riêng biệt, và các môn có chữ A trong CTĐT, có thu thập minh chứng bài làm của người học)"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=\"2\">Tiêu chí đánh giá</td><td colspan=\"5\">Mức độ đạt chuẩn quy định</td><td rowspan=\"2\">Trọng số</td></tr><tr><td>MỨC F(0-3.9)</td><td>MỨC D(4.0-5.4)</td><td>MỨC C(5.5-6.9)</td><td>MỨC B(7.0-8.4)</td><td>MỨC A(8.5-10)</td></tr><tr><td>Chất lượng bài nộp</td><td>Thời gian dưới 40%</td><td>Thời gian từ 40-54%</td><td>Thời gian từ 55-69%</td><td>Thời gian từ 70-84%</td><td>Thời gian từ 85% trở lên</td><td>100</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                346,
+                902,
+                438
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Đánh giá thực hành"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                200,
+                463,
+                405,
+                482
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/ca697b043dcd6a2c74a4d3b0eba4fa4ea56ea031a1b5e84c3ba77d984cb37172.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Rubric A3.1: Bài tập thực hành (dùng cho các môn liên quan đến PLO5)"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=\"2\">Tiêu chí đánh giá</td><td colspan=\"5\">Mức độ đạt chuẩn quy định</td><td rowspan=\"2\">Trọng số</td></tr><tr><td>MỨC F(0-3.9)</td><td>MỨC D(4.0-5.4)</td><td>MỨC C(5.5-6.9)</td><td>MỨC B(7.0-8.4)</td><td>MỨC A(8.5-10)</td></tr><tr><td>Thái độ tham dự tích cực</td><td>Không tham gia các hoạt động</td><td>Ít tham gia các hoạt động</td><td>Có tham gia các hoạt động</td><td>Khá tích cực tham gia các hoạt động</td><td>Tích cực tham gia các hoạt động</td><td>20</td></tr><tr><td>Kết quả thực hành</td><td>Không làm bài tập thực hành</td><td>Kết quả thực hành không đầy đủ, không đáp ứng yêu cầu</td><td>Tương đối đầy đủ và đáp ứng tương đối các yêu cầu, có một sai sót quan trọng.</td><td>Khá đầy đủ và đáp ứng khá tốt các yêu cầu, còn sai sót nhỏ</td><td>Đầy đủ và đáp ứng hoàn toàn các yêu cầu</td><td>40</td></tr><tr><td>Giải thích kết quả thực hành</td><td>Không làm bài tập thực hành</td><td>Giải thích không rõ ràng</td><td>Giải thích khá rõ ràng, còn nhiều sai sót quan trọng trong lập luận.</td><td>Giải thích khá rõ ràng, Còn một sai sót quan trọng trong lập luận.</td><td>Giải thích và lập luận rõ ràng</td><td>30</td></tr><tr><td>Báo cáo thực hành đúng quy định</td><td>Không làm bài tập thực hành</td><td>Chưa đầy đủ, chưa đúng hạn hoặc đúng định dạng</td><td>Chưa đầy đủ</td><td>Đầy đủ và đúng hạn.</td><td>Đầy đủ, đúng định dạng và đúng hạn.</td><td>10</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                512,
+                904,
+                878
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "14"
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                43,
+                537,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "14"
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                946,
+                912,
+                959
+            ]
+        }
+    ],
+    [
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Đánh giá giữa kỳ/cuối kỳ"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                200,
+                66,
+                455,
+                87
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/d346a9f7f5ca79796dbf3d95a0046abeab2e8cc582cb6f514d82cf1f5a8bbd74.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Rubric A4.1: Thi tự luận/Trắc nghiệm {bài thi giữa kỳ/bài thi cuối kỳ)"
+                    }
+                ],
+                "table_footnote": [
+                    {
+                        "type": "text",
+                        "content": "Lưu ý: bài tập tại lớp hướng đến đạt bloom, bài thi cuối kỳ là phải có phần kiểm tra các câu đạt mức bloom theo quy định của đề cương."
+                    },
+                    {
+                        "type": "text",
+                        "content": "BTTL: lấy trung bình cộng các bài tập/ các bài kiểm tra cuối chương."
+                    },
+                    {
+                        "type": "text",
+                        "content": "Bài thi giữa kỳ: 2 cách thực hiện"
+                    }
+                ],
+                "html": "<table><tr><td rowspan=\"2\">Tiêu chí đánh giá</td><td colspan=\"5\">Mức độ đạt chuẩn quy định</td><td rowspan=\"2\">Trọng số</td></tr><tr><td>MỨC F(0-3.9)</td><td>MỨC D(4.0-5.4)</td><td>MỨC C(5.5-6.9)</td><td>MỨC B(7.0-8.4)</td><td>MỨC A(8.5-10)</td></tr><tr><td>Chất lượng bài thi</td><td>Đúng dưới40%</td><td>Đúng từ 40-54%</td><td>Đúng từ 55-69%</td><td>Đúng từ 70-84%</td><td>Đúng từ 85% trở lên</td><td>100</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                117,
+                902,
+                208
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Câu hỏi không cần đạt mức bloom, như BTTL (không dùng để đánh giá đạt bloom), cuối kỳ bộ đề phủ toàn bộ các chương."
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                273,
+                895,
+                306
+            ]
+        },
+        {
+            "type": "paragraph",
+            "content": {
+                "paragraph_content": [
+                    {
+                        "type": "text",
+                        "content": "- Câu hỏi đạt mức bloom, giới hạn phạm vi chương, cuối kỳ thực hiện trong các chương còn lại, cả giữa kỳ và cuối kỳ đề được lấy để đo lường mức độ bloom."
+                    }
+                ]
+            },
+            "bbox": [
+                137,
+                307,
+                887,
+                340
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Đánh giá tiểu luận/đồ án/bài tập lớn"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                200,
+                347,
+                566,
+                368
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/c1a7eef6cc4d54697575a356dce738e5d428fc6ff29c602e17633065c43114cc.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Rubric A5.1 Đánh giá Tiểu luận/ Đồ án/ Bài tập lớn: <50% tổng điểm môn (dùng cho các môn I hoặc R khi người học đạt ở cấp độ học để cải thiện thêm năng lực/ hoặc làm theo cá nhân/ giảng viên đánh giá người học), chủ yếu cho người học làm quen với việc tự học, thực hiện công việc theo quy định bloom cấp độ 3 trở xuống."
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=\"2\">Tiêu chí đánh giá</td><td colspan=\"5\">Mức độ đạt chuẩn quy định</td><td rowspan=\"2\">Trọng số</td></tr><tr><td>MỨC 1(0-3.9)</td><td>MỨC 2(4.0-5.4)</td><td>MỨC 3(5.5-6.9)</td><td>MỨC 4(7.0-8.4)</td><td>MỨC 5(8.5-10)</td></tr><tr><td colspan=\"6\">Chất lượng nội dung bài nộp</td><td>40%</td></tr><tr><td>Lỗi thuật ngữ</td><td>Tối thiểu 5 lỗi</td><td>Tối đa 4 lỗi</td><td>Tối đa 3 lỗi</td><td>Tối đa 2 lỗi</td><td>Tối đa 1 lỗi</td><td>10%</td></tr><tr><td>Lập luận</td><td>Không chặt chẽ, không logic</td><td colspan=\"2\">Tương đối chặt chẽ, logic, có sai sót quan trọng</td><td>Khá chặt chẽ, logic; còn sai sót nhỏ</td><td>Hoàn toàn chặt chẽ, logic</td><td>30%</td></tr><tr><td colspan=\"6\">Chất lượng hình thức bài nộp</td><td>30%</td></tr><tr><td>Format file theo định dạng: số trang tối đa, cách đều lẻ trái, phải, trên, dưới, font chữ, cỡ chữ</td><td>Không đúng yêu cầu</td><td>-</td><td>-</td><td>-</td><td>Đúng tất cả yêu cầu</td><td>30%</td></tr><tr><td colspan=\"6\">Thuyết trình</td><td>30%</td></tr><tr><td>Có giao tiếp mắt, giọng rõ, trình bày và trả lời câu hỏi của sv khác trôi chảy, hình ảnh rõ ràng</td><td>Đúng tối đa 1 tiêu chí</td><td>Đúng 2 tiêu chí</td><td>Đúng 3 tiêu chí</td><td>Đúng 4 tiêu chí</td><td>Đúng tất cả tiêu chí đánh giá</td><td>30%</td></tr><tr><td>và phù hợp đề tài, thời gian</td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                460,
+                902,
+                923
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "15"
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                43,
+                537,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "15"
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                945,
+                912,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                65,
+                902,
+                114
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/a13f8f93a9defefccacb6e7993a9a2c5781d5026bd165ec5b06413e8b4d142b1.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Rubric A5.2 Đánh giá Tiểu luận/ Đồ án/ Bài tập lớn: =50% tổng điểm môn (dùng cho các môn I hoặc R khi người học đạt ở cấp độ học để cải thiện thêm năng lực/ hoặc làm theo nhóm/ giảng viên đánh giá người học), chủ yếu cho người học làm quen với đề xuất hoạt động nhóm."
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=\"2\">Tiêu chí đánh giá</td><td colspan=\"5\">Mức độ đạt chuẩn quy định</td><td rowspan=\"2\">Trọng số</td></tr><tr><td>MỨC 1(0-3.9)</td><td>MỨC 2(4.0-5.4)</td><td>MỨC 3(5.5-6.9)</td><td>MỨC 4(7.0-8.4)</td><td>MỨC 5(8.5-10)</td></tr><tr><td>Nội dung quy trình hoạt động nhóm do sinh viên đề xuất</td><td>Không đảm bảo tiêu chí nào trong quy định: chủ động và công bằng</td><td colspan=\"2\">Đảm bảo một trong hai tiêu chí công bằng hoặc chủ động</td><td>Đảm bảo cả hai tiêu chí xây dựng nhóm.</td><td>Đảm bảo cả hai tiêu chí xây dựng nhóm và hoàn thành tối thiểu 85% công việc nhóm được giao.</td><td>20%</td></tr><tr><td>Sự phối hợp trong nhóm theo nội dung quy định nhóm đề xuất</td><td>Không thể hiện sự phối hợp.</td><td colspan=\"2\">Nhóm phối hợp chưa tốt</td><td>Nhóm phối hợp khá tốt.</td><td>Nhóm phối hợp tốt.</td><td>20%</td></tr><tr><td>Chất lượng sản phẩm giao nộp và báo cáo.</td><td>Hoàn thành từ 39% bài tập trở xuống</td><td>Hoàn thành từ 40-54% bài tập</td><td>Hoàn thành từ 55-69% bài tập</td><td>Hoàn thành từ 70-84% bài tập</td><td>Hoàn thành từ 85% bài tập trở lên</td><td>60%</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                217,
+                904,
+                583
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/37e3bb609e27fe4178bbb297a220e38271ddd878e7bfdb3a3f1d31531b9c9aaa.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Rubric A5.3 Đánh giá Tiểu luận/ Đồ án/ Bài tập lớn: <50% tổng điểm môn (dùng cho các môn R khi người học đạt ở cấp độ học để cải thiện thêm năng lực, gv đánh giá người học, người học đánh giá người học theo phương pháp giáo dục khai phóng, các môn có PI yêu cầu sv đề xuất quy trình hoạt động nhóm)"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td rowspan=\"2\">Tiêu chí đánh giá</td><td colspan=\"5\">Mức độ đạt chuẩn quy định</td><td rowspan=\"2\">Trọng số</td></tr><tr><td>MỨC 1(0-3.9)</td><td>MỨC 2(4.0-5.4)</td><td>MỨC 3(5.5-6.9)</td><td>MỨC 4(7.0-8.4)</td><td>MỨC 5(8.5-10)</td></tr><tr><td>Chất lượng quy trình hoạt động đề xuất</td><td>Không nộp theo yêu cầu</td><td>Mô tả quy trình đáp ứng các yêu cầu cơ bản</td><td>Mô tả quy trình rõ ràng, thiếu nội dung quy định.</td><td>Mô tả quy trình rõ ràng, đầy đủ, tuy nhiên tính logic không đảm bảo toàn vẹn trong quy trình.</td><td>Mô tả quy trình đầy đủ các phần: phân công công việc, quản lý và kiểm soát, giải quyết và ra quyết định, thu thập và xử lý thông tin, phối hợp tăng cường sự tham gia và camkết, đảm phán và giải quyết xung đột.Quy trình mang tính logic cao.</td><td>30%</td></tr><tr><td>Chất lượng bài nộp</td><td>Hoàn thành từ 39% bài tập trở xuống</td><td>Hoàn thành từ 40-55% bài tập</td><td>Hoàn thành từ 55-69% bài tập</td><td>Hoàn thành từ 70-84% bài tập</td><td>Hoàn thành từ 85% bài tập trở lên</td><td>50%</td></tr><tr><td>Đánh giá chất lượng bài nộp của nhóm khác</td><td>Đánh giá không tuân thủ theo tiêu chí của nhóm</td><td>Đánh giá theo tiêu chí của nhóm, nhưng chất lượng tiêu chí ít.</td><td>Đánh giá theo tiêu chí của nhóm, nhưng chất lượng tiêu chí ở mức tương đối.</td><td>Đánh giá theo tiêu chí của nhóm, nhưng chất lượng tiêu chí ở mức tương đối.</td><td>Đánh giá theo tiêu chí nhóm, chất lượng đánh giá thể hiện nguyên tắc pháp lý, trách nhiệm nghề nghiệp.</td><td>20%</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                141,
+                671,
+                904,
+                916
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "16"
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                43,
+                537,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "16"
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                945,
+                914,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                64,
+                904,
+                335
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/750a37b4ba1f8a848d0d3f82afa10518d8d3c8579b73db1fd158f467d9924934.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Rubric A5.4 Đánh giá bài nộp báo cáo Tiểu luận/ Đồ án/ Bài tập lớn: >=50% tổng điểm môn (dùng cho các môn M, M/A,R/A khi người học đạt ở cấp độ thành thạo)"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td colspan=\"2\">Tiêu chí</td><td>Tốt100%</td><td>Khá75%</td><td>Trung bình50%</td><td>Kém0%</td><td>Trọng số (%)</td></tr><tr><td colspan=\"2\">Sản phẩm</td><td></td><td></td><td></td><td></td><td></td></tr><tr><td colspan=\"2\">Hình thức trình bày</td><td>Thể thức văn bản nhất quán, không lỗi chính tả</td><td>Vài sai sót nhỏ về thể thức, ít lỗi chính tả</td><td>Vài chỗ không nhất quán về thể thức, nhiều lỗi chính tả</td><td>Thể hiện sự cấu thả về thể thức, lỗi chính tả nhiều</td><td>10</td></tr><tr><td colspan=\"2\">Cấu trúc</td><td>Cân đối hợp lý</td><td>Khá cân đối, hợp lý</td><td>Tương đối cân đối, hợp lý</td><td>Không cân đối, thiếu hợp lý</td><td>10</td></tr><tr><td rowspan=\"3\">Nội dung</td><td>Các thành phần nội dung</td><td colspan=\"4\">Ghi thang điểm cụ thể cho từng phần nội dung tùy thuộc yêu cầu cụ thể của từng môn</td><td>40</td></tr><tr><td>Lập luận</td><td>Hoàn toàn chặt chẽ, logic</td><td>Khá chặt chẽ, logic; còn sai sót nhỏ</td><td>Tương đối chặt chẽ, logic, có sai sót quan trọng</td><td>Không chặt chẽ, không logic</td><td>20</td></tr><tr><td>Kết luận</td><td>Phù hợp</td><td>Khá phù hợp</td><td>Tương đối phù hợp</td><td>Không phù hợp, thiết sót</td><td>20</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                169,
+                428,
+                873,
+                778
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/100d632b56b8cc2b63f21bfff600e2b715677a784c91a2f0117fb6df4b5189ff.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Rubric A5.5: Đánh giá Thuyết trình và bảo vệ quan điểm (theo nhóm) – oral presentation, slide thuyết trình"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Tiêu chí</td><td>Tốt100%</td><td>Khá75%</td><td>Trung bình50%</td><td>Kém0%</td><td>Trọng số(%)</td></tr><tr><td>Nội dung</td><td>Phong chú</td><td>Đầy đủ theo yêu</td><td>Khá đầy đủ, còn thiếu 1</td><td>Thiếu nhiều nội dung</td><td>10</td></tr><tr><td rowspan=\"2\"></td><td>hơn yêu cầu</td><td>cầu</td><td>nội dung quan trọng</td><td>quan trọng</td><td></td></tr><tr><td>Chính xác khoa học</td><td>Khá chính xác khoa học, còn và sai sót nhỏ</td><td>Tương đối chính xác, khoa học, còn 1 sai sót quan trọng.</td><td>Thiếu chính xác, khoa học, nhiều sai sót quan trọng.</td><td>20</td></tr><tr><td rowspan=\"2\">Cấu trúc và tính trực quan</td><td>Cấu trúc bài và slide rất hợp lý</td><td>Cấu trúc bài và slide khá hợp lý</td><td>Cấu trúc bài và slide tương đối hợp lý</td><td>Cấu trúc bài và slide chưa hợp lý</td><td>10</td></tr><tr><td>Rất trực quan và thẩm mỹ</td><td>Khá trực quan và thẩm mỹ</td><td>Tương đối trực quan và thẩm mỹ</td><td>Ít/không trực quan và thẩm mỹ</td><td>10</td></tr><tr><td>Kỹ năng trình bày</td><td>Dẫn đất vấn đề và lập luận lôi cuốn, thuyết phục</td><td>Trình bày rõ ràng nhưng chưa lôi cuốn, lập luận khá thuyết phục</td><td>Khó theo dõi nhưng vẫn có thể hiểu được các nội dung quan trọng.</td><td>Trình bày không rõ ràng, người nghe không hiểu được các nội dung quan trọng.</td><td>10</td></tr><tr><td>Tương tác với người nghe</td><td>Nhóm tương tác tốt, bao quát.</td><td>Nhóm tương tác khá tốt, khá bao quát</td><td>Nhóm có tương tác nhưng chưa bao quát.</td><td>Nhóm không có tương tác/ rất ít.</td><td>10</td></tr><tr><td>Quản lý thời gian</td><td>Làm chủ thời gian và hoàn toàn linh hoạt điều chỉnh theo tỉnh huống.</td><td>Hoàn thành đúng thời gian, thỉnh thoảng có linh hoạt theo tỉnh huống</td><td>Hoàn thành đúng thời gian không linh hoạt theo tỉnh huống.</td><td>Quá giờ</td><td>10</td></tr><tr><td>Trả lời câu hỏi</td><td>Các câu hỏi đặt đúng đều được nhóm thảo luận và trả lời đầy đủ, rõ ràng và thỏa đáng</td><td>Trả lời đúng đa số câu hỏi đúng, và nêu được định hướng phù hợp đối với những câu hỏi chưa trả lời được.</td><td>Trả lời đúng đa số câu hỏi, nhưng chưa nêu được định hướng phù hợp đối với những câu hỏi chưa trả lời được.</td><td>Không trả lời được đa số câu hỏi đặt đúng.</td><td>10</td></tr><tr><td>Sự phối hợp trong nhóm (nếu có)</td><td>Nhóm phối hợp thực sự chia sẻ và hỗ trợ nhau trong khi báo cáo và trả lời.</td><td>Nhóm có phối hợp khi báo cáo và trả lời nhưng có và chỗ chưa đồng bộ.</td><td>Nhóm ít phối hợp trong khi báo cáo và trả lời.</td><td>Không thể hiện sự kết nối trong nhóm.</td><td>10</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                863,
+                904,
+                929
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "17"
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                43,
+                537,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "17"
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                946,
+                912,
+                960
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/"
+                },
+                "table_caption": [],
+                "table_footnote": [],
+                "html": "",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                139,
+                65,
+                904,
+                669
+            ]
+        },
+        {
+            "type": "title",
+            "content": {
+                "title_content": [
+                    {
+                        "type": "text",
+                        "content": "Đánh giá hoạt động nhóm chi tiết"
+                    }
+                ],
+                "level": 2
+            },
+            "bbox": [
+                200,
+                677,
+                541,
+                697
+            ]
+        },
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/ff65a8235b209a83c426012235a7d7d98814d53bcc0e0fed60bcac917ff8d2fc.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "Rubric A6.1: Đánh giá Cá nhân trong làm việc nhóm, dùng cho các môn có yêu cầu hoạt động nhóm trong CTĐT, thuộc nhóm A có minh chứng để đánh giá đạt PLO"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Tiêu chí</td><td>Trọng số (%)</td><td>Tốt 100%</td><td>Khá 75%</td><td>Trung bình 50%</td><td>Kém 0%</td></tr><tr><td>Thời gian tham gia hợp nhóm đầy đủ</td><td>15</td><td colspan=\"4\">Chia đều cho số lần hợp nhóm.</td></tr><tr><td>Thái độ tham gia</td><td>15</td><td>Kết nối tốt.</td><td>Kết nối khá tốt</td><td>Có kết nối nhưng đôi khi còn lơ là phải nhắc nhở</td><td>Không kết nối</td></tr><tr><td>Chất lượng đóng góp ý kiến</td><td>20</td><td>Sáng tạo/ rất hữu ích</td><td>Hữu ích</td><td>Tương đối hữu ích</td><td>Không hữu ích</td></tr><tr><td>Thời gian</td><td>20</td><td>Đúng hạn</td><td>Trễ ít, không</td><td>Trễ nhiều, có gây ảnh</td><td>Nộp trẻ/không nộp</td></tr></table>",
+                "table_type": "complex_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                129,
+                741,
+                914,
+                920
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "18"
+                    }
+                ]
+            },
+            "bbox": [
+                510,
+                43,
+                537,
+                58
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "18"
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                946,
+                912,
+                959
+            ]
+        }
+    ],
+    [
+        {
+            "type": "table",
+            "content": {
+                "image_source": {
+                    "path": "images/db7ab3f3222816b5e2bbc718796dce6901fd29b385600f9325a911717357f858.jpg"
+                },
+                "table_caption": [
+                    {
+                        "type": "text",
+                        "content": "19"
+                    }
+                ],
+                "table_footnote": [],
+                "html": "<table><tr><td>Tiêu chí</td><td>Trọng số(%)</td><td>Tốt100%</td><td>Khá75%</td><td>Trung bình50%</td><td>Kém0%</td></tr><tr><td>giao nộp sản phẩm đúng hạn</td><td></td><td></td><td>gây ảnh hưởng</td><td>huống quan trọng nhưng đã khắc phục.</td><td>gây ảnh hưởng không thể khắc phục</td></tr><tr><td>Chất lượng sản phẩm giao nộp</td><td>30</td><td>Đáp ứng tốt/sáng tạo</td><td>Đáp ứng khá tốt yêu cầu</td><td>Đáp ứng một phần yêu cầu, còn sai sót quan trọng</td><td>Không sử dụng được.</td></tr></table>",
+                "table_type": "simple_table",
+                "table_nest_level": 1
+            },
+            "bbox": [
+                129,
+                64,
+                912,
+                193
+            ]
+        },
+        {
+            "type": "page_number",
+            "content": {
+                "page_number_content": [
+                    {
+                        "type": "text",
+                        "content": "19"
+                    }
+                ]
+            },
+            "bbox": [
+                892,
+                945,
+                912,
+                959
+            ]
+        }
+    ]
+]

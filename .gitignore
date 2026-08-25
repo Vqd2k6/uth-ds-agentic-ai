@@ -1,0 +1,36 @@
+# Python & Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Mac OS metadata
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# AI Model Weights & Cache (do not push heavy models to git)
+*.pth
+*.pt
+*.onnx
+*.safetensors
+*.bin
+*.model
+magic-pdf-models/
+.cache/
+
+# Agent IDE & Local Configs
+.agents/
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files & logs
+*.log
+scratch/
+test_*/
