@@ -1,0 +1,350 @@
+[
+    {
+        "type": "text",
+        "text": "TRƯỜNG ĐẠI HỌC GIAO THÔNG VẬN TẢI TP. HỒ CHÍ MINH ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "ĐỀ CƯƠNG CHI TIẾT HỌC PHẦN (COURSE SYLLABUS) ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "1. Tổng quát về học phần (General course information) ",
+        "page_idx": 0
+    },
+    {
+        "type": "table",
+        "img_path": "images/61f04e749daac34924c5b71842e22ea6f69758382fd81202e71ace357bcb2be5.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<html><body><table><tr><td>Ten hoc phan</td><td colspan=\"3\">Tieng Viet: CAC PHUONG PHAP TOAN CHO MAY HQC Tiéng Anh: MATHEMATICAL METHODS FOR Ma HP: MACHINE LEARNING</td></tr><tr><td>S6 tin chi</td><td colspan=\"3\">3 (2, 1, 3)</td></tr><tr><td rowspan=\"2\">Phan bó thoi gian</td><td>LT/BT/DA</td><td>TH/TN/TL</td><td>Tong</td><td>Tur hoc</td></tr><tr><td>30</td><td>30</td><td>60</td><td>90</td></tr><tr><td>Thang diém</td><td colspan=\"4\">10</td></tr><tr><td>HP hoc truoc</td><td colspan=\"4\">127102 Phan tich dur liéu dinh tinh va dinh luong</td></tr><tr><td>HP tien quyét</td><td colspan=\"4\"></td></tr><tr><td>HP song hanh</td><td colspan=\"4\"></td></tr><tr><td>Loai hoc phan</td><td colspan=\"4\">Bät bu@c Tu chon bät buoc □ Tu chon tur do</td></tr><tr><td>ThuQc thanh phan</td><td colspan=\"4\">Chuyén nganh</td></tr></table></body></html>",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "2. Mô tả tóm tắt học phần (Course description) ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Máy học hiện đại được xây dựng trên nền tảng của bốn lĩnh vực toán học cốt lõi: Xác suất, Thống kê, Đại số tuyến tính và Giải tích. Trong đó, thống kê đóng vai trò trung tâm trong việc xây dựng và đánh giá mô hình. Đại số tuyến tính giúp biểu diễn, tính toán và tối ưu hóa mô hình, đặc biệt hiệu quả khi xử lý các tập dữ liệu lớn. Xác suất cung cấp công cụ để mô hình hóa sự bất định và dự đoán sự kiện tương lai. Giải tích hỗ trợ hiểu và tối ưu hàm mục tiêu trong quá trình học. Những kiến thức toán học này là nền tảng xuyên suốt trong quá trình học tập và nghiên cứu về khoa học dữ liệu, trí tuệ nhân tạo (AI) và máy học (ML). ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Sau khi học xong môn học này sinh viên có thể: ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Nắm vững các khái niệm toán học nền tảng liên quan đến máy học. Hiểu nguyên lý hoạt động của các thuật toán học máy thông qua lăng kính toán học. Phát triển tư duy phản biện và sáng tạo trong giải quyết vấn đề kỹ thuật. Tạo nền tảng cho việc nghiên cứu và ứng dụng trong các lĩnh vực Khoa học dữ liệu, AI, ML, DL ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "3. Mục tiêu học phần (Course Objectives) ",
+        "text_level": 1,
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "Học phần này trang bị cho sinh viên: CO1 Áp dung kiến thức toán vào chuyên ngành KHDL. ",
+        "page_idx": 0
+    },
+    {
+        "type": "text",
+        "text": "CO2 Giải quyết các bài toán kỹ thuật nhiều thông số ràng buộc đầu vào thuộc chuyên ngành KHDL bằng phương pháp cụ thể; Đánh giá các giải pháp khả thi và lựa chọn giải pháp tối ưu cho từng bài toán kỹ thuật chuyên ngành KHDL cụ thể; Phân tích bối cảnh nghề nghiệp trong các tổ chức quốc tế ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "4. Chuẩn đầu ra học phần (Course Learning Outcomes CLO) ",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sau khi học xong học phần này sinh viên có khả năng: ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "CLO1 Áp dụng các kiến thức toán học như đại số tuyến tính, giải tích, xác suất thống kê và toán rời rạc vào việc hiểu và áp dụng các phương pháp máy học; ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "CLO2 Áp dụng các công cụ phần mềm để giải quyết các vấn đề trong máy học; Phân tích và hiểu sâu hơn các khái niệm toán học liên quan đến các thuật toán máy học như xử lý dữ liệu, các mô hình phân phối, bài toán tối ưu hoá từ dữ liệu thực tế, các phương pháp ước lượng tham số của mô hình (OLS, MLE, MAP,...); Phân tích bối cảnh nghề nghiệp và ứng dụng các phương pháp máy học vào các lĩnh vực khác nhau. ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Liên hệ giữa CĐR học phần (CLOs) và CĐR CTĐT (PLOs): ",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "table",
+        "img_path": "images/7c6831c2a523c95da726184e959ef1b44462c670b41fdb4fb500bcc6f698d9d2.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<html><body><table><tr><td rowspan=\"2\">PLO/ CLO</td><td rowspan=\"2\">PL 01</td><td colspan=\"4\">PLO2</td><td colspan=\"4\">PLO3</td><td rowspan=\"2\">PLO PLO 4 5</td><td colspan=\"3\">PLO6</td><td colspan=\"2\">PLO7</td></tr><tr><td>P12.</td><td>PI2. 2</td><td>PI2. 3</td><td>PI2. 4</td><td>PI3. 1</td><td>PI3. 2</td><td>PI3. 3</td><td></td><td></td><td>PI6. 1</td><td>PI6. 2</td><td>PI6. PI7. 3</td><td>PI7. 2</td></tr><tr><td>CL01</td><td>R, A</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>CLO2</td><td></td><td></td><td>R</td><td>P</td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr></table></body></html>",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Ghi chú: Điền vào bảng I/R/E vào các ô tương ứng. Học phần/Môn học này trong bảng ma trận họp phần đóng góp vào CĐR được người thiết kế CTĐT xác định ở mức I/R/E; tương ướng là phương pháp, nội dung dạy học và kiểm tra đánh giá phù hợp với mức độ đóng góp của học phần cho CĐR là mức hoặc R hoặc E. ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Lưu ý: ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "- Khi thiết kết CLO sử dụng động từ ở thang đo Bloom cũng cần lựa chọn bậc phù hợp đối với vị trí của học phần trong ma trận đóng góp của học phần cho CĐR ở mức I, R hay E. Ví dụ, đối với học phần ở mức thì có thể lựa chọn bậc 1, 2 hoặc 3. ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Học phần có thể ở mức I đối với CĐR về kiến thức; nhưng ở mức R đối với CĐR về kỹ năng và ngược lại. ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "5. Nhiệm vụ của sinh viên (Students duties) ",
+        "text_level": 1,
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "Sinh viên phải tham dự tối thiểu 80% số tiết của học phần;   \nLàm và nộp các bài tập/ báo cáo/ làm việc nhóm/ thuyết trình.... đúng thời gian quy định; Tự nghiên cứu các vấn đề được giao ở nhà hoặc thư viện;   \nHoàn thành các bài đánh giá quá trình; kết thúc học phần. ",
+        "page_idx": 1
+    },
+    {
+        "type": "text",
+        "text": "",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "6. Phương pháp kiểm tra, đánh giá (Assessment methods) ",
+        "page_idx": 2
+    },
+    {
+        "type": "text",
+        "text": "Phương pháp kiểm tra đánh giá của HP đảm bảo người học đạt được CĐR mong đợi: ",
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/06140316fc27730e3ea702b33c202635ebf9b674d40b8066a0cd490b61fd82e7.jpg",
+        "table_caption": [
+            "7. Kế hoạch giảng dạy và học tập (Teaching and learning plan/outline) "
+        ],
+        "table_footnote": [],
+        "table_body": "<html><body><table><tr><td>Thanh phan danh gia [1]</td><td>Phuong phap/ Hinh thurc danh gia [2]</td><td>CDRHP (CLOs) [3]</td><td>Tieu chi danh gia [4]</td><td>Trong só (%) [5]</td></tr><tr><td rowspan=\"2\">Danh gia qua trinh</td><td>Chuyén can</td><td>CLO2</td><td>A1.1</td><td>5</td></tr><tr><td>Bai tap lón</td><td>CLO1, CLO2,</td><td>A5.3</td><td>55</td></tr><tr><td>Danh gia Ket thuc hoc phan</td><td>Bai thi tur luan va trac nghiem</td><td>CLO1, CLO2</td><td>A4.1</td><td>40</td></tr><tr><td>Tong cong</td><td></td><td></td><td></td><td>100</td></tr></table></body></html>",
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/22d0c6a7f076a22e49ba3cf2483c04e3b16f497924058c32ba57f594222f1d2c.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<html><body><table><tr><td>Tuan / Chuo'ng</td><td>NQi dung</td><td>CLOs</td><td>Hoat dong day va hoc</td><td>danh</td></tr><tr><td>Tuan 1-2/ Chuong 1</td><td>1.3 Hang cua ma Thuat toan sat va</td><td>Gauss-Jordan CLO1 tran CL02</td><td>Cung cap yéu cau vé Bai tap thiéu luot qua dé cuong mon hoc va vi tri cac dé cuong duoc cong</td><td>A1.1 A5.3</td></tr></table></body></html>",
+        "page_idx": 2
+    },
+    {
+        "type": "table",
+        "img_path": "images/921fdf56b65c7803cdbfb0aa4582e3f5c229cd104740a63af7a94412fa699413.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<html><body><table><tr><td>Chuong 2. va anh 2.21 2.3 M@t Tuan 3-4/ Chuong 2 2.5 cua ma tran. Thurc hanh: Bai tap vi du cua mot só bai toan co ban trong khong gian véc to. lap trinh Python cho giai bai tap. Ly thuyét: Chuong 3:</td><td>2.1 Khong gian véc to. gian dinh chuan. bai toan co' trong khong gian vec to 2.4 Anh xa tuyén tinh rieng va véc to 2.6 Cheo hoa ma tran</td><td>CL01 CLO2</td><td>Thay, Co: Giang cac slide chuong 2 Trinh bay cac giai doan két thuc tién trinh. Sinh vien: Lam viéc nhóm thao luan vé cac noi dung cua bai giang.</td></tr><tr><td>Tuan 5-6/ Chuong 3</td><td>3.3. Cac tinh chat quan cua dao ham 3.4. Dao ham cua gap thuong</td><td>CL02 m@t só ham</td><td>Trinh bay cac giai doan két thuc tién trinh. Sinh vien: Lam viec nhóm thao luän vé cac nqi cua bai giang. dung</td><td>A5.3</td></tr><tr><td>Tuan 7-8/ Chuong 4</td><td>Nhing noi can thiét vé xac suat 4.1. Xac suat va cac cong thurc xac suat quan trong Chuong dung</td><td>CLO2</td><td>Trinh bay cac giai doan tr tao két thuc tién trinh. Sinh vien:</td><td>A1.1 A5.3</td></tr></table></body></html>",
+        "page_idx": 3
+    },
+    {
+        "type": "table",
+        "img_path": "images/7d5e20f2d8b3111d2c96e3abac9d06220d154b191232ad84408d2e6bce4ff672.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<html><body><table><tr><td></td><td>4.2. Dai luong ngau nhien phan phoi xäc suat 4.3. Cac mó hinh xac quan trong 4.4. Mot s6 bat quan trong Thurc hanh: Bai tap vé xac suat lien quan dén may hoc. Lam quen voi dang</td><td>va suat thurc</td><td>Lam viec nhóm thao luan vé cac noi dung cua bai giang. Lam cac bai tap cu thé. L6p hoc dao nguoc</td></tr><tr><td>Tuano9-10/</td><td>Ly thuyét: Chuong 5: Mot só van dé vé toi uu hoa 5.1. Bai toan toi uu tong quat 5.3. Bai toan t6i uu 10i (Quy hoach loi) Thurc hanh: Bai tap vé toi uu hoa. Ly thuyét:</td><td>CL01 -Lam</td><td>Thay, Co: Giang cac slide chuong 5 Trinh bay cac giai doan tur tao dén A1.1 - Lam viec nhóm thao luan vé cac noi dung cua bai giang. cac bai tap cu thé.</td></tr><tr><td>Tuan 11- 6.2. 12 cay Bai</td><td>Cung g 6 Cphumong phap uoc lrong 6.1. Mau va cac dac trung tren mau. Uoc luong khoang cho cac tham só 6.3.Mot s6 phuong phap lurong tham só cua mo hinh. Thuc hanh: tap vé phuong phap uoc luong.</td><td>Thay, CLO1 tin CL02 uóc dung cua - Lam</td><td>Co: Giang cac slide chuong 6 Trinh bay cac giai doan tur tao dén két thuc tién trinh. Sinh vien: A1.1 A5.3 - Lam viéc nhóm thao luan vé các nói bai giang. cac bai tap cu thé. L6p hoc dao nguoc</td></tr></table></body></html>",
+        "page_idx": 4
+    },
+    {
+        "type": "table",
+        "img_path": "images/053c55ff1b99106cdf8d1b096405cf9744715d67a88cf5b5371c859b5bfc9257.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<html><body><table><tr><td>Tuan 13- 14</td><td>Lam bai täp lon</td><td>CLO1 CLO2</td><td>Thay, Co: Neu van dé thóng qua cung cap cong trinh nghién ciu lien quan dén bai täp l6n Sinh vien: Thao luan thong qua van de. - Nop bai tap lon Lop hoc dao nguoc</td><td>A1.1 A5.3</td></tr><tr><td>Tuan 15</td><td>Danh gia cuoi ky</td><td>CLO1 CLO2</td><td>Kiém tra cuoi ky</td><td>A4.1</td></tr></table></body></html>",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "8. Tài liệu học tập (Course materials) ",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "8.1. Tài liệu chính (Main materials) ",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "[1] Marc Peter Deisenroth 2019, Mathematics for Machine Learning, Cambridge University Press ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "8.2. Tài liệu tham khảo (References materials) ",
+        "text_level": 1,
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "[1] Gianluca Bontempi, 2022, Statistical foundations of machine learning, Universit ́e Libre de Bruxelles, Brussels, Belgium ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "[2] Charu C. Aggarwal, 2017, Linear Algebra and Optimization for Machine Learning Springer ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "9. Yêu cầu khác về học phần (Other course requirements and expectations) ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Không ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "10. Biên soạn soan va và cập nhật đề cương (write and revise course syllabus)   \n- Ngày biên soạn lần đầu: 07.2024   \nNgày chỉnh sửa: 09.2025 ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "PHÒNG ĐÀO TẠO ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Q/L CHƯƠNG TRÌNH ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "GV LẬP ĐỀ CƯƠNG ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Khn ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "Khu ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "TS. Trần Thế Vinh ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "TS. Trần Thế Vinh ",
+        "page_idx": 5
+    },
+    {
+        "type": "text",
+        "text": "PHỤ LỤC",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "(Phụ lục của Đề cương chi tiết học phần) ",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Phụ lục 1. Các Rubrics đánh giá ",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Đánh giá chuyên cần ",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Rubric A1.1: Chuyên cần ",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/d81cd4d0e1cf93330fd1a10f6e07622720be07bf9d70b09024bfc84bf94159b9.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<html><body><table><tr><td rowspan=\"2\">Tieu chi danh gia</td><td colspan=\"5\">Mirc d@ dat chuan quy dinh</td><td rowspan=\"2\">s6 Trong</td></tr><tr><td>MUC F (0-3.9)</td><td>MUC D (4.0-5.4)</td><td>MUC C (5.5-6.9)</td><td>MUC B (7.0-8.4)</td><td>MUC A (8.5-10)</td></tr><tr><td>Thai d@ tham gia tich cuc</td><td>tham gia cac hoat Khong dong</td><td>it tham gia cac hoat dong</td><td>C6 tham gia cac hoat dong</td><td>Kha tich cuc tham gia cac hoat dong</td><td>Tich cuc tham gia cac hoat dong</td><td>50</td></tr><tr><td>Thoi gian tham gia day du</td><td>Thoi gian duroi 40%</td><td>Thoi gian tr 40-54%</td><td>Thoi gian tur 55- 69%</td><td>Thoi gian tr 70- 84%</td><td>Thoi gian tu 85% tro len</td><td>50</td></tr></table></body></html>",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Đánh giá giữa kỳ/cuối kỳ ",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/ec04a19e3dc80185006d55de4ce659e07b548a86116d7aad49031e4f1f131b94.jpg",
+        "table_caption": [
+            "Rubric A4.1: Thi tự luận/Trắc nghiệm "
+        ],
+        "table_footnote": [],
+        "table_body": "<html><body><table><tr><td rowspan=\"2\">Tiéu chi danh gia</td><td colspan=\"5\">Mirc d@ dat chuan quy dinh</td><td rowspan=\"2\">s6 Trong</td></tr><tr><td>MUC F (0-3.9)</td><td>MUC D (4.0-5.4)</td><td>MUC C (5.5-6.9)</td><td>MUC B (7.0-8.4)</td><td>MUC A (8.5-10)</td></tr><tr><td>Chat lurong bai thi</td><td>Dung droi 40%</td><td>Dung tur 40- 54%</td><td>Dung tur 55-69%</td><td>Dung tur 70-84%</td><td>Dung tu 85% tro lén</td><td>100</td></tr></table></body></html>",
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Đánh giá tiểu luận/đồ án/bài tập lớn ",
+        "text_level": 1,
+        "page_idx": 6
+    },
+    {
+        "type": "text",
+        "text": "Rubric A5.3 Đánh giá Tiểu luận/ Đồ án/ Bài tập lớn: <50% tổng điểm môn (dùng cho các môn R khi người học đạt ơ cấp độ học để cải thiện thêm năng lực, gv đánh giá người học, người học đánh giá người học theo phương pháp giáo dục khai phóng, các môn có PI yêu cầu sv đề xuất quy trình hoạt động nhóm) ",
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/3e13746263f6a55a08ba1affdb4fe0849e209b2458dcbcc1afbeb7c7537b6833.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<html><body><table><tr><td rowspan=\"2\">Tiéu chi danh gia</td><td colspan=\"5\">Murc do dat chuan quy dinh</td><td rowspan=\"2\">Trong s6</td></tr><tr><td>MUC1 (0-3.9)</td><td>MUC 2 (4.0-5.4)</td><td>MUC 3 (5.5-6.9)</td><td>MUC 4 (7.0-8.4)</td><td>MUC 5 (8.5-10)</td></tr><tr><td></td><td>theo yep Khong</td><td></td><td>m</td><td>Mo ta quy trinh ro quy trinh. khong trong</td><td>Mo ta quy trinh day du cac phan: phan cong cong viec, quan ly va phoi hop tang curong su tham gia va cam két, dam phan</td><td>30%</td></tr></table></body></html>",
+        "page_idx": 6
+    },
+    {
+        "type": "table",
+        "img_path": "images/c1d7f40583f1e9ca6fe7c86fec64f13f4d9147a16c3db6709e6751fb32832c00.jpg",
+        "table_caption": [],
+        "table_footnote": [],
+        "table_body": "<html><body><table><tr><td></td><td></td><td></td><td></td><td></td><td>quyét xung dot. Quy trinh mang tinh logic cao.</td><td></td></tr><tr><td>Chat lrong bai nop</td><td>Hoan thanh tur 39% bai tap tro xuong</td><td>Hoan thanh tu 40-55% bai tap</td><td>Hoan thanh t 55-69% bai tap</td><td>Hoan thanh tr 70- 84% bai tap</td><td>Hoan thanh tu 85% bai tap tro lén</td><td>50%</td></tr><tr><td>Danh gia chat luong bai nop cua nhóm khac</td><td>Danh gia khong tuan thu theo tiua nhochi</td><td>Danh gia theo tiéu chi cua nhóm, nhung cha t luog tieu</td><td>Danh gia theo tiéu chi cua nhóm, chat luong tieu chi 0 mirc huong nhung</td><td>Danh gia theo tiéu chi cua nhóm, nhung chat Imun gtin hil</td><td>Danh gia theo tieu chi nhóm, chat lurong danh gia thé hien ly,yn hac phap nghé nghiep.</td><td>20%</td></tr></table></body></html>",
+        "page_idx": 7
+    }
+]
