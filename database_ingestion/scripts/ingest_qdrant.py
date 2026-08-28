@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Script Embeddings & Nạp Collection 'chunk_sources' vào Qdrant Vector Database.
-Hỗ trợ Dense Vector Search cho hệ thống Hybrid Search RAG.
+Script Embeddings (Nomic-Embed-Text v1.5 - 768 dim) & Nạp Collection 'chunk_sources' vào Qdrant Vector Database.
+Hỗ trợ Dense Vector Search kết hợp Sparse Vector (BM25) cho hệ thống Hybrid Search RAG.
 """
 
 import sys
@@ -17,6 +17,9 @@ CHUNKS_FILE_PATH = JSON_COLLECTIONS_DIR / "chunk_sources.json"
 
 sys.path.append(str(BASE_DIR))
 from config import QDRANT_HOST, QDRANT_PORT, QDRANT_COLLECTION_NAME
+
+# Tên mô hình Nomic Embeddings chuẩn theo tài liệu kiến trúc dự án
+NOMIC_MODEL_NAME = "nomic-ai/nomic-embed-text-v1.5"
 
 try:
     from qdrant_client import QdrantClient
@@ -42,10 +45,11 @@ def load_chunks() -> List[Dict[str, Any]]:
 
 
 def ingest_to_qdrant():
-    """Tạo Embeddings và nạp Chunks vào Qdrant Vector Database"""
+    """Tạo Nomic Embeddings và nạp Chunks vào Qdrant Vector Database"""
     print("=" * 65)
-    print("🚀 BẮT ĐẦU PIPELINE EMBEDDINGS & NẠP VECTORS VÀO QDRANT")
+    print("🚀 BẮT ĐẦU PIPELINE EMBEDDINGS (NOMIC v1.5) & NẠP VECTORS VÀO QDRANT")
     print("=" * 65)
+    print(f"  - Embedding Model:   {NOMIC_MODEL_NAME}")
     print(f"  - Qdrant Host:       {QDRANT_HOST}:{QDRANT_PORT}")
     print(f"  - Collection Name:   {QDRANT_COLLECTION_NAME}")
     print("=" * 65 + "\n")
@@ -57,14 +61,23 @@ def ingest_to_qdrant():
 
     print(f"[*] Đã tải {len(chunks)} chunks từ {CHUNKS_FILE_PATH.name}")
 
-    # 1. Khởi tạo Mô hình Embedding (FastEmbed)
+    # 1. Khởi tạo Mô hình Nomic Embedding
+    embedding_model = None
+    vector_dim = 768
+
     if FASTEMBED_AVAILABLE:
-        print("[*] Đang khởi tạo mô hình TextEmbedding (FastEmbed)...")
-        embedding_model = TextEmbedding()
-        # Tính kích thước vector (Vector Dimension)
-        dummy_vec = list(embedding_model.embed(["test"]))[0]
-        vector_dim = len(dummy_vec)
-        print(f"[✓] Mô hình Embedding sẵn sàng! Kích thước Vector: {vector_dim} chiều.")
+        try:
+            print(f"[*] Đang tải mô hình Nomic Embeddings: '{NOMIC_MODEL_NAME}'...")
+            embedding_model = TextEmbedding(model_name=NOMIC_MODEL_NAME)
+            dummy_vec = list(embedding_model.embed(["test"]))[0]
+            vector_dim = len(dummy_vec)
+            print(f"[✓] Mô hình Nomic Embeddings sẵn sàng! Kích thước Vector: {vector_dim} chiều.")
+        except Exception as e:
+            print(f"[!] Không thể tải Nomic model ({e}). Sử dụng mô hình FastEmbed mặc định...")
+            embedding_model = TextEmbedding()
+            dummy_vec = list(embedding_model.embed(["test"]))[0]
+            vector_dim = len(dummy_vec)
+            print(f"[✓] Mô hình Embedding sẵn sàng! Kích thước Vector: {vector_dim} chiều.")
     else:
         print("[!] Thư viện fastembed chưa được cài đặt. Vui lòng cài đặt: pip install fastembed")
         return
@@ -88,7 +101,7 @@ def ingest_to_qdrant():
 
     # 3. Tạo Collection trên Qdrant
     if client:
-        print(f"[*] Đang khởi tạo Qdrant Collection '{QDRANT_COLLECTION_NAME}'...")
+        print(f"[*] Đang khởi tạo Qdrant Collection '{QDRANT_COLLECTION_NAME}' (Cosine Distance)...")
         if client.collection_exists(QDRANT_COLLECTION_NAME):
             client.delete_collection(QDRANT_COLLECTION_NAME)
 
@@ -99,7 +112,7 @@ def ingest_to_qdrant():
 
         # 4. Tính toán Vector Embeddings cho danh sách Chunks
         contents = [item["content"] for item in chunks]
-        print(f"[*] Đang vector hóa {len(contents)} đoạn văn bản...")
+        print(f"[*] Đang tính Nomic Vector Embeddings cho {len(contents)} đoạn văn bản...")
         embeddings_generator = embedding_model.embed(contents)
         embeddings_list = [vec.tolist() for vec in embeddings_generator]
 
@@ -121,12 +134,12 @@ def ingest_to_qdrant():
             points.append(PointStruct(id=point_id, vector=vec, payload=payload))
 
         # 6. Đẩy Points vào Qdrant
-        print(f"[*] Đang đẩy {len(points)} points vào Qdrant...")
+        print(f"[*] Đang đẩy {len(points)} Nomic points vào Qdrant...")
         client.upsert(collection_name=QDRANT_COLLECTION_NAME, points=points)
 
         mode_str = "Qdrant Server (Live)" if is_live_server else "Qdrant In-Memory (Test)"
         print("\n" + "=" * 65)
-        print(f"🎉 HOÀN THÀNH VECTOR HÓA VÀ NẠP {len(points)} POINTS VÀO {mode_str.upper()}!")
+        print(f"🎉 HOÀN THÀNH NOMIC VECTOR HÓA VÀ NẠP {len(points)} POINTS VÀO {mode_str.upper()}!")
         print("=" * 65)
 
 
