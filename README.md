@@ -74,6 +74,10 @@ uth-ds-agentic-ai/
 │   ├── scripts/                     # Các kịch bản bóc tách Schema (extract_subjects, extract_chunks)
 │   ├── json_collections/            # Thư mục lưu 4 tập JSON Collections đã chuẩn hóa
 │   └── README.md                    # Hướng dẫn chi tiết cho module chuẩn hóa dữ liệu
+├── database_ingestion/              # Pipeline nạp dữ liệu tự động vào MongoDB, Qdrant và Neo4j
+│   ├── docker-compose.yml           # File cấu hình Docker hạ tầng 3 Database
+│   ├── config.py                    # Thông số kết nối CSDL
+│   └── README.md                    # Hướng dẫn chi tiết cho module nạp dữ liệu
 ├── hybrid_search_demo/              # Demo kiểm thử tìm kiếm lai Dense + Sparse Vectors
 ├── fine-tune-nomic/                 # Module huấn luyện tối ưu mô hình Embedding
 └── output/                          # Dữ liệu tri thức đã được trích xuất sẵn
@@ -93,13 +97,19 @@ source .venv/bin/activate
 pip install -r hybrid_search_demo/requirements.txt
 ```
 
-### 4.2. Tiền xử lý dữ liệu Đề cương học phần (MinerU Parser)
+### 4.2. Khởi chạy Hạ tầng Database (Docker)
+```bash
+# Khởi chạy MongoDB, Qdrant và Neo4j
+cd database_ingestion && docker compose up -d
+```
+
+### 4.3. Tiền xử lý dữ liệu Đề cương học phần (MinerU Parser)
 ```bash
 # Xem hướng dẫn chi tiết tại preprocessing_data/README.md
 .venv/bin/python preprocessing_data/scripts/parse_pdfs.py --all --workers 3
 ```
 
-### 4.3. Chuẩn hóa Schema & Chunking
+### 4.4. Chuẩn hóa Schema & Chunking
 ```bash
 # Xem hướng dẫn chi tiết tại structuring_data/README.md
 .venv/bin/python structuring_data/scripts/run_all_structuring.py
