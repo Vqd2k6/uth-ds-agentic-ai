@@ -78,6 +78,11 @@ uth-ds-agentic-ai/
 │   ├── docker-compose.yml           # File cấu hình Docker hạ tầng 3 Database
 │   ├── config.py                    # Thông số kết nối CSDL
 │   └── README.md                    # Hướng dẫn chi tiết cho module nạp dữ liệu
+├── rag_engine/                      # Module RAG Engine hợp nhất Dense (Nomic), Sparse (BM25) và Graph (Neo4j)
+│   ├── retrievers/                  # Các bộ truy xuất Dense, Sparse, Hybrid RRF và Graph Neo4j
+│   ├── pipeline.py                  # Master RAG Engine tổng hợp ngữ cảnh cho Agent
+│   ├── test_rag.py                  # Kịch bản kiểm thử truy vấn RAG từ Terminal
+│   └── README.md                    # Hướng dẫn chi tiết cho module RAG Engine
 ├── hybrid_search_demo/              # Demo kiểm thử tìm kiếm lai Dense + Sparse Vectors
 ├── fine-tune-nomic/                 # Module huấn luyện tối ưu mô hình Embedding
 └── output/                          # Dữ liệu tri thức đã được trích xuất sẵn
@@ -103,16 +108,16 @@ pip install -r hybrid_search_demo/requirements.txt
 cd database_ingestion && docker compose up -d
 ```
 
-### 4.3. Tiền xử lý dữ liệu Đề cương học phần (MinerU Parser)
+### 4.3. Nạp dữ liệu vào các CSDL (Seed Data)
 ```bash
-# Xem hướng dẫn chi tiết tại preprocessing_data/README.md
-.venv/bin/python preprocessing_data/scripts/parse_pdfs.py --all --workers 3
+# Nạp dữ liệu tự động vào cả 3 CSDL (MongoDB, Qdrant, Neo4j)
+.venv/bin/python database_ingestion/scripts/seed_all.py
 ```
 
-### 4.4. Chuẩn hóa Schema & Chunking
+### 4.4. Kiểm thử RAG Engine
 ```bash
-# Xem hướng dẫn chi tiết tại structuring_data/README.md
-.venv/bin/python structuring_data/scripts/run_all_structuring.py
+# Truy vấn ngữ cảnh hợp nhất Hybrid Search + GraphRAG
+.venv/bin/python rag_engine/test_rag.py --query "Lập trình Python cơ bản gồm kiến thức gì?"
 ```
 
 ---
@@ -124,7 +129,7 @@ cd database_ingestion && docker compose up -d
 | **Ngôn ngữ** | Python 3.10+ | Ngôn ngữ phát triển toàn bộ pipeline và backend |
 | **Document Parser** | MinerU (Magic-PDF), RapidTable, DocLayout-YOLO | Bóc tách cấu trúc tài liệu PDF sang Markdown và JSON |
 | **Vector Database** | Qdrant | Lưu trữ và lập chỉ mục Dense Vector kết hợp Sparse Vector |
-| **Embedding Model** | Nomic-Embed-Text (v2 MoE) | Mô hình nhúng văn bản đa ngôn ngữ phục vụ truy xuất ngữ nghĩa |
+| **Embedding Model** | Nomic-Embed-Text (v1.5 768-dim) | Mô hình nhúng văn bản đa ngôn ngữ phục vụ truy xuất ngữ nghĩa |
 | **Keyword Retrieval** | BM25 (Sparse Vector) | Truy xuất chính xác theo từ khóa chuyên ngành |
 | **Fusion Algorithm** | Reciprocal Rank Fusion (RRF) | Thuật toán hợp nhất xếp hạng giữa Dense và Sparse Search |
 | **Knowledge Graph** | Neo4j | Quản lý quan hệ đa chiều giữa Môn học, CLO, PLO và Rubric |
