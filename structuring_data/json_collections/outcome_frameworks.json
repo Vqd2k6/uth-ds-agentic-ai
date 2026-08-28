@@ -1,0 +1,85 @@
+[
+  {
+    "framework_id": "khdl-program-2024",
+    "framework_version": "2024",
+    "program_code": "7480201",
+    "program_name": "Cử nhân Khoa học dữ liệu",
+    "effective_from": "2024-01-01",
+    "pos": [
+      {
+        "po_id": "PO1",
+        "description": "Có kiến thức cơ bản về toán học, khoa học tự nhiên, kinh tế, hỗ trợ cho việc tiếp thu các kiến thức chuyên môn và kỹ năng nghề nghiệp."
+      },
+      {
+        "po_id": "PO2",
+        "description": "Có kiến thức cơ bản về khoa học chính trị và pháp luật, khoa học xã hội phù hợp với chuyên môn được đào tạo."
+      },
+      {
+        "po_id": "PO3",
+        "description": "Có các kiến thức về cơ sở kỹ thuật và ngành, có khả năng vận dụng công nghệ thông tin nhằm phát hiện các tri thức mới hỗ trợ ra quyết định tại tổ chức, doanh nghiệp."
+      },
+      {
+        "po_id": "PO4",
+        "description": "Có các kỹ năng cá nhân cần thiết, phù hợp nhiều vị trí việc làm trong môi trường làm việc liên ngành, đa văn hóa."
+      },
+      {
+        "po_id": "PO5",
+        "description": "Có các kỹ năng xã hội, tư duy phản biện và khả năng học tập suốt đời."
+      }
+    ],
+    "plos": [
+      {
+        "plo_id": "PLO1",
+        "description": "Áp dụng được các kiến thức toán học và khoa học tự nhiên để phân tích và giải quyết các bài toán trong lĩnh vực khoa học dữ liệu.",
+        "category": "knowledge"
+      },
+      {
+        "plo_id": "PLO2",
+        "description": "Thiết kế, cài đặt và đánh giá các hệ thống xử lý, phân tích dữ liệu lớn và học máy.",
+        "category": "skill"
+      },
+      {
+        "plo_id": "PLO3",
+        "description": "Sử dụng thành thạo các công cụ, ngôn ngữ lập trình hiện đại (Python, R, SQL, Spark) trong phân tích dữ liệu.",
+        "category": "skill"
+      },
+      {
+        "plo_id": "PLO4",
+        "description": "Giao tiếp hiệu quả, sử dụng tiếng Anh chuyên ngành và làm việc nhóm trong môi trường đa lĩnh vực.",
+        "category": "autonomy_and_responsibility"
+      },
+      {
+        "plo_id": "PLO5",
+        "description": "Tuân thủ đạo đức nghề nghiệp, bảo mật dữ liệu và ý thức học tập phát triển bản thân.",
+        "category": "autonomy_and_responsibility"
+      }
+    ],
+    "course_contribution_plo_matrix": [
+      {
+        "subject_code": "124100",
+        "plo_id": "PLO2",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "124100",
+        "plo_id": "PLO3",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "121033",
+        "plo_id": "PLO2",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "121033",
+        "plo_id": "PLO6",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127102",
+        "plo_id": "PLO1",
+        "contribution_level": "M"
+      }
+    ]
+  }
+]

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Master runner cho module structuring_data.
-Chạy lần lượt tất cả các kịch bản trích xuất Schema và tạo Chunks.
+Chạy lần lượt tất cả 4 kịch bản trích xuất Schema và tạo Chunks.
 """
 
 import sys
@@ -27,10 +27,12 @@ def run_script(script_name: str):
 
 def main():
     run_script("extract_subjects.py")
+    run_script("extract_frameworks.py")
+    run_script("extract_rubrics.py")
     run_script("extract_chunks.py")
     
     print("\n" + "=" * 65)
-    print("🎉 HOÀN THÀNH TOÀN BỘ PIPELINE CHUẨN HÓA SCHEMA & CHUNKING!")
+    print("🎉 HOÀN THÀNH TOÀN BỘ PIPELINE TRÍCH XUẤT 4 JSON COLLECTIONS!")
     print("=" * 65)
 
 
