@@ -26,21 +26,17 @@ database_ingestion/
 | Bước | Nội dung công việc | Trạng thái |
 | :--- | :--- | :--- |
 | **Bước 1** | **Khởi tạo Hạ tầng Docker** (`docker-compose.yml` tích hợp Mongo, Qdrant, Neo4j) | ✅ Hoàn thành |
-| **Bước 2** | **Kịch bản Nạp dữ liệu MongoDB** (`ingest_mongodb.py`) | ⏳ Tiếp theo |
+| **Bước 2** | **Kịch bản Nạp dữ liệu MongoDB** (`ingest_mongodb.py` nạp 4 JSON Collections) | ✅ Hoàn thành |
 | **Bước 3** | **Kịch bản Nạp Vector DB Qdrant** (`ingest_qdrant.py` với Nomic Embeddings + BM25) | ⏳ Tiếp theo |
 | **Bước 4** | **Kịch bản Dựng Graph Neo4j** (`ingest_neo4j.py` kết nối Môn học ↔ CLO ↔ PLO) | ⏳ Tiếp theo |
 | **Bước 5** | **Kịch bản Tổng hợp Nạp tự động** (`seed_all.py` & Kiểm thử truy vấn RAG) | ⏳ Tiếp theo |
 
 ---
 
-## 🐳 3. Hướng dẫn Khởi chạy Hạ tầng Docker (Bước 1)
+## 🍃 3. Hướng dẫn Chạy Kịch bản Nạp dữ liệu MongoDB (Bước 2)
 
-Khởi chạy cả 3 Cơ sở dữ liệu chỉ bằng 1 lệnh duy nhất:
+Khởi chạy kịch bản nạp 4 bộ JSON Collections vào MongoDB:
 ```bash
-docker compose up -d
+.venv/bin/python database_ingestion/scripts/ingest_mongodb.py
 ```
-
-### Kiểm tra các CSDL đang chạy:
-- **MongoDB**: `localhost:27017` (User: `admin` / Password: `password123`)
-- **Qdrant Dashboard**: [http://localhost:6333/dashboard](http://localhost:6333/dashboard)
-- **Neo4j Browser UI**: [http://localhost:7474](http://localhost:7474) (User: `neo4j` / Password: `password123`)
+*Script hỗ trợ cả chế độ nạp trực tiếp vào MongoDB Server và chế độ Kiểm thử Cấu trúc (Dry-run Mode).*
