@@ -27,16 +27,21 @@ database_ingestion/
 | :--- | :--- | :--- |
 | **Bước 1** | **Khởi tạo Hạ tầng Docker** (`docker-compose.yml` tích hợp Mongo, Qdrant, Neo4j) | ✅ Hoàn thành |
 | **Bước 2** | **Kịch bản Nạp dữ liệu MongoDB** (`ingest_mongodb.py` nạp 4 JSON Collections) | ✅ Hoàn thành |
-| **Bước 3** | **Kịch bản Nạp Vector DB Qdrant** (`ingest_qdrant.py` với Nomic Embeddings + BM25) | ⏳ Tiếp theo |
+| **Bước 3** | **Kịch bản Nạp Vector DB Qdrant** (`ingest_qdrant.py` với FastEmbed 384-dim) | ✅ Hoàn thành |
 | **Bước 4** | **Kịch bản Dựng Graph Neo4j** (`ingest_neo4j.py` kết nối Môn học ↔ CLO ↔ PLO) | ⏳ Tiếp theo |
 | **Bước 5** | **Kịch bản Tổng hợp Nạp tự động** (`seed_all.py` & Kiểm thử truy vấn RAG) | ⏳ Tiếp theo |
 
 ---
 
-## 🍃 3. Hướng dẫn Chạy Kịch bản Nạp dữ liệu MongoDB (Bước 2)
+## 🚀 3. Hướng dẫn Chạy Kịch bản Nạp dữ liệu
 
-Khởi chạy kịch bản nạp 4 bộ JSON Collections vào MongoDB:
+### 🔹 3.1. Nạp dữ liệu MongoDB (Bước 2)
 ```bash
 .venv/bin/python database_ingestion/scripts/ingest_mongodb.py
 ```
-*Script hỗ trợ cả chế độ nạp trực tiếp vào MongoDB Server và chế độ Kiểm thử Cấu trúc (Dry-run Mode).*
+
+### 🔹 3.2. Vector hóa & Nạp Qdrant Vector DB (Bước 3)
+```bash
+.venv/bin/python database_ingestion/scripts/ingest_qdrant.py
+```
+*Script tự động tính toán Embeddings bằng mô hình FastEmbed siêu tốc và nạp trực tiếp vào Qdrant Server (hoặc tự chuyển sang Qdrant In-Memory nếu chưa chạy Server).*
