@@ -70,6 +70,10 @@ uth-ds-agentic-ai/
 │   ├── scripts/parse_pdfs.py        # Kịch bản bóc tách đa tiến trình (Hỗ trợ Apple Silicon MPS)
 │   ├── parsed_output/               # Dữ liệu trích xuất cấu trúc (Markdown, JSON, Images)
 │   └── README.md                    # Hướng dẫn chi tiết cho module tiền xử lý
+├── structuring_data/                # Pipeline chuẩn hóa Schema MongoDB và Chunking cho Vector DB
+│   ├── scripts/                     # Các kịch bản bóc tách Schema (extract_subjects, extract_chunks)
+│   ├── json_collections/            # Thư mục lưu 4 tập JSON Collections đã chuẩn hóa
+│   └── README.md                    # Hướng dẫn chi tiết cho module chuẩn hóa dữ liệu
 ├── hybrid_search_demo/              # Demo kiểm thử tìm kiếm lai Dense + Sparse Vectors
 ├── fine-tune-nomic/                 # Module huấn luyện tối ưu mô hình Embedding
 └── output/                          # Dữ liệu tri thức đã được trích xuất sẵn
@@ -89,10 +93,16 @@ source .venv/bin/activate
 pip install -r hybrid_search_demo/requirements.txt
 ```
 
-### 4.2. Tiền xử lý dữ liệu Đề cương học phần
+### 4.2. Tiền xử lý dữ liệu Đề cương học phần (MinerU Parser)
 ```bash
-# Chạy bóc tách tài liệu PDF bằng MinerU với đa tiến trình
+# Xem hướng dẫn chi tiết tại preprocessing_data/README.md
 .venv/bin/python preprocessing_data/scripts/parse_pdfs.py --all --workers 3
+```
+
+### 4.3. Chuẩn hóa Schema & Chunking
+```bash
+# Xem hướng dẫn chi tiết tại structuring_data/README.md
+.venv/bin/python structuring_data/scripts/run_all_structuring.py
 ```
 
 ---

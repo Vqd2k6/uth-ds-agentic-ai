@@ -1,0 +1,166 @@
+[
+  {
+    "chunk_id": "124100_description",
+    "subject_code": "124100",
+    "subject_name_vi": "Ngon ngu lap trinh Python",
+    "chunk_type": "description",
+    "section_title": "2. Mô tả tóm tắt học phần",
+    "content": "Mô tả môn học Ngon ngu lap trinh Python (124100): (Course description)\n\nĐây là học phần thuộc khối kiến thức cơ sở ngành của chương trình đào tạo ngành Khoa học dữ liệu, Hệ thống thông tin, Mạng máy tính và truyền thông, chuyên ngành Smart Logistic và Công nghệ ô tô số. Học phần này trang bị cho sinh viên những kiến thức nền tảng lập trình ngôn ngữ Python. Ngoài ra học phần cung cấp các kiến thức nâng cao của ngôn ngữ Python trong việc phân tích dữ liệu, tiền xử lý dữ liệu trong cho các mô hình máy học hay xử lý ngôn ngữ, xử lý ảnh, máy học hay ứng dụng IoT. Đây là những kiến thức nền tảng của ngành giúp cho sinh viên chuẩn bị các kỹ năng cần thiết cho các học phần tiếp theo và phát triển nghề nghiệp sau này.",
+    "metadata": {
+      "subject_code": "124100"
+    }
+  },
+  {
+    "chunk_id": "124100_co_co1",
+    "subject_code": "124100",
+    "subject_name_vi": "Ngon ngu lap trinh Python",
+    "chunk_type": "course_objective",
+    "section_title": "3. Mục tiêu học phần (CO)",
+    "content": "Mục tiêu CO1 môn Ngon ngu lap trinh Python: Những kiến thức căn bản với lập trình ngôn ngữ Python.",
+    "metadata": {
+      "subject_code": "124100",
+      "co_code": "CO1"
+    }
+  },
+  {
+    "chunk_id": "124100_co_co2",
+    "subject_code": "124100",
+    "subject_name_vi": "Ngon ngu lap trinh Python",
+    "chunk_type": "course_objective",
+    "section_title": "3. Mục tiêu học phần (CO)",
+    "content": "Mục tiêu CO2 môn Ngon ngu lap trinh Python: Phương pháp lựa chọn giải pháp phù hợp giải quyết bài toán trong ngôn ngữ lập trình Python.",
+    "metadata": {
+      "subject_code": "124100",
+      "co_code": "CO2"
+    }
+  },
+  {
+    "chunk_id": "124100_co_co3",
+    "subject_code": "124100",
+    "subject_name_vi": "Ngon ngu lap trinh Python",
+    "chunk_type": "course_objective",
+    "section_title": "3. Mục tiêu học phần (CO)",
+    "content": "Mục tiêu CO3 môn Ngon ngu lap trinh Python: Tự học tập, tích lũy và cập nhật kiến thức theo xu thế phát triển của lĩnh vực, kỹ năng làm việc nhóm.",
+    "metadata": {
+      "subject_code": "124100",
+      "co_code": "CO3"
+    }
+  },
+  {
+    "chunk_id": "124100_clo_clo1",
+    "subject_code": "124100",
+    "subject_name_vi": "Ngon ngu lap trinh Python",
+    "chunk_type": "clo",
+    "section_title": "4. Chuẩn đầu ra học phần (CLO)",
+    "content": "Chuẩn đầu ra CLO1 môn Ngon ngu lap trinh Python: Lập trình Python cơ bản: hiểu biết về biến, kiểu dữ liệu, phép toán, cấu trúc điều khiển, ngoại lệ, hàm, các module. Có kiến thức về một số kiểu dữ liệu như list, set, tuple, dictionary.",
+    "metadata": {
+      "subject_code": "124100",
+      "clo_code": "CLO1"
+    }
+  },
+  {
+    "chunk_id": "124100_clo_clo2",
+    "subject_code": "124100",
+    "subject_name_vi": "Ngon ngu lap trinh Python",
+    "chunk_type": "clo",
+    "section_title": "4. Chuẩn đầu ra học phần (CLO)",
+    "content": "Chuẩn đầu ra CLO2 môn Ngon ngu lap trinh Python: Lập trình hướng đối tượng trong Python: đối tượng, lớp, thuộc tính, phương thức, thừa kế. Hiểu biết một số kỹ thuật xử lý cơ bản trong Python như Xử lý đa luồng, Xử lý kết nối sơ sở dữ liệu, Xử lý xml/json.",
+    "metadata": {
+      "subject_code": "124100",
+      "clo_code": "CLO2"
+    }
+  },
+  {
+    "chunk_id": "124100_clo_clo3",
+    "subject_code": "124100",
+    "subject_name_vi": "Ngon ngu lap trinh Python",
+    "chunk_type": "clo",
+    "section_title": "4. Chuẩn đầu ra học phần (CLO)",
+    "content": "Chuẩn đầu ra CLO3 môn Ngon ngu lap trinh Python: Sử dụng các thư viện NumPy, Pandas, Matplotlib, Seaborn, SciPy, Pygame, Scikit-learn, TensorFlow, Keras, MicroPython Adafruit, CircuitPython...để xây dựng ứng dụng xử lý phân tích dữ liệu, xử lý ngôn ngữ tự nhiên, xử lý ảnh và thị giác máy tính, lập trình game, ứng dụng IoT,…",
+    "metadata": {
+      "subject_code": "124100",
+      "clo_code": "CLO3"
+    }
+  },
+  {
+    "chunk_id": "124100_student_duties",
+    "subject_code": "124100",
+    "subject_name_vi": "Ngon ngu lap trinh Python",
+    "chunk_type": "student_duties",
+    "section_title": "5. Nhiệm vụ của sinh viên",
+    "content": "Nhiệm vụ của sinh viên khi học môn Ngon ngu lap trinh Python:\n- (Students duties)\n- Sinh viên phải tham dự tối thiểu 80% số tiết của học phần;\n- Làm và nộp các bài tập/ báo cáo/ làm việc nhóm/ thuyết trình.... đúng thời gian quy định;\n- Tự nghiên cứu các vấn đề được giao ở nhà hoặc thư viện;\n- Hoàn thành các bài đánh giá quá trình; kết thúc học phần.",
+    "metadata": {
+      "subject_code": "124100"
+    }
+  },
+  {
+    "chunk_id": "127102_description",
+    "subject_code": "127102",
+    "subject_name_vi": "127102",
+    "chunk_type": "description",
+    "section_title": "2. Mô tả tóm tắt học phần",
+    "content": "Mô tả môn học 127102 (127102): (Course description)\n\nMáy học hiện đại được xây dựng trên nền tảng của bốn lĩnh vực toán học cốt lõi: Xác suất, Thống kê, Đại số tuyến tính và Giải tích. Trong đó, thống kê đóng vai trò trung tâm trong việc xây dựng và đánh giá mô hình. Đại số tuyến tính giúp biểu diễn, tính toán và tối ưu hóa mô hình, đặc biệt hiệu quả khi xử lý các tập dữ liệu lớn. Xác suất cung cấp công cụ để mô hình hóa sự bất định và dự đoán sự kiện tương lai. Giải tích hỗ trợ hiểu và tối ưu hàm mục tiêu trong quá trình học. Những kiến thức toán học này là nền tảng xuyên suốt trong quá trình học tập và nghiên cứu về khoa học dữ liệu, trí tuệ nhân tạo (AI) và máy học (ML).\n\nSau khi học xong môn học này sinh viên có thể:\n\nNắm vững các khái niệm toán học nền tảng liên quan đến máy học. Hiểu nguyên lý hoạt động của các thuật toán học máy thông qua lăng kính toán học. Phát triển tư duy phản biện và sáng tạo trong giải quyết vấn đề kỹ thuật. Tạo nền tảng cho việc nghiên cứu và ứng dụng trong các lĩnh vực Khoa học dữ liệu, AI, ML, DL\n\n#",
+    "metadata": {
+      "subject_code": "127102"
+    }
+  },
+  {
+    "chunk_id": "127102_co_co1",
+    "subject_code": "127102",
+    "subject_name_vi": "127102",
+    "chunk_type": "course_objective",
+    "section_title": "3. Mục tiêu học phần (CO)",
+    "content": "Mục tiêu CO1 môn 127102: Áp dung kiến thức toán vào chuyên ngành KHDL.",
+    "metadata": {
+      "subject_code": "127102",
+      "co_code": "CO1"
+    }
+  },
+  {
+    "chunk_id": "127102_co_co2",
+    "subject_code": "127102",
+    "subject_name_vi": "127102",
+    "chunk_type": "course_objective",
+    "section_title": "3. Mục tiêu học phần (CO)",
+    "content": "Mục tiêu CO2 môn 127102: Giải quyết các bài toán kỹ thuật nhiều thông số ràng buộc đầu vào thuộc chuyên ngành KHDL bằng phương pháp cụ thể; Đánh giá các giải pháp khả thi và lựa chọn giải pháp tối ưu cho từng bài toán kỹ thuật chuyên ngành KHDL cụ thể; Phân tích bối cảnh nghề nghiệp trong các tổ chức quốc tế",
+    "metadata": {
+      "subject_code": "127102",
+      "co_code": "CO2"
+    }
+  },
+  {
+    "chunk_id": "127102_clo_clo1",
+    "subject_code": "127102",
+    "subject_name_vi": "127102",
+    "chunk_type": "clo",
+    "section_title": "4. Chuẩn đầu ra học phần (CLO)",
+    "content": "Chuẩn đầu ra CLO1 môn 127102: Áp dụng các kiến thức toán học như đại số tuyến tính, giải tích, xác suất thống kê và toán rời rạc vào việc hiểu và áp dụng các phương pháp máy học;",
+    "metadata": {
+      "subject_code": "127102",
+      "clo_code": "CLO1"
+    }
+  },
+  {
+    "chunk_id": "127102_clo_clo2",
+    "subject_code": "127102",
+    "subject_name_vi": "127102",
+    "chunk_type": "clo",
+    "section_title": "4. Chuẩn đầu ra học phần (CLO)",
+    "content": "Chuẩn đầu ra CLO2 môn 127102: Áp dụng các công cụ phần mềm để giải quyết các vấn đề trong máy học; Phân tích và hiểu sâu hơn các khái niệm toán học liên quan đến các thuật toán máy học như xử lý dữ liệu, các mô hình phân phối, bài toán tối ưu hoá từ dữ liệu thực tế, các phương pháp ước lượng tham số của mô hình (OLS, MLE, MAP,...); Phân tích bối cảnh nghề nghiệp và ứng dụng các phương pháp máy học vào các lĩnh vực khác nhau.",
+    "metadata": {
+      "subject_code": "127102",
+      "clo_code": "CLO2"
+    }
+  },
+  {
+    "chunk_id": "127102_student_duties",
+    "subject_code": "127102",
+    "subject_name_vi": "127102",
+    "chunk_type": "student_duties",
+    "section_title": "5. Nhiệm vụ của sinh viên",
+    "content": "Nhiệm vụ của sinh viên khi học môn 127102:\n- (Students duties)\n- Sinh viên phải tham dự tối thiểu 80% số tiết của học phần;\n- Làm và nộp các bài tập/ báo cáo/ làm việc nhóm/ thuyết trình.... đúng thời gian quy định; Tự nghiên cứu các vấn đề được giao ở nhà hoặc thư viện;\n- Hoàn thành các bài đánh giá quá trình; kết thúc học phần.",
+    "metadata": {
+      "subject_code": "127102"
+    }
+  }
+]
