@@ -81,8 +81,13 @@ uth-ds-agentic-ai/
 ├── rag_engine/                      # Module RAG Engine hợp nhất Dense (Nomic), Sparse (BM25) và Graph (Neo4j)
 │   ├── retrievers/                  # Các bộ truy xuất Dense, Sparse, Hybrid RRF và Graph Neo4j
 │   ├── pipeline.py                  # Master RAG Engine tổng hợp ngữ cảnh cho Agent
-│   ├── test_rag.py                  # Kịch bản kiểm thử truy vấn RAG từ Terminal
 │   └── README.md                    # Hướng dẫn chi tiết cho module RAG Engine
+├── agent_system/                    # Hệ thống Tác tử Thông minh (AI Router, Verifier và End-to-End Chatbot)
+│   ├── router.py                    # Bộ định tuyến ý định và trích xuất thực thể
+│   ├── verifier.py                  # Bộ kiểm chứng và cơ chế chống sai lệch dữ liệu
+│   ├── app.py                       # Ứng dụng Tác tử AI tổng hợp phản hồi
+│   ├── test_app.py                  # Kịch bản kiểm thử Chatbot tương tác từ Terminal
+│   └── README.md                    # Hướng dẫn chi tiết cho module Tác tử
 ├── hybrid_search_demo/              # Demo kiểm thử tìm kiếm lai Dense + Sparse Vectors
 ├── fine-tune-nomic/                 # Module huấn luyện tối ưu mô hình Embedding
 └── output/                          # Dữ liệu tri thức đã được trích xuất sẵn
@@ -114,10 +119,10 @@ cd database_ingestion && docker compose up -d
 .venv/bin/python database_ingestion/scripts/seed_all.py
 ```
 
-### 4.4. Kiểm thử RAG Engine
+### 4.4. Chạy ứng dụng Chatbot Agent System
 ```bash
-# Truy vấn ngữ cảnh hợp nhất Hybrid Search + GraphRAG
-.venv/bin/python rag_engine/test_rag.py --query "Lập trình Python cơ bản gồm kiến thức gì?"
+# Thử nghiệm câu hỏi từ Terminal
+.venv/bin/python agent_system/test_app.py --query "Môn Lập trình Python học tuần mấy và CLO1 gồm những gì?"
 ```
 
 ---
@@ -134,3 +139,4 @@ cd database_ingestion && docker compose up -d
 | **Fusion Algorithm** | Reciprocal Rank Fusion (RRF) | Thuật toán hợp nhất xếp hạng giữa Dense và Sparse Search |
 | **Knowledge Graph** | Neo4j | Quản lý quan hệ đa chiều giữa Môn học, CLO, PLO và Rubric |
 | **Document Store** | MongoDB | Lưu trữ dữ liệu cấu trúc đề cương, chuẩn đầu ra và chunks |
+| **Agentic Core** | Custom Intent Router & Verifier Engine | Định tuyến tác vụ, kiểm chứng phản hồi và quản lý ngữ cảnh |
