@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Script trích xuất Collection 'syllabus_subjects' từ Đề cương chi tiết học phần (Markdown).
+Hỗ trợ đọc dữ liệu từ cả 'preprocessing_data/parsed_output/' và 'output/'.
 """
 
 import os
@@ -9,17 +10,15 @@ import json
 from pathlib import Path
 from typing import Dict, Any, List
 
-# Đường dẫn mặc định
 BASE_DIR = Path(__file__).resolve().parent.parent
 PROJECT_DIR = BASE_DIR.parent
 PARSED_OUTPUT_DIR = PROJECT_DIR / "preprocessing_data" / "parsed_output"
+LEGACY_OUTPUT_DIR = PROJECT_DIR / "output"
 OUTPUT_JSON_PATH = BASE_DIR / "json_collections" / "syllabus_subjects.json"
 
 
 def parse_subject_markdown(md_content: str, subject_folder_name: str) -> Dict[Any, Any]:
-    """
-    Phân tích file Markdown đề cương môn học và trích xuất các trường thông tin theo Schema.
-    """
+    """Phân tích file Markdown đề cương môn học và trích xuất các trường thông tin theo Schema."""
     subject_data: Dict[str, Any] = {
         "subject_code": "",
         "subject_name_vi": "",
@@ -49,7 +48,6 @@ def parse_subject_markdown(md_content: str, subject_folder_name: str) -> Dict[An
     if name_vi_match:
         subject_data["subject_name_vi"] = name_vi_match.group(1).strip()
     else:
-        # Lấy từ tên thư mục
         subject_data["subject_name_vi"] = re.sub(r"^\d+[\s_-]*", "", subject_folder_name).split("-")[0].strip()
 
     name_en_match = re.search(r"Tiếng Anh:\s*([^Mã|\n<]+)", md_content, re.IGNORECASE)
@@ -98,25 +96,35 @@ def process_all_subjects():
     BASE_DIR.mkdir(parents=True, exist_ok=True)
     (BASE_DIR / "json_collections").mkdir(parents=True, exist_ok=True)
 
-    subjects_list = []
+    subjects_dict = {}
 
-    # Quét trong parsed_output
-    if PARSED_OUTPUT_DIR.exists():
-        for subject_dir in sorted(PARSED_OUTPUT_DIR.iterdir()):
-            if subject_dir.is_dir():
+    def scan_dir(target_dir: Path):
+        if not target_dir.exists():
+            return
+        for subject_dir in sorted(target_dir.iterdir()):
+            if subject_dir.is_dir() and not subject_dir.name.startswith("."):
                 md_files = list(subject_dir.glob("**/*.md"))
                 if md_files:
                     md_path = md_files[0]
                     with open(md_path, "r", encoding="utf-8") as f:
                         content = f.read()
-                    print(f"[*] Đang trích xuất: {subject_dir.name}")
                     data = parse_subject_markdown(content, subject_dir.name)
-                    subjects_list.append(data)
+                    code = data.get("subject_code") or subject_dir.name
+                    if code not in subjects_dict:
+                        print(f"[*] Trích xuất: {subject_dir.name}")
+                        subjects_dict[code] = data
+
+    # 1. Quét trong output/ trước (41 môn có sẵn)
+    scan_dir(LEGACY_OUTPUT_DIR)
+    # 2. Quét trong preprocessing_data/parsed_output/ (Ghi đè nếu mới parse lại)
+    scan_dir(PARSED_OUTPUT_DIR)
+
+    subjects_list = list(subjects_dict.values())
 
     with open(OUTPUT_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(subjects_list, f, ensure_ascii=False, indent=2)
 
-    print(f"\n[✓] Hoàn tất! Đã trích xuất {len(subjects_list)} môn học vào: {OUTPUT_JSON_PATH}")
+    print(f"\n[✓] Hoàn tất! Đã trích xuất TOÀN BỘ {len(subjects_list)} môn học vào: {OUTPUT_JSON_PATH}")
 
 
 if __name__ == "__main__":

@@ -68,7 +68,7 @@ def ingest_to_qdrant():
     if FASTEMBED_AVAILABLE:
         try:
             print(f"[*] Đang tải mô hình Nomic Embeddings: '{NOMIC_MODEL_NAME}'...")
-            embedding_model = TextEmbedding(model_name=NOMIC_MODEL_NAME)
+            embedding_model = TextEmbedding(model_name=NOMIC_MODEL_NAME, threads=2)
             dummy_vec = list(embedding_model.embed(["test"]))[0]
             vector_dim = len(dummy_vec)
             print(f"[✓] Mô hình Nomic Embeddings sẵn sàng! Kích thước Vector: {vector_dim} chiều.")
@@ -110,11 +110,17 @@ def ingest_to_qdrant():
             vectors_config=VectorParams(size=vector_dim, distance=Distance.COSINE)
         )
 
-        # 4. Tính toán Vector Embeddings cho danh sách Chunks
+        # 4. Tính toán Vector Embeddings cho danh sách Chunks theo batch nhỏ tiết kiệm RAM
         contents = [item["content"] for item in chunks]
-        print(f"[*] Đang tính Nomic Vector Embeddings cho {len(contents)} đoạn văn bản...")
-        embeddings_generator = embedding_model.embed(contents)
-        embeddings_list = [vec.tolist() for vec in embeddings_generator]
+        print(f"[*] Đang tính Nomic Vector Embeddings cho {len(contents)} đoạn văn bản (batch_size=16)...")
+        
+        embeddings_list = []
+        batch_size = 16
+        for i in range(0, len(contents), batch_size):
+            batch_contents = contents[i:i + batch_size]
+            batch_vecs = list(embedding_model.embed(batch_contents))
+            embeddings_list.extend([v.tolist() for v in batch_vecs])
+            print(f"  [+] Đã xử lý {len(embeddings_list)}/{len(contents)} chunks...")
 
         # 5. Tạo danh sách Qdrant Points
         points = []
@@ -133,9 +139,13 @@ def ingest_to_qdrant():
             
             points.append(PointStruct(id=point_id, vector=vec, payload=payload))
 
-        # 6. Đẩy Points vào Qdrant
-        print(f"[*] Đang đẩy {len(points)} Nomic points vào Qdrant...")
-        client.upsert(collection_name=QDRANT_COLLECTION_NAME, points=points)
+        # 6. Đẩy Points vào Qdrant theo Batch 200
+        print(f"[*] Đang đẩy {len(points)} Nomic points vào Qdrant theo batch...")
+        p_batch_size = 200
+        for p_idx in range(0, len(points), p_batch_size):
+            sub_points = points[p_idx:p_idx + p_batch_size]
+            client.upsert(collection_name=QDRANT_COLLECTION_NAME, points=sub_points)
+            print(f"  [✓] Đã nạp {min(p_idx + p_batch_size, len(points))}/{len(points)} points vào Qdrant...")
 
         mode_str = "Qdrant Server (Live)" if is_live_server else "Qdrant In-Memory (Test)"
         print("\n" + "=" * 65)

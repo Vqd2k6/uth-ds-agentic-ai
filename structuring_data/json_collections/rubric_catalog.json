@@ -2,57 +2,331 @@
   {
     "rubric_id": "RUBRIC_A1.1",
     "assessment_code": "A1.1",
-    "assessment_name": "Đánh giá Chuyên cần & Điểm danh",
-    "assessment_type": "process",
-    "default_weight_percent": 10,
+    "assessment_name": "Chuyên cần 1",
     "criteria": [
       {
-        "criterion_id": "CRIT_ATTENDANCE",
-        "name": "Mức độ tham dự lớp học",
-        "description": "Sinh viên tham dự tối thiểu 80% số tiết học trên lớp và tham gia phát biểu xây dựng bài.",
-        "weight_percent": 100
+        "criterion_name": "Thái độ tham gia tích cực",
+        "levels": {
+          "F": "Không tham gia các hoạt động",
+          "D": "Ít tham gia các hoạt động",
+          "C": "Có tham gia các hoạt động",
+          "B": "Khá tích cực tham gia các hoạt động",
+          "A": "Tích cực tham gia các hoạt động"
+        },
+        "weight": "70"
+      },
+      {
+        "criterion_name": "Thời gian tham gia đầy đủ",
+        "levels": {
+          "F": "Thời gian dưới 40%",
+          "D": "Thời gian từ 40-54%",
+          "C": "Thời gian từ 55-69%",
+          "B": "Thời gian từ 70-84%",
+          "A": "Thời gian từ 85% trở lên"
+        },
+        "weight": "30"
+      }
+    ]
+  },
+  {
+    "rubric_id": "RUBRIC_A1.2",
+    "assessment_code": "A1.2",
+    "assessment_name": "Chuyên cần 2",
+    "criteria": [
+      {
+        "criterion_name": "Thảo luận",
+        "levels": {
+          "F": "Không tham gia đóng góp trong các hoạt động",
+          "D": "Tham gia đóng góp ý kiến 01 lần",
+          "C": "Tham gia đóng góp ý kiến 02 lần",
+          "B": "Tham gia đóng góp ý kiến 03 lần",
+          "A": "Tham gia đóng góp ý kiến trên 03 lần"
+        },
+        "weight": "70"
+      },
+      {
+        "criterion_name": "Thời gian tham gia",
+        "levels": {
+          "F": "Tham gia dưới 80% tổng buổi học được điểm danh (cấm thì)",
+          "D": "Tham gia dưới 85% tổng buổi học được điểm danh",
+          "C": "Tham gia dưới 70% tổng buổi học được điểm danh",
+          "B": "Tham gia dưới 80% tổng buổi học được điểm danh",
+          "A": "Tham gia không dưới 80% tổng buổi học được điểm danh"
+        },
+        "weight": "30"
       }
     ]
   },
   {
     "rubric_id": "RUBRIC_A2.1",
     "assessment_code": "A2.1",
-    "assessment_name": "Bài tập Thực hành & Bài tập tại lớp",
-    "assessment_type": "process",
-    "default_weight_percent": 20,
+    "assessment_name": "Bài tập trên lớp (kết hợp có đánh giá hoạt động, dùng cho môn không đánh giá chuyên cần riêng)",
     "criteria": [
       {
-        "criterion_id": "CRIT_CODE_ACCURACY",
-        "name": "Độ chính xác của thuật toán và code",
-        "description": "Cài đặt thuật toán chính xác, chạy thành công các test case được giao.",
-        "weight_percent": 60
+        "criterion_name": "Chất lượng bài nộp",
+        "levels": {
+          "F": "Thời gian dưới 40%",
+          "D": "Thời gian từ 40-54%",
+          "C": "Thời gian từ 55-69%",
+          "B": "Thời gian từ 70-84%",
+          "A": "Thời gian từ 85% trở lên"
+        },
+        "weight": "20"
       },
       {
-        "criterion_id": "CRIT_CODE_STYLE",
-        "name": "Phong cách lập trình & Chuẩn Clean Code",
-        "description": "Mã nguồn rõ ràng, đặt tên biến chuẩn, có comment giải thích.",
-        "weight_percent": 40
+        "criterion_name": "Thái độ tham gia",
+        "levels": {
+          "F": "Không tham gia các hoạt động",
+          "D": "Ít tham gia các hoạt động",
+          "C": "Có tham gia các hoạt động",
+          "B": "Khá tích cực tham gia các hoạt động",
+          "A": "Tích cực tham gia các hoạt động"
+        },
+        "weight": "20"
+      },
+      {
+        "criterion_name": "Kỹ năng thảo luận",
+        "levels": {
+          "F": "Không thảo luận",
+          "D": "Kém",
+          "C": "Trung bình",
+          "B": "Khá",
+          "A": "Tốt"
+        },
+        "weight": "20"
+      },
+      {
+        "criterion_name": "Chất lượng đóng góp ý kiến",
+        "levels": {
+          "F": "Thời gian dưới 40%",
+          "D": "Thời gian từ 40-54%",
+          "C": "Thời gian từ 55-69%",
+          "B": "Thời gian từ 70-84%",
+          "A": "Thời gian từ 85% trở lên"
+        },
+        "weight": "40"
       }
     ]
   },
   {
-    "rubric_id": "RUBRIC_A5.1",
-    "assessment_code": "A5.1",
-    "assessment_name": "Đánh giá Bài tập lớn / Đồ án môn học",
-    "assessment_type": "final_or_major",
-    "default_weight_percent": 50,
+    "rubric_id": "RUBRIC_A2.2",
+    "assessment_code": "A2.2",
+    "assessment_name": "Bài tập trên lớp (không kết hợp có đánh giá hoạt động, dùng cho môn có phần đánh giá chuyên cần riêng biệt, và các môn có chữ A trong CTĐT, có thu thập minh chứng bài làm của người học)",
     "criteria": [
       {
-        "criterion_id": "CRIT_PROJECT_REPORT",
-        "name": "Báo cáo nội dung đồ án",
-        "description": "Báo cáo trình bày đầy đủ các phần: Đặt vấn đề, Giải pháp, Thực nghiệm và Kết luận.",
-        "weight_percent": 40
+        "criterion_name": "Chất lượng bài nộp",
+        "levels": {
+          "F": "Thời gian dưới 40%",
+          "D": "Thời gian từ 40-54%",
+          "C": "Thời gian từ 55-69%",
+          "B": "Thời gian từ 70-84%",
+          "A": "Thời gian từ 85% trở lên"
+        },
+        "weight": "100"
+      }
+    ]
+  },
+  {
+    "rubric_id": "RUBRIC_A3.1",
+    "assessment_code": "A3.1",
+    "assessment_name": "Bài tập thực hành (dùng cho các môn liên quan đến PLO5)",
+    "criteria": [
+      {
+        "criterion_name": "Thái độ tham dự tích cực",
+        "levels": {
+          "F": "Không tham gia các hoạt động",
+          "D": "Ít tham gia các hoạt động",
+          "C": "Có tham gia các hoạt động",
+          "B": "Khá tích cực tham gia các hoạt động",
+          "A": "Tích cực tham gia các hoạt động"
+        },
+        "weight": "20"
       },
       {
-        "criterion_id": "CRIT_PROJECT_DEMO",
-        "name": "Chương trình Demo & Thuyết trình",
-        "description": "Demo sản phẩm chạy mượt mà, trả lời chính xác các câu hỏi phản biện của giáo viên.",
-        "weight_percent": 60
+        "criterion_name": "Kết quả thực hành",
+        "levels": {
+          "F": "Không làm bài tập thực hành",
+          "D": "Kết quả thực hành không đầy đủ, không đáp ứng yêu cầu",
+          "C": "Tương đối đây đủ và đáp ứng tương đối các yêu cầu, có một sai sót quan trọng.",
+          "B": "Khá đầy đủ và đáp ứng khá tốt các yêu cầu, còn sai sót nhỏ",
+          "A": "Đầy đủ và đáp ứng hoàn toàn các yêu cầu"
+        },
+        "weight": "40"
+      },
+      {
+        "criterion_name": "Giải thích kết quả thực hành",
+        "levels": {
+          "F": "Không làm bài tập thực hành",
+          "D": "Giải thích không rõ ràng",
+          "C": "Giải thích khá rõ ràng, còn nhiều sai sót quan trọng trong lập luận.",
+          "B": "Giải thích khá rõ ràng, Cồn một sai sót quan trọng trong lập luận.",
+          "A": "Giải thích và lập luận rõ ràng"
+        },
+        "weight": "30"
+      },
+      {
+        "criterion_name": "Báo cáo thực hành đúng quy định",
+        "levels": {
+          "F": "Không làm bài tập thực hành",
+          "D": "Chưa đầy đủ, chưa đúng hạn hoặc đúng định dạng",
+          "C": "Chưa đầy đủ",
+          "B": "Đầy đủ và đúng hạn.",
+          "A": "Đầy đủ, đúng định dạng và đúng hạn."
+        },
+        "weight": "10"
+      }
+    ]
+  },
+  {
+    "rubric_id": "RUBRIC_A4.1",
+    "assessment_code": "A4.1",
+    "assessment_name": "Thi tự luận/Trắc nghiệm {bài thi giữa kỳ/bài thi cuối kỳ)",
+    "criteria": [
+      {
+        "criterion_name": "Chất lượng bài thi",
+        "levels": {
+          "F": "Đúng dưới 40%",
+          "D": "Đúng từ 40-54%",
+          "C": "Đúng từ 55-69%",
+          "B": "Đúng từ 70-84%",
+          "A": "Đúng từ 85% trở lên"
+        },
+        "weight": "100"
+      }
+    ]
+  },
+  {
+    "rubric_id": "RUBRIC_A5.5",
+    "assessment_code": "A5.5",
+    "assessment_name": "Đánh giá Thuyết trình và bảo vệ quan điểm (theo nhóm) – oral presentation, slide thuyết trình",
+    "criteria": [
+      {
+        "criterion_name": "Nội dung",
+        "levels": {
+          "F": "Phong phú hơn yêu cầu",
+          "D": "Đầy đủ theo yêu cầu",
+          "C": "Khá đầy đủ, còn thiếu 1 nội dung quan trọng",
+          "B": "Thiếu nhiều nội dung quan trọng",
+          "A": "10"
+        },
+        "weight": "10"
+      },
+      {
+        "criterion_name": "Cấu trúc và tính trực quan",
+        "levels": {
+          "F": "Cấu trúc bài và slide rất hợp lý",
+          "D": "Cấu trúc bài và slide khá hợp lý",
+          "C": "Cấu trúc bài và slide tương đối hợp lý",
+          "B": "Cấu trúc bài và slide chưa hợp lý",
+          "A": "10"
+        },
+        "weight": "10"
+      },
+      {
+        "criterion_name": "Kỹ năng trình bày",
+        "levels": {
+          "F": "Dẫn đất vấn đề và lập luận lôi cuốn, thuyết phục",
+          "D": "Trình bày rõ ràng nhưng chưa lôi cuốn, lập luận khá thuyết phục",
+          "C": "Khó theo dõi nhưng vẫn có thể hiểu được các nội dung quan trọng.",
+          "B": "Trình bày không rõ ràng, người nghe không hiểu được các nội dung quan trọng.",
+          "A": "10"
+        },
+        "weight": "10"
+      },
+      {
+        "criterion_name": "Tương tác với người nghe",
+        "levels": {
+          "F": "Nhóm tương tác tốt, bao quát.",
+          "D": "Nhóm tương tác khá tốt, khá bao quát",
+          "C": "Nhóm có tương tác nhưng chưa bao quát.",
+          "B": "Nhóm không có tương tác/ rất ít.",
+          "A": "10"
+        },
+        "weight": "10"
+      },
+      {
+        "criterion_name": "Quản lý thời gian",
+        "levels": {
+          "F": "Làm chủ thời gian và hoàn toàn linh hoạt điều chỉnh theo tỉnh huống.",
+          "D": "Hoàn thành đúng thời gian, thỉnh thoảng có linh hoạt theo tỉnh huống",
+          "C": "Hoàn thành đúng thời gian không linh hoạt theo tỉnh huống.",
+          "B": "Quá giờ",
+          "A": "10"
+        },
+        "weight": "10"
+      },
+      {
+        "criterion_name": "Trả lời câu hỏi",
+        "levels": {
+          "F": "Các câu hỏi đặt đúng đều được nhóm thảo luận và trả lời đầy đủ, rõ ràng và thỏa đáng",
+          "D": "Trả lời đúng đa số câu hỏi đúng, và nêu được định hướng phù hợp đối với những câu hỏi chưa trả lời được.",
+          "C": "Trả lời đúng đa số câu hỏi, nhưng chưa nêu được định hướng phù hợp đối với những câu hỏi chưa trả lời được.",
+          "B": "Không trả lời được đa số câu hỏi đặt đúng.",
+          "A": "10"
+        },
+        "weight": "10"
+      },
+      {
+        "criterion_name": "Sự phối hợp trong nhóm (nếu có)",
+        "levels": {
+          "F": "Nhóm phối hợp thực sự chia sẻ và hỗ trợ nhau trong khi báo cáo và trả lời.",
+          "D": "Nhóm có phối hợp khi báo cáo và trả lời nhưng có và chỗ chưa đồng bộ.",
+          "C": "Nhóm ít phối hợp trong khi báo cáo và trả lời.",
+          "B": "Không thể hiện sự kết nối trong nhóm.",
+          "A": "10"
+        },
+        "weight": "10"
+      }
+    ]
+  },
+  {
+    "rubric_id": "RUBRIC_A6.1",
+    "assessment_code": "A6.1",
+    "assessment_name": "Đánh giá Cá nhân trong làm việc nhóm, dùng cho các môn có yêu cầu hoạt động nhóm trong CTĐT, thuộc nhóm A có minh chứng để đánh giá đạt PLO",
+    "criteria": [
+      {
+        "criterion_name": "Thái độ tham gia",
+        "levels": {
+          "F": "15",
+          "D": "Kết nối tốt.",
+          "C": "Kết nối khá tốt",
+          "B": "Có kết nối nhưng đôi khi còn lơ là phải nhắc nhở",
+          "A": "Không kết nối"
+        },
+        "weight": "Không kết nối"
+      },
+      {
+        "criterion_name": "Chất lượng đóng góp ý kiến",
+        "levels": {
+          "F": "20",
+          "D": "Sáng tạo/ rất hữu ích",
+          "C": "Hữu ích",
+          "B": "Tương đối hữu ích",
+          "A": "Không hữu ích"
+        },
+        "weight": "Không hữu ích"
+      },
+      {
+        "criterion_name": "Thời gian giao nộp sản phẩm đúng hạn",
+        "levels": {
+          "F": "20",
+          "D": "Đúng hạn",
+          "C": "Trễ ít, không gây ảnh hưởng",
+          "B": "Trễ nhiều, có gây ảnh hưởng quan trọng nhưng đã khắc phục.",
+          "A": "Nộp trẻ/không nộp gây ảnh hưởng không thể khắc phục"
+        },
+        "weight": "Nộp trẻ/không nộp gây ảnh hưởng không thể khắc phục"
+      },
+      {
+        "criterion_name": "Chất lượng sản phẩm giao nộp",
+        "levels": {
+          "F": "30",
+          "D": "Đáp ứng tốt/sáng tạo",
+          "C": "Đáp ứng khá tốt yêu cầu",
+          "B": "Đáp ứng một phần yêu cầu, còn sai sót quan trọng",
+          "A": "Không sử dụng được."
+        },
+        "weight": "Không sử dụng được."
       }
     ]
   }

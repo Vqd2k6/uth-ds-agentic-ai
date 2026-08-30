@@ -1,10 +1,8 @@
 [
   {
-    "framework_id": "khdl-program-2024",
-    "framework_version": "2024",
+    "framework_id": "khdl-uth-2024",
     "program_code": "7480201",
-    "program_name": "Cử nhân Khoa học dữ liệu",
-    "effective_from": "2024-01-01",
+    "program_name": "Cử nhân Khoa học Dữ liệu - UTH",
     "pos": [
       {
         "po_id": "PO1",
@@ -24,61 +22,1160 @@
       },
       {
         "po_id": "PO5",
-        "description": "Có các kỹ năng xã hội, tư duy phản biện và khả năng học tập suốt đời."
+        "description": "Có đạo đức, có tinh thần trách nhiệm với xã hội."
+      },
+      {
+        "po_id": "PO6",
+        "description": "Có khả năng chủ động cho tương lai và ý thức tự nâng cao trình độ, học tập cả đời."
       }
     ],
     "plos": [
       {
         "plo_id": "PLO1",
-        "description": "Áp dụng được các kiến thức toán học và khoa học tự nhiên để phân tích và giải quyết các bài toán trong lĩnh vực khoa học dữ liệu.",
-        "category": "knowledge"
+        "description": "Áp dụng kiến thức toán, khoa học tự nhiên vào chuyên ngành KHDL",
+        "category": "knowledge_and_skills"
       },
       {
         "plo_id": "PLO2",
-        "description": "Thiết kế, cài đặt và đánh giá các hệ thống xử lý, phân tích dữ liệu lớn và học máy.",
-        "category": "skill"
+        "description": "Vận dụng các bài toán kỹ thuật chuyên môn phức tạp liên quan đến KHDL trong môi trường làm việc chuyên nghiệp đa văn hóa, đa quốcgia.",
+        "category": "knowledge_and_skills"
       },
       {
         "plo_id": "PLO3",
-        "description": "Sử dụng thành thạo các công cụ, ngôn ngữ lập trình hiện đại (Python, R, SQL, Spark) trong phân tích dữ liệu.",
-        "category": "skill"
+        "description": "Xây dựng quy trình quản lý, điều hành chuyên môn",
+        "category": "knowledge_and_skills"
       },
       {
         "plo_id": "PLO4",
-        "description": "Giao tiếp hiệu quả, sử dụng tiếng Anh chuyên ngành và làm việc nhóm trong môi trường đa lĩnh vực.",
-        "category": "autonomy_and_responsibility"
+        "description": "Vận dụng các kiến thức đương đại liên quan khoa học chính trị và pháp luật, khoa học xã hội phù hợp với chuyên môn được đào tạo vào hoạt động chuyên môn nhằm ra quyết định đúng dẫn trong bối cảnh thay đổi.",
+        "category": "knowledge_and_skills"
       },
       {
         "plo_id": "PLO5",
-        "description": "Tuân thủ đạo đức nghề nghiệp, bảo mật dữ liệu và ý thức học tập phát triển bản thân.",
-        "category": "autonomy_and_responsibility"
+        "description": "Triển khai một quy trình hoạt động trong lĩnh vực KHDL nhằm đáp ứng yêu cầu, thực hiện một nhiệm vụ cụ thể cho bài toán thực tế.",
+        "category": "knowledge_and_skills"
+      },
+      {
+        "plo_id": "PLO6",
+        "description": "Đánh giá các giải pháp, chiến lược mới, các quy trình kỹ thuật, phát triển phần mềm, hệ thống CNTT đổi mới, công nghệ mới, cơ sở hạ tầng và dịchvụ.",
+        "category": "knowledge_and_skills"
+      },
+      {
+        "plo_id": "PLO7",
+        "description": "Nhận thức về giới hạn khả năng của bản thân, và sự cần thiết của việc tự đào tạo, tự học suốt đời",
+        "category": "knowledge_and_skills"
       }
     ],
     "course_contribution_plo_matrix": [
       {
-        "subject_code": "124100",
+        "subject_code": "001212",
+        "subject_name": "Xác suất thống kê",
+        "plo_id": "PLO2",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "001212",
+        "subject_name": "Xác suất thống kê",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "080101",
+        "subject_name": "Phương pháp nghiên cứu",
+        "plo_id": "PLO3",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "080101",
+        "subject_name": "Phương pháp nghiên cứu",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "080101",
+        "subject_name": "Phương pháp nghiên cứu",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "080101",
+        "subject_name": "Phương pháp nghiên cứu",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "122102",
+        "subject_name": "Nhập môn ngành khoa học dữ liệu",
+        "plo_id": "PLO3",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "122102",
+        "subject_name": "Nhập môn ngành khoa học dữ liệu",
+        "plo_id": "PLO5",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "122102",
+        "subject_name": "Nhập môn ngành khoa học dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "122102",
+        "subject_name": "Nhập môn ngành khoa học dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "122102",
+        "subject_name": "Nhập môn ngành khoa học dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "122102",
+        "subject_name": "Nhập môn ngành khoa học dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "124101",
+        "subject_name": "Kỹ thuật lập trình",
+        "plo_id": "PLO3",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "124101",
+        "subject_name": "Kỹ thuật lập trình",
+        "plo_id": "PLO4",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "124101",
+        "subject_name": "Kỹ thuật lập trình",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "125000",
+        "subject_name": "Kiến trúc máy tính",
+        "plo_id": "PLO3",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "125000",
+        "subject_name": "Kiến trúc máy tính",
+        "plo_id": "PLO6",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "125000",
+        "subject_name": "Kiến trúc máy tính",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "125000",
+        "subject_name": "Kiến trúc máy tính",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "080102",
+        "subject_name": "Quản trị học",
+        "plo_id": "PLO3",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "080102",
+        "subject_name": "Quản trị học",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "080103",
+        "subject_name": "Tư duy thiết kế và đổi mới sáng tạo",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "080103",
+        "subject_name": "Tư duy thiết kế và đổi mới sáng tạo",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "080103",
+        "subject_name": "Tư duy thiết kế và đổi mới sáng tạo",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "080103",
+        "subject_name": "Tư duy thiết kế và đổi mới sáng tạo",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "080103",
+        "subject_name": "Tư duy thiết kế và đổi mới sáng tạo",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "121000",
+        "subject_name": "Cơ sở dữ liệu",
+        "plo_id": "PLO3",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "121000",
+        "subject_name": "Cơ sở dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "121000",
+        "subject_name": "Cơ sở dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "122003",
+        "subject_name": "Lập trình hướng đối tượng",
+        "plo_id": "PLO3",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "122003",
+        "subject_name": "Lập trình hướng đối tượng",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "122003",
+        "subject_name": "Lập trình hướng đối tượng",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "122003",
+        "subject_name": "Lập trình hướng đối tượng",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "122003",
+        "subject_name": "Lập trình hướng đối tượng",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127100",
+        "subject_name": "Phân tích dữ liệu định tính và định lượng",
         "plo_id": "PLO2",
         "contribution_level": "R"
       },
       {
-        "subject_code": "124100",
+        "subject_code": "127100",
+        "subject_name": "Phân tích dữ liệu định tính và định lượng",
         "plo_id": "PLO3",
-        "contribution_level": "M"
+        "contribution_level": "R"
       },
       {
-        "subject_code": "121033",
+        "subject_code": "127100",
+        "subject_name": "Phân tích dữ liệu định tính và định lượng",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "005105",
+        "subject_name": "Triết học Mác – Lênin",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "005105",
+        "subject_name": "Triết học Mác – Lênin",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "122044",
+        "subject_name": "Cấu trúc rời rạc",
         "plo_id": "PLO2",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "122044",
+        "subject_name": "Cấu trúc rời rạc",
+        "plo_id": "PLO4",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "122044",
+        "subject_name": "Cấu trúc rời rạc",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "124002",
+        "subject_name": "Cấu trúc dữ liệu và giải thuật",
+        "plo_id": "PLO3",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "124002",
+        "subject_name": "Cấu trúc dữ liệu và giải thuật",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "124002",
+        "subject_name": "Cấu trúc dữ liệu và giải thuật",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "124100",
+        "subject_name": "Ngôn ngữ lập trình Python",
+        "plo_id": "PLO3",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "124100",
+        "subject_name": "Ngôn ngữ lập trình Python",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127102",
+        "subject_name": "Các phương pháp Toán cho Máy học",
+        "plo_id": "PLO2",
+        "contribution_level": "R, A"
+      },
+      {
+        "subject_code": "127102",
+        "subject_name": "Các phương pháp Toán cho Máy học",
+        "plo_id": "PLO3",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127102",
+        "subject_name": "Các phương pháp Toán cho Máy học",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127102",
+        "subject_name": "Các phương pháp Toán cho Máy học",
+        "plo_id": "PLO5",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "005106",
+        "subject_name": "Kinh tế chính trị Mác - Lênin",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "005106",
+        "subject_name": "Kinh tế chính trị Mác - Lênin",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "005004",
+        "subject_name": "Pháp luật đại cương",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "005004",
+        "subject_name": "Pháp luật đại cương",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "121002",
+        "subject_name": "Thiết kế cơ sở dữ liệu",
+        "plo_id": "PLO2",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121002",
+        "subject_name": "Thiết kế cơ sở dữ liệu",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121002",
+        "subject_name": "Thiết kế cơ sở dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121002",
+        "subject_name": "Thiết kế cơ sở dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121002",
+        "subject_name": "Thiết kế cơ sở dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "122105",
+        "subject_name": "Công nghệ phần mềm",
+        "plo_id": "PLO3",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "122105",
+        "subject_name": "Công nghệ phần mềm",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "122105",
+        "subject_name": "Công nghệ phần mềm",
+        "plo_id": "PLO6",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "122105",
+        "subject_name": "Công nghệ phần mềm",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "122105",
+        "subject_name": "Công nghệ phần mềm",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "123033",
+        "subject_name": "An toàn thông tin",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "123033",
+        "subject_name": "An toàn thông tin",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "124003",
+        "subject_name": "Phân tích thiết kế giải thuật",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "124003",
+        "subject_name": "Phân tích thiết kế giải thuật",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "124003",
+        "subject_name": "Phân tích thiết kế giải thuật",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "005107",
+        "subject_name": "Chủ nghĩa xã hội khoa học",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "005107",
+        "subject_name": "Chủ nghĩa xã hội khoa học",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "121008",
+        "subject_name": "Phân tích thiết kế hệ thống",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121008",
+        "subject_name": "Phân tích thiết kế hệ thống",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121008",
+        "subject_name": "Phân tích thiết kế hệ thống",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127123",
+        "subject_name": "Lập trình Javascript/Typescript",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127123",
+        "subject_name": "Lập trình Javascript/Typescript",
+        "plo_id": "PLO6",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127123",
+        "subject_name": "Lập trình Javascript/Typescript",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127123",
+        "subject_name": "Lập trình Javascript/Typescript",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121137",
+        "subject_name": "Quản trị doanh nghiệp CNTT",
+        "plo_id": "PLO5",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121137",
+        "subject_name": "Quản trị doanh nghiệp CNTT",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121137",
+        "subject_name": "Quản trị doanh nghiệp CNTT",
+        "plo_id": "PLO7",
+        "contribution_level": "R, A"
+      },
+      {
+        "subject_code": "121137",
+        "subject_name": "Quản trị doanh nghiệp CNTT",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121137",
+        "subject_name": "Quản trị doanh nghiệp CNTT",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127104",
+        "subject_name": "Máy học",
+        "plo_id": "PLO3",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127104",
+        "subject_name": "Máy học",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127104",
+        "subject_name": "Máy học",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "005102",
+        "subject_name": "Tư tưởng Hồ Chí Minh",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "005102",
+        "subject_name": "Tư tưởng Hồ Chí Minh",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "005108",
+        "subject_name": "Lịch sử Đảng cộng sản VN",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "005108",
+        "subject_name": "Lịch sử Đảng cộng sản VN",
+        "plo_id": "PLO7",
+        "contribution_level": "I"
+      },
+      {
+        "subject_code": "122041",
+        "subject_name": "Khai thác dữ liệu",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "122041",
+        "subject_name": "Khai thác dữ liệu",
+        "plo_id": "PLO6",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "122041",
+        "subject_name": "Khai thác dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "122041",
+        "subject_name": "Khai thác dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "122041",
+        "subject_name": "Khai thác dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127105",
+        "subject_name": "Học sâu",
+        "plo_id": "PLO3",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127105",
+        "subject_name": "Học sâu",
+        "plo_id": "PLO6",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127105",
+        "subject_name": "Học sâu",
+        "plo_id": "PLO7",
+        "contribution_level": "R, A"
+      },
+      {
+        "subject_code": "127105",
+        "subject_name": "Học sâu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127106",
+        "subject_name": "Trực quan hóa dữ liệu",
+        "plo_id": "PLO3",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127106",
+        "subject_name": "Trực quan hóa dữ liệu",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127106",
+        "subject_name": "Trực quan hóa dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121003",
+        "subject_name": "Hệ quản trị cơ sở dữ liệu",
+        "plo_id": "PLO6",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121003",
+        "subject_name": "Hệ quản trị cơ sở dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121003",
+        "subject_name": "Hệ quản trị cơ sở dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121003",
+        "subject_name": "Hệ quản trị cơ sở dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121003",
+        "subject_name": "Hệ quản trị cơ sở dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121031",
+        "subject_name": "Lập trình web",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121031",
+        "subject_name": "Lập trình web",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121031",
+        "subject_name": "Lập trình web",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "121031",
+        "subject_name": "Lập trình web",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127109",
+        "subject_name": "Phân tích dữ liệu chuỗi thời gian và dự báo",
+        "plo_id": "PLO3",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127109",
+        "subject_name": "Phân tích dữ liệu chuỗi thời gian và dự báo",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127109",
+        "subject_name": "Phân tích dữ liệu chuỗi thời gian và dự báo",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127109",
+        "subject_name": "Phân tích dữ liệu chuỗi thời gian và dự báo",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127111",
+        "subject_name": "Xử lý giống nói, âm thanh và ngôn ngữ tự nhiên",
+        "plo_id": "PLO3",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127111",
+        "subject_name": "Xử lý giống nói, âm thanh và ngôn ngữ tự nhiên",
+        "plo_id": "PLO4",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127111",
+        "subject_name": "Xử lý giống nói, âm thanh và ngôn ngữ tự nhiên",
+        "plo_id": "PLO6",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127107",
+        "subject_name": "Đồ án thực tế Khoa học dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R, A"
+      },
+      {
+        "subject_code": "127107",
+        "subject_name": "Đồ án thực tế Khoa học dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127107",
+        "subject_name": "Đồ án thực tế Khoa học dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127107",
+        "subject_name": "Đồ án thực tế Khoa học dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R"
+      },
+      {
+        "subject_code": "127107",
+        "subject_name": "Đồ án thực tế Khoa học dữ liệu",
+        "plo_id": "PLO7",
+        "contribution_level": "R,A"
+      },
+      {
+        "subject_code": "121036",
+        "subject_name": "Xử lý ảnh và thị giác máy tính",
+        "plo_id": "PLO4",
         "contribution_level": "M"
       },
       {
-        "subject_code": "121033",
+        "subject_code": "121036",
+        "subject_name": "Xử lý ảnh và thị giác máy tính",
         "plo_id": "PLO6",
         "contribution_level": "M"
       },
       {
-        "subject_code": "127102",
-        "plo_id": "PLO1",
+        "subject_code": "121036",
+        "subject_name": "Xử lý ảnh và thị giác máy tính",
+        "plo_id": "PLO7",
         "contribution_level": "M"
+      },
+      {
+        "subject_code": "121036",
+        "subject_name": "Xử lý ảnh và thị giác máy tính",
+        "plo_id": "PLO7",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "123039",
+        "subject_name": "Điện toán đám mây",
+        "plo_id": "PLO5",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "123039",
+        "subject_name": "Điện toán đám mây",
+        "plo_id": "PLO7",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "123039",
+        "subject_name": "Điện toán đám mây",
+        "plo_id": "PLO7",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "123039",
+        "subject_name": "Điện toán đám mây",
+        "plo_id": "PLO7",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "123039",
+        "subject_name": "Điện toán đám mây",
+        "plo_id": "PLO7",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127101",
+        "subject_name": "Lập trình Blockchain và hợp đồng thông minh",
+        "plo_id": "PLO4",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127101",
+        "subject_name": "Lập trình Blockchain và hợp đồng thông minh",
+        "plo_id": "PLO6",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127101",
+        "subject_name": "Lập trình Blockchain và hợp đồng thông minh",
+        "plo_id": "PLO7",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127101",
+        "subject_name": "Lập trình Blockchain và hợp đồng thông minh",
+        "plo_id": "PLO7",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127101",
+        "subject_name": "Lập trình Blockchain và hợp đồng thông minh",
+        "plo_id": "PLO7",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127108",
+        "subject_name": "Học tăng cường",
+        "plo_id": "PLO3",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127108",
+        "subject_name": "Học tăng cường",
+        "plo_id": "PLO4",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127108",
+        "subject_name": "Học tăng cường",
+        "plo_id": "PLO6",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127110",
+        "subject_name": "Big Data và ứng dụng",
+        "plo_id": "PLO3",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127110",
+        "subject_name": "Big Data và ứng dụng",
+        "plo_id": "PLO4",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127110",
+        "subject_name": "Big Data và ứng dụng",
+        "plo_id": "PLO7",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127110",
+        "subject_name": "Big Data và ứng dụng",
+        "plo_id": "PLO7",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127112",
+        "subject_name": "Cấu trúc hệ thống mạng lưới Blockchain",
+        "plo_id": "PLO3",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127112",
+        "subject_name": "Cấu trúc hệ thống mạng lưới Blockchain",
+        "plo_id": "PLO6",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127112",
+        "subject_name": "Cấu trúc hệ thống mạng lưới Blockchain",
+        "plo_id": "PLO7",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127112",
+        "subject_name": "Cấu trúc hệ thống mạng lưới Blockchain",
+        "plo_id": "PLO7",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "127112",
+        "subject_name": "Cấu trúc hệ thống mạng lưới Blockchain",
+        "plo_id": "PLO7",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "126003",
+        "subject_name": "Học kỳ doanh nghiệp",
+        "plo_id": "PLO3",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "126003",
+        "subject_name": "Học kỳ doanh nghiệp",
+        "plo_id": "PLO4",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "126003",
+        "subject_name": "Học kỳ doanh nghiệp",
+        "plo_id": "PLO5",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "126003",
+        "subject_name": "Học kỳ doanh nghiệp",
+        "plo_id": "PLO6",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "126003",
+        "subject_name": "Học kỳ doanh nghiệp",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "126003",
+        "subject_name": "Học kỳ doanh nghiệp",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "126003",
+        "subject_name": "Học kỳ doanh nghiệp",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "126003",
+        "subject_name": "Học kỳ doanh nghiệp",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "126000",
+        "subject_name": "Thực tập tốt nghiệp",
+        "plo_id": "PLO4",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "126000",
+        "subject_name": "Thực tập tốt nghiệp",
+        "plo_id": "PLO5",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "126000",
+        "subject_name": "Thực tập tốt nghiệp",
+        "plo_id": "PLO6",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "126000",
+        "subject_name": "Thực tập tốt nghiệp",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "126000",
+        "subject_name": "Thực tập tốt nghiệp",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "126000",
+        "subject_name": "Thực tập tốt nghiệp",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "126201",
+        "subject_name": "Khóa luận tốt nghiệp",
+        "plo_id": "PLO3",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "126201",
+        "subject_name": "Khóa luận tốt nghiệp",
+        "plo_id": "PLO4",
+        "contribution_level": "M"
+      },
+      {
+        "subject_code": "126201",
+        "subject_name": "Khóa luận tốt nghiệp",
+        "plo_id": "PLO6",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "126201",
+        "subject_name": "Khóa luận tốt nghiệp",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "126201",
+        "subject_name": "Khóa luận tốt nghiệp",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "126201",
+        "subject_name": "Khóa luận tốt nghiệp",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127113",
+        "subject_name": "Chuyên đề: Thị giác máy tính",
+        "plo_id": "PLO4",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127113",
+        "subject_name": "Chuyên đề: Thị giác máy tính",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127113",
+        "subject_name": "Chuyên đề: Thị giác máy tính",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127113",
+        "subject_name": "Chuyên đề: Thị giác máy tính",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127113",
+        "subject_name": "Chuyên đề: Thị giác máy tính",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127117",
+        "subject_name": "Chuyên đề: Phân tích dữ liệu chuỗi thời gian và dự báo",
+        "plo_id": "PLO4",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127117",
+        "subject_name": "Chuyên đề: Phân tích dữ liệu chuỗi thời gian và dự báo",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127117",
+        "subject_name": "Chuyên đề: Phân tích dữ liệu chuỗi thời gian và dự báo",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127117",
+        "subject_name": "Chuyên đề: Phân tích dữ liệu chuỗi thời gian và dự báo",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127117",
+        "subject_name": "Chuyên đề: Phân tích dữ liệu chuỗi thời gian và dự báo",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127118",
+        "subject_name": "Chuyên đề: Xử lý ngôn ngữ tự nhiên",
+        "plo_id": "PLO4",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127118",
+        "subject_name": "Chuyên đề: Xử lý ngôn ngữ tự nhiên",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127118",
+        "subject_name": "Chuyên đề: Xử lý ngôn ngữ tự nhiên",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127118",
+        "subject_name": "Chuyên đề: Xử lý ngôn ngữ tự nhiên",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
+      },
+      {
+        "subject_code": "127118",
+        "subject_name": "Chuyên đề: Xử lý ngôn ngữ tự nhiên",
+        "plo_id": "PLO7",
+        "contribution_level": "M,A"
       }
     ]
   }

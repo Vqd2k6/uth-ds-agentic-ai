@@ -75,10 +75,17 @@ def ingest_to_neo4j():
 
     cypher_queries = []
 
-    # 1. Tạo Nút PLO từ outcome_frameworks
+    # 1. Tạo Nút PO & Nút PLO từ outcome_frameworks
     framework = frameworks[0]
+    pos = framework.get("pos", [])
     plos = framework.get("plos", [])
     matrix = framework.get("course_contribution_plo_matrix", [])
+
+    for po in pos:
+        po_id = clean_str(po["po_id"])
+        desc = clean_str(po["description"])
+        cypher = f"MERGE (p:PO {{po_id: '{po_id}'}}) SET p.description = '{desc}'"
+        cypher_queries.append(cypher)
 
     for plo in plos:
         plo_id = clean_str(plo["plo_id"])
@@ -87,7 +94,7 @@ def ingest_to_neo4j():
         cypher = f"MERGE (p:PLO {{plo_id: '{plo_id}'}}) SET p.description = '{desc}', p.category = '{cat}'"
         cypher_queries.append(cypher)
 
-    # 2. Tạo Nút Môn học & Nút CLO & Cạnh (:Course)-[:HAS_CLO]->(:CLO)
+    # 2. Tạo Nút Môn học, Nút CLO, Nút Giáo trình và Cạnh liên kết
     for subj in subjects:
         code = clean_str(subj.get("subject_code", ""))
         name = clean_str(subj.get("subject_name_vi", ""))
@@ -96,12 +103,26 @@ def ingest_to_neo4j():
         cypher_subj = f"MERGE (c:Course {{subject_code: '{code}'}}) SET c.name = '{name}', c.credits = {credits}"
         cypher_queries.append(cypher_subj)
 
+        # Cạnh CLO
         for clo in subj.get("clos", []):
             clo_code = clean_str(clo['clo_code'])
             clo_id = f"{code}_{clo_code}"
             clo_desc = clean_str(clo["description"])
             cypher_clo = f"MERGE (clo:CLO {{clo_id: '{clo_id}'}}) SET clo.code = '{clo_code}', clo.description = '{clo_desc}' WITH clo MATCH (c:Course {{subject_code: '{code}'}}) MERGE (c)-[:HAS_CLO]->(clo)"
             cypher_queries.append(cypher_clo)
+
+        # Cạnh Giáo trình chính
+        for idx, book in enumerate(subj.get("main_textbooks", []), 1):
+            book_title = clean_str(book[:100])
+            book_id = f"{code}_book_{idx}"
+            cypher_book = f"MERGE (b:Textbook {{book_id: '{book_id}'}}) SET b.title = '{book_title}' WITH b MATCH (c:Course {{subject_code: '{code}'}}) MERGE (c)-[:USES_TEXTBOOK]->(b)"
+            cypher_queries.append(cypher_book)
+
+        # Cạnh Môn học trước / Tiên quyết
+        for prev_code in subj.get("previous_subject_codes", []):
+            clean_prev = clean_str(prev_code)
+            cypher_prev = f"MATCH (c:Course {{subject_code: '{code}'}}), (prev:Course {{subject_code: '{clean_prev}'}}) MERGE (c)-[:REQUIRES_PREVIOUS]->(prev)"
+            cypher_queries.append(cypher_prev)
 
     # 3. Tạo Cạnh Ma trận Đóng góp (:Course)-[:CONTRIBUTES_TO]->(:PLO)
     for item in matrix:
@@ -116,7 +137,7 @@ def ingest_to_neo4j():
         with driver.session() as session:
             for q in cypher_queries:
                 session.run(q)
-        print(f"[✓] Đã thực thi {len(cypher_queries)} câu lệnh Cypher dựng Đồ thị tri thức thành công!")
+        print(f"[✓] Đã thực thi {len(cypher_queries)} câu lệnh Cypher dựng Đồ thị tri thức hoàn chỉnh!")
         driver.close()
     else:
         print(f"--- KIỂM THỬ CYPHER GENERATION (DRY-RUN) ---")
